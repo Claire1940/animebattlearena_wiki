@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // 启用静态渲染：必须在调用 next-intl 服务端函数前设置请求 locale
   setRequestLocale(locale);
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.animebattlearena.wiki";
 
   // 获取 SEO 翻译
   const t = await getTranslations("seo.home");
@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: locale,
       url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
-      siteName: "Lucid Blocks Wiki",
+      siteName: "Anime Battle Arena Wiki",
       title: t("ogTitle"),
       description: t("ogDescription"),
       images: [
@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          alt: "Lucid Blocks - Surreal Voxel Sandbox",
+          alt: "Anime Battle Arena - Roblox Anime PvP Arena Fighter",
         },
       ],
     },
@@ -77,7 +77,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: t("twitterTitle"),
       description: t("twitterDescription"),
       images: [`${siteUrl}/images/hero.webp`],
-      creator: "@lucidblocks",
     },
     icons: {
       icon: [
@@ -111,23 +110,58 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
   const navPreviewData = await getNavPreviewData(locale as Language);
 
-	return (
-		<html lang={locale} className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
-			<head>
-				<meta name="google-adsense-account" content="ca-pub-7733402184034568" />
-				<Script
-					async
-					src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7733402184034568"
-					crossOrigin="anonymous"
-					strategy="lazyOnload"
-				/>
-			</head>
-			<body suppressHydrationWarning className="antialiased">
-				<Analytics />
-				<NextIntlClientProvider messages={messages}>
-					<ClientBody navPreviewData={navPreviewData}>{children}</ClientBody>
-				</NextIntlClientProvider>
-			</body>
-		</html>
-	)
+  // 站点级 Organization 结构化数据（全站每个页面输出）
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.animebattlearena.wiki";
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${siteUrl}/#organization`,
+    name: "Anime Battle Arena Wiki",
+    alternateName: "Anime Battle Arena",
+    url: siteUrl,
+    logo: {
+      "@type": "ImageObject",
+      url: `${siteUrl}/android-chrome-512x512.png`,
+      width: 512,
+      height: 512,
+    },
+    image: {
+      "@type": "ImageObject",
+      url: `${siteUrl}/images/hero.webp`,
+      width: 1920,
+      height: 1080,
+      caption: "Anime Battle Arena Wiki - Roblox Anime PvP Arena Fighter",
+    },
+    sameAs: [
+      "https://www.roblox.com/games/1458767429/ABA",
+      "https://discord.gg/aba",
+      "https://www.reddit.com/r/AnimeBattleArena/",
+      "https://www.youtube.com/watch?v=gLqGYx8rTog",
+    ],
+  };
+
+  return (
+    <html lang={locale} className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-7733402184034568" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7733402184034568"
+          crossOrigin="anonymous"
+          strategy="lazyOnload"
+        />
+      </head>
+      <body suppressHydrationWarning className="antialiased">
+        <Analytics />
+        <NextIntlClientProvider messages={messages}>
+          <ClientBody navPreviewData={navPreviewData}>{children}</ClientBody>
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  )
 }
