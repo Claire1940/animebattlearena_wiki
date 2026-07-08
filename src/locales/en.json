@@ -297,9 +297,18 @@
           "title": "Learn the movement keys first",
           "description": "Movement decides whether you can start combos or avoid enemy pressure.",
           "controls": [
-            { "input": "Shift", "action": "Sprint" },
-            { "input": "Q", "action": "Dodge" },
-            { "input": "F", "action": "Block" }
+            {
+              "input": "Shift",
+              "action": "Sprint"
+            },
+            {
+              "input": "Q",
+              "action": "Dodge"
+            },
+            {
+              "input": "F",
+              "action": "Block"
+            }
           ]
         },
         {
@@ -307,8 +316,14 @@
           "title": "Practice basic attacks",
           "description": "Use basic attacks to begin pressure, extend combos, and force opponents to react.",
           "controls": [
-            { "input": "Mouse1", "action": "Basic attack" },
-            { "input": "Space + Mouse1", "action": "Aerial attack" }
+            {
+              "input": "Mouse1",
+              "action": "Basic attack"
+            },
+            {
+              "input": "Space + Mouse1",
+              "action": "Aerial attack"
+            }
           ]
         },
         {
@@ -316,10 +331,22 @@
           "title": "Use character special moves",
           "description": "Each character uses four main special moves. Learn what each move does before trying long combos.",
           "controls": [
-            { "input": "1", "action": "Special move 1" },
-            { "input": "2", "action": "Special move 2" },
-            { "input": "3", "action": "Special move 3" },
-            { "input": "4", "action": "Special move 4" }
+            {
+              "input": "1",
+              "action": "Special move 1"
+            },
+            {
+              "input": "2",
+              "action": "Special move 2"
+            },
+            {
+              "input": "3",
+              "action": "Special move 3"
+            },
+            {
+              "input": "4",
+              "action": "Special move 4"
+            }
           ]
         },
         {
@@ -327,7 +354,10 @@
           "title": "Save transformation for pressure",
           "description": "Transformation can change the pace of a fight, so use it when you can safely pressure, finish a stock, or turn a close round.",
           "controls": [
-            { "input": "G", "action": "Transformation" }
+            {
+              "input": "G",
+              "action": "Transformation"
+            }
           ]
         },
         {
@@ -509,25 +539,41 @@
           "title": "Core move structure",
           "type": "mechanic",
           "description": "ABA characters use basic attacks, aerial attacks, four special moves, and a transformation key. This gives every fighter a clear base structure before character-specific tech is added.",
-          "inputs": ["Mouse1", "Space + Mouse1", "1", "2", "3", "4", "G"]
+          "inputs": [
+            "Mouse1",
+            "Space + Mouse1",
+            "1",
+            "2",
+            "3",
+            "4",
+            "G"
+          ]
         },
         {
           "title": "Blocking and dodging",
           "type": "mechanic",
           "description": "Defense is built around blocking with F and dodging with Q. New players should practice when to block pressure and when to dodge out of unsafe situations.",
-          "inputs": ["F", "Q"]
+          "inputs": [
+            "F",
+            "Q"
+          ]
         },
         {
           "title": "Combo starters",
           "type": "mechanic",
           "description": "Most characters need clean basic-attack hits before dealing strong damage. M1 pressure, aerial attacks, uptilts, and move-stacking are important for turning one hit into a full combo.",
-          "inputs": ["Mouse1", "Space + Mouse1"]
+          "inputs": [
+            "Mouse1",
+            "Space + Mouse1"
+          ]
         },
         {
           "title": "Transformation timing",
           "type": "mechanic",
           "description": "Transformation is activated with G and should be used when the player can safely force pressure, extend a lead, or finish a round.",
-          "inputs": ["G"]
+          "inputs": [
+            "G"
+          ]
         },
         {
           "title": "Aizen",
@@ -796,7 +842,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Anime Battle Arena Wiki. Not affiliated with the developers of Anime Battle Arena or Roblox Corporation.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Anime Battle Arena Wiki. Not affiliated with the developers of Anime Battle Arena, Roblox Corporation, or any anime copyright holders (Shueisha, Toei Animation, MAPPA).",
+    "disclaimer": "Not affiliated with, endorsed, or sponsored by Shueisha, Toei Animation, MAPPA, or other respective anime copyright holders. This is an unofficial fan-made community wiki."
   }
 }

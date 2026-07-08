@@ -52,7 +52,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default function Copyright() {
+const animeDisclaimerByLocale: Record<string, string> = {
+  en: 'Not affiliated with, endorsed, or sponsored by Shueisha, Toei Animation, MAPPA, or other respective anime copyright holders. This is an unofficial fan-made community wiki.',
+  es: 'No afiliado, respaldado ni patrocinado por Shueisha, Toei Animation, MAPPA ni otros respectivos titulares de derechos de autor de anime. Esta es una wiki comunitaria no oficial hecha por fans.',
+  ja: 'Shueisha、Toei Animation、MAPPA、またはその他のそれぞれのアニメ著作権者とは提携、承認、スポンサー関係はありません。これは非公式のファン制作コミュニティwikiです。',
+  pt: 'Não afiliado, endossado ou patrocinado pela Shueisha, Toei Animation, MAPPA ou outros respectivos detentores de direitos autorais de anime. Esta é uma wiki comunitária não oficial feita por fãs.',
+}
+
+export default async function Copyright({ params }: Props) {
+  const { locale } = await params
+  const animeDisclaimer = animeDisclaimerByLocale[locale] || animeDisclaimerByLocale.en
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -66,6 +75,15 @@ export default function Copyright() {
           </p>
           <p className="text-slate-400 text-sm">
             Last Updated: July 9, 2026
+          </p>
+        </div>
+      </section>
+
+      {/* Anime Copyright Disclaimer Banner */}
+      <section className="bg-amber-500/10 border-b border-amber-500/30 py-4 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <p className="text-amber-200 text-sm text-center">
+            ⚠️ {animeDisclaimer}
           </p>
         </div>
       </section>
@@ -93,7 +111,14 @@ export default function Copyright() {
             <ul>
               <li><strong>Roblox Corporation</strong> - Owner of the Roblox platform</li>
               <li><strong>Dogs Studios South</strong> - Developers of the Anime Battle Arena game</li>
+              <li><strong>Shueisha Inc.</strong> - Publisher of manga titles represented in the game (e.g. One Piece, Naruto, Jujutsu Kaisen, Demon Slayer)</li>
+              <li><strong>Toei Animation Co., Ltd.</strong> - Animation studio for anime adaptations represented in the game</li>
+              <li><strong>MAPPA Co., Ltd.</strong> - Animation studio for anime adaptations represented in the game</li>
+              <li>Other respective anime copyright holders whose characters and works appear in the game</li>
             </ul>
+            <p>
+              <strong>Not affiliated with, endorsed, or sponsored by Shueisha, Toei Animation, MAPPA, or other respective anime copyright holders. This is an unofficial fan-made community wiki.</strong>
+            </p>
             <p>
               All game-related content, including but not limited to:
             </p>
@@ -155,6 +180,7 @@ export default function Copyright() {
               <li><strong>ROBLOX</strong> - Trademark of Roblox Corporation</li>
               <li><strong>Anime Battle Arena</strong> - Trademark of Dogs Studios South (the game developers)</li>
               <li><strong>Anime Battle Arena Wiki</strong> - Our own branding (not affiliated with the game)</li>
+              <li><strong>One Piece, Naruto, Jujutsu Kaisen, Demon Slayer</strong> and all other anime/manga titles represented in the game - Trademarks and copyrights of their respective owners (including but not limited to Shueisha Inc., Toei Animation Co., Ltd., and MAPPA Co., Ltd.)</li>
             </ul>
             <p>
               All other trademarks, service marks, and trade names referenced on this website are the property of
