@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Anime Battle Arena Wiki - Codes, Tier List & Combos",
+  "short_name": "Anime Battle Arena",
+  "description": "Anime Battle Arena Wiki covers codes, tier list, characters, combos, controls, ranked tips, private servers, updates, and Roblox play guides.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#e11d48",
   "background_color": "#0a0a0a",
   "icons": [
     {
