@@ -1,11 +1,848 @@
 {
+  "seo": {
+    "home": {
+      "title": "Anime Battle Arena Wiki - Códigos, Tier List & Combos",
+      "description": "A Anime Battle Arena Wiki é o seu recurso ideal para códigos de ABA, tier lists de personagens, combos, guias de moveset e estratégias de arena PvP para o jogo de luta de anime do Roblox.",
+      "keywords": "Anime Battle Arena, ABA, códigos de ABA, tier list de ABA, jogo de anime do Roblox, combos de ABA, moveset de ABA, arena PvP",
+      "ogTitle": "Anime Battle Arena Wiki - Códigos, Tier List & Combos",
+      "ogDescription": "A Anime Battle Arena Wiki é o seu recurso ideal para códigos de ABA, tier lists de personagens, combos, guias de moveset e estratégias de arena PvP para o jogo de luta de anime do Roblox.",
+      "twitterTitle": "Anime Battle Arena Wiki - Códigos, Tier List & Combos",
+      "twitterDescription": "Códigos de ABA, tier lists de personagens, combos e estratégias de arena PvP para o jogo de luta de anime do Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
-    "tierlist": "Lista de Níveis",
+    "tierlist": "Tier List",
     "characters": "Personagens",
     "combos": "Combos",
     "guide": "Guia",
     "skins": "Skins",
-    "music": "Música"
+    "music": "Músicas"
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Anime Battle Arena",
+      "description": "Status dos códigos mais recentes de Anime Battle Arena, onde as recompensas aparecem e como resgatar recompensas de eventos quando não há códigos de texto públicos ativos.",
+      "metaTitle": "Códigos de Anime Battle Arena - Status de Recompensas & Recompensas de Evento",
+      "metaDescription": "Verifique o status dos códigos de Anime Battle Arena. Saiba onde as recompensas de ABA aparecem e como resgatar recompensas de eventos mesmo quando não há códigos de texto públicos ativos.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são Códigos?",
+      "whatIsDescription": "Os códigos de Anime Battle Arena são textos resgatáveis que os jogadores inserem para obter recompensas gratuitas. Atualmente, o ABA foca em recompensas baseadas em eventos em vez dos tradicionais códigos de texto públicos, então esta seção acompanha o status oficial dos códigos e onde as recompensas aparecem.",
+      "why": "Por que verificar os códigos de ABA?",
+      "whySteps": {
+        "step1Title": "Confirmar o status atual dos códigos",
+        "step1Description": "Veja se o ABA tem códigos de texto públicos ativos no momento ou se está usando recompensas baseadas em eventos.",
+        "step2Title": "Saiba onde as recompensas aparecem",
+        "step2Description": "Saiba qual aba da página do Roblox ou menu do jogo mostra suas recompensas resgatadas para nunca perder um drop.",
+        "step3Title": "Siga os canais oficiais com segurança",
+        "step3Description": "Use a página do ABA no Roblox e a página da comunidade do Dogs Studios: South para verificar futuros anúncios de códigos ou recompensas."
+      },
+      "featured": "Destaques & Essenciais",
+      "all": "Todos os Códigos"
+    },
+    "tierlist": {
+      "title": "Tier List de Anime Battle Arena",
+      "description": "Tier list de Anime Battle Arena ranqueando os melhores personagens para PvP ranked 1v1, 2v2 e casual por pressão, segurança de combo e valor de matchup.",
+      "metaTitle": "Tier List de Anime Battle Arena - Melhores Personagens para PvP Ranked",
+      "metaDescription": "Ranqueie os melhores personagens de Anime Battle Arena para PvP ranked 1v1, 2v2 e casual. Tier list baseada em pressão, segurança de combo, awakenings e valor de matchup.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "O que é a Tier List?",
+      "whatIsDescription": "A tier list de Anime Battle Arena ranqueia os personagens por força no PvP, incluindo ferramentas de pressão, segurança de combo, quebras de guarda, valor de awakening, matchups e uso atual em partidas ranked. Ela ajuda os jogadores a escolherem um main e entenderem o meta competitivo.",
+      "why": "Por que usar a tier list?",
+      "whySteps": {
+        "step1Title": "Escolher o main certo",
+        "step1Description": "Escolha um personagem que se adapte ao seu conforto de combo e estilo de matchup em vez de escolher aleatoriamente.",
+        "step2Title": "Entenda o valor do matchup",
+        "step2Description": "Veja quais personagens lidam com pressão, punem erros e se saem bem no ranked 1v1 e 2v2.",
+        "step3Title": "Acompanhe o meta atual",
+        "step3Description": "Fique por dentro de reworks, novos personagens e mudanças de balanceamento que alteram o cenário ranked do ABA."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Tier List"
+    },
+    "characters": {
+      "title": "Personagens e Golpes de Anime Battle Arena",
+      "description": "Guias de personagens de Anime Battle Arena cobrindo movesets, golpes especiais, awakenings, funções e para quem cada personagem é recomendado.",
+      "metaTitle": "Guia de Personagens e Golpes de Anime Battle Arena",
+      "metaDescription": "Navegue pelos personagens e movesets de Anime Battle Arena. Aprenda golpes especiais, awakenings, funções e quais jogadores cada personagem do ABA melhor se adapta.",
+      "categoryLabel": "PERSONAGENS",
+      "whatIs": "O que são Personagens?",
+      "whatIsDescription": "Os personagens de Anime Battle Arena são lutadores inspirados em animes, focados em ataques básicos, quatro golpes especiais, pressão aérea, bloqueio, esquiva e transformação. Cada personagem possui um moveset, função e awakening únicos que se adaptam a diferentes estilos de jogo.",
+      "why": "Por que estudar os personagens?",
+      "whySteps": {
+        "step1Title": "Aprenda cada moveset",
+        "step1Description": "Entenda os ataques básicos, golpes especiais 1-4 e o timing de transformação para cada personagem que você joga.",
+        "step2Title": "Encontre sua função",
+        "step2Description": "Descubra quais personagens se encaixam nos estilos de jogo de pressão, zoning, combo ou punição no ranked e casual.",
+        "step3Title": "Planeje desbloqueios e gamepasses",
+        "step3Description": "Verifique a aba da Loja do Roblox para ver quais personagens ou pacotes estão disponíveis antes de gastar Robux."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Personagens"
+    },
+    "combos": {
+      "title": "Combos e Guia de Combos de Anime Battle Arena",
+      "description": "Guias de combo de Anime Battle Arena cobrindo sequências de M1, aéreos, downslam, escape de combo e hábitos de combo no ranked 1v1 e 2v2.",
+      "metaTitle": "Combos de Anime Battle Arena - Sequências de M1, Aéreos e Guia de Combo",
+      "metaDescription": "Domine os combos de Anime Battle Arena com sequências de M1, ataques aéreos, downslam, escape de combo e hábitos de combo no ranked 1v1 e 2v2 para o ABA.",
+      "categoryLabel": "COMBOS",
+      "whatIs": "O que são Combos?",
+      "whatIsDescription": "Os combos de Anime Battle Arena encadeiam ataques básicos, ataques aéreos e golpes especiais em sequências de dano prolongadas. Combos decidem quanto dano você causa após acertar um golpe limpo e são fundamentais para o PvP ranked e casual.",
+      "why": "Por que aprender combos?",
+      "whySteps": {
+        "step1Title": "Comece com sequências de M1",
+        "step1Description": "Construa a pressão fundamental de M1 antes de adicionar aéreos e extensões de golpes especiais.",
+        "step2Title": "Adicione aéreos e downslam",
+        "step2Description": "Pratique lançar oponentes e conectar ataques aéreos e downslam para dano extra.",
+        "step3Title": "Escape de combos inimigos",
+        "step3Description": "Aprenda quando esquivar e bloquear para que possa sair da pressão e resetar o neutral."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Combo"
+    },
+    "guide": {
+      "title": "Guia de Anime Battle Arena",
+      "description": "Guia de Anime Battle Arena cobrindo dicas para iniciantes, controles, jogabilidade no mobile e console, mapas, prestígio, farm de dinheiro e as últimas atualizações.",
+      "metaTitle": "Guia de Anime Battle Arena - Dicas para Iniciantes, Controles e Atualizações",
+      "metaDescription": "Guia completo de Anime Battle Arena com dicas para iniciantes, controles, configuração para celular e console, mapas, prestígio, farming de dinheiro e cobertura de atualizações.",
+      "categoryLabel": "GUIA",
+      "whatIs": "O que é o Guia?",
+      "whatIsDescription": "O guia de Anime Battle Arena cobre tudo fora das páginas específicas de personagens: dicas iniciais para iniciantes, controles completos, configuração para celular e console, mapas, prestígio, farming de dinheiro e rastreamento de atualizações para jogadores de ABA.",
+      "why": "Por que ler o guia?",
+      "whySteps": {
+        "step1Title": "Aprenda os controles",
+        "step1Description": "Domine o Shift sprint, Q dodge, F block, ataques M1, aerials, movimentos especiais 1-4 e a transformação G.",
+        "step2Title": "Jogue em qualquer plataforma",
+        "step2Description": "Configure o ABA no celular, console ou PC com os controles e sensibilidade corretos para cada dispositivo.",
+        "step3Title": "Mantenha-se atualizado",
+        "step3Description": "Acompanhe novos personagens, reworks, mudanças de balanceamento e eventos através dos canais oficiais do ABA."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "skins": {
+      "title": "Skins e Cosméticos de Anime Battle Arena",
+      "description": "Guia de skins de Anime Battle Arena cobrindo todas as skins, skins lendárias, cosméticos, itens da loja e desbloqueios relacionados a gamepass.",
+      "metaTitle": "Skins de Anime Battle Arena - Todas as Skins, Lendárias e Cosméticos",
+      "metaDescription": "Navegue pelas skins e cosméticos de Anime Battle Arena. Veja todas as skins, skins lendárias, itens da loja e desbloqueios de gamepass para personagens do ABA.",
+      "categoryLabel": "SKINS",
+      "whatIs": "O que são Skins?",
+      "whatIsDescription": "As skins de Anime Battle Arena são itens cosméticos que mudam a aparência dos personagens. Elas estão ligadas ao conteúdo da loja, drops de atualização e destaques de eventos, e não alteram os status ou movesets dos personagens.",
+      "why": "Por que navegar pelas skins?",
+      "whySteps": {
+        "step1Title": "Veja todas as skins disponíveis",
+        "step1Description": "Navegue pelo catálogo completo de skins e encontre cosméticos para seus personagens favoritos do ABA.",
+        "step2Title": "Acompanhe as skins lendárias",
+        "step2Description": "Identifique skins raras e lendárias ligadas a eventos, atualizações ou destaques da loja.",
+        "step3Title": "Compre com segurança no Roblox",
+        "step3Description": "Use apenas a aba oficial da Loja do Roblox para confirmar nomes de skins, pacotes e preços em Robux antes da compra."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Skins"
+    },
+    "music": {
+      "title": "Músicas e Trilha Sonora de Anime Battle Arena",
+      "description": "Guia de música de Anime Battle Arena cobrindo a trilha sonora, temas de batalha e como a música se conecta à experiência de luta em arena de anime.",
+      "metaTitle": "Músicas de Anime Battle Arena - Trilha Sonora e Temas de Batalha",
+      "metaDescription": "Explore as músicas e a trilha sonora de Anime Battle Arena. Descubra temas de batalha e como a música molda a experiência de luta em arena de anime do ABA.",
+      "categoryLabel": "MÚSICA",
+      "whatIs": "O que é a seção de Música?",
+      "whatIsDescription": "A seção de música de Anime Battle Arena cobre a trilha sonora e os temas de batalha que tocam durante as lutas. A música no ABA reflete as origens de anime de cada personagem e contribui para a atmosfera de luta na arena.",
+      "why": "Por que explorar a música?",
+      "whySteps": {
+        "step1Title": "Identifique temas de batalha",
+        "step1Description": "Descubra quais faixas tocam durante as lutas e como elas se conectam à fonte de anime de cada personagem.",
+        "step2Title": "Acompanhe atualizações da trilha sonora",
+        "step2Description": "Veja como a música muda quando novos personagens, reworks ou eventos são adicionados ao ABA.",
+        "step3Title": "Aproveite a atmosfera da arena",
+        "step3Description": "Use a trilha sonora para aprofundar a experiência de luta em arena de anime durante partidas casuais e ranqueadas."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Música"
+    }
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Roblox Anime PvP Arena Fighter",
+    "title": "Anime Battle Arena Wiki",
+    "description": "Anime Battle Arena é um arena fighter PvP no Roblox onde você luta com personagens icônicos de anime, domina combos e sobe no ranking. Encontre códigos ativos, tier lists, movesets e estratégias de arena, tudo em um só lugar.",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "1.2B+",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "19K+",
+        "label": "Jogadores Online"
+      },
+      "stat3": {
+        "value": "993K+",
+        "label": "Favoritos"
+      },
+      "stat4": {
+        "value": "16",
+        "label": "Tamanho do Servidor"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Anime Battle Arena",
+    "description": "Anime Battle Arena é um arena fighter PvP no Roblox onde os jogadores escolhem personagens inspirados em anime, encadeiam combos, bloqueiam, esquivam, transformam-se e sobem em batalhas casuais ou ranqueadas."
+  },
+  "tools": {
+    "title": "Anime Battle Arena",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para códigos de ABA, personagens, combos, partidas ranqueadas e atualizações",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos de Anime Battle Arena",
+        "description": "Códigos ativos, lista de expirados e onde as recompensas aparecem"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de Anime Battle Arena",
+        "description": "Controles, movimentação, ataques e transformações"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de Anime Battle Arena",
+        "description": "Escolhas de personagens ranqueados para 1v1 e lutas em equipe"
+      },
+      {
+        "icon": "Users",
+        "title": "Personagens e Golpes de Anime Battle Arena",
+        "description": "Movesets, habilidades, awakenings e funções"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Combos e Controles de Anime Battle Arena",
+        "description": "Sequências de M1, aéreos, esquiva e hábitos de combo"
+      },
+      {
+        "icon": "Swords",
+        "title": "Ranqueado e PvP de Anime Battle Arena",
+        "description": "Espaçamento, punição e estratégia de matchup"
+      },
+      {
+        "icon": "ShoppingBag",
+        "title": "Skins e Gamepasses de Anime Battle Arena",
+        "description": "Cosméticos, itens de loja e desbloqueios de gamepass"
+      },
+      {
+        "icon": "Bell",
+        "title": "Atualizações e Discord de Anime Battle Arena",
+        "description": "Novos personagens, reworks e fontes de atualização"
+      }
+    ]
+  },
+  "modules": {
+    "abaCodes": {
+      "title": "Códigos de Anime Battle Arena",
+      "intro": "O Anime Battle Arena não lista códigos de resgate públicos ativos em sua página oficial de experiência no Roblox. Esta seção foi criada para jogadores que buscam primeiro por códigos de ABA e querem uma resposta rápida antes de conferir os guias de gameplay.",
+      "items": [
+        {
+          "code": "Nenhum código público de ABA ativo",
+          "status": "Nenhum código ativo",
+          "reward": "Nenhuma recompensa de resgate listada",
+          "description": "A página oficial do ABA no Roblox atualmente lista controles, créditos e informações do jogo, mas nenhum código de resgate público ativo."
+        },
+        {
+          "code": "Nenhum código expirado listado",
+          "status": "Códigos expirados",
+          "reward": "Nenhum",
+          "description": "Não há códigos oficiais expirados de ABA listados na página do jogo."
+        },
+        {
+          "code": "Página oficial do Roblox",
+          "status": "Melhor lugar para verificar",
+          "reward": "Atualizações do jogo e alterações na descrição",
+          "description": "A página do ABA no Roblox é o principal lugar para verificar se novas instruções de códigos ou sistemas de recompensa foram adicionados."
+        },
+        {
+          "code": "Dogs Studios: South",
+          "status": "Comunidade oficial",
+          "reward": "Atualizações do desenvolvedor e da comunidade",
+          "description": "A página da comunidade do Roblox para Dogs Studios: South é o lugar mais seguro para acompanhar as atualizações dos criadores relacionadas ao ABA."
+        }
+      ]
+    },
+    "abaBeginnerGuide": {
+      "title": "Como Começar a Jogar Anime Battle Arena",
+      "intro": "Anime Battle Arena é um jogo de luta de arena no Roblox da Dogs Studios: South. Novos jogadores devem primeiro aprender movimentação, ataques M1, bloqueio, esquiva, ataques aéreos, movimentos especiais e o timing de transformação antes de focar em confrontos ranqueados avançados.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Junte-se à experiência ABA",
+          "description": "Abra o ABA no Roblox e entre em uma partida ou ambiente de treino para testar a movimentação antes de jogar lutas sérias."
+        },
+        {
+          "step": 2,
+          "title": "Aprenda as teclas de movimentação primeiro",
+          "description": "A movimentação decide se você consegue iniciar combos ou evitar a pressão inimiga.",
+          "controls": [
+            {
+              "input": "Shift",
+              "action": "Correr"
+            },
+            {
+              "input": "Q",
+              "action": "Esquiva"
+            },
+            {
+              "input": "F",
+              "action": "Bloqueio"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Pratique ataques básicos",
+          "description": "Use ataques básicos para iniciar pressão, estender combos e forçar os oponentes a reagirem.",
+          "controls": [
+            {
+              "input": "Mouse1",
+              "action": "Ataque básico"
+            },
+            {
+              "input": "Espaço + Mouse1",
+              "action": "Ataque aéreo"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Use os movimentos especiais do personagem",
+          "description": "Cada personagem usa quatro movimentos especiais principais. Aprenda o que cada movimento faz antes de tentar combos longos.",
+          "controls": [
+            {
+              "input": "1",
+              "action": "Movimento especial 1"
+            },
+            {
+              "input": "2",
+              "action": "Movimento especial 2"
+            },
+            {
+              "input": "3",
+              "action": "Movimento especial 3"
+            },
+            {
+              "input": "4",
+              "action": "Movimento especial 4"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Guarde a transformação para pressionar",
+          "description": "A transformação pode mudar o ritmo de uma luta, então use-a quando puder pressionar com segurança, finalizar uma stock ou virar um round equilibrado.",
+          "controls": [
+            {
+              "input": "G",
+              "action": "Transformação"
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Crie combos simples antes de ir para o ranked",
+          "description": "Comece com ataques básicos, ataques aéreos e um ou dois movimentos especiais. Depois disso, pratique uptilts, ladders e move-stacking através de vídeos de guia de combo."
+        }
+      ],
+      "quickTips": [
+        "Corra com o Shift para controlar o espaçamento antes de iniciar uma luta.",
+        "Guarde a esquiva para momentos perigosos em vez de usá-la repetidamente.",
+        "Bloqueie ataques previsíveis com o F antes de contra-atacar.",
+        "Pratique com um personagem tempo suficiente para lembrar o alcance dos movimentos e os cooldowns."
+      ]
+    },
+    "abaTierList": {
+      "title": "Tier List de Anime Battle Arena",
+      "intro": "ABA possui um elenco grande, e a força do personagem depende de ferramentas de pressão, segurança de combo, guard breaks, awakenings, matchups e uso atual no ranked. Esta tier list foca em escolhas práticas de personagens que os jogadores costumam procurar ao escolher um main.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Principais escolhas do ranked",
+          "description": "Escolhas fortes com alta pressão, forte potencial de punição ou valor de matchup confiável.",
+          "characters": [
+            "Broly (Legacy)",
+            "Satoru Gojo (Legacy)",
+            "Yuji Itadori",
+            "Kuririn",
+            "Big Mom",
+            "Aokiji",
+            "Jolyne Cujoh",
+            "Asta",
+            "Trafalgar Law",
+            "Shanks"
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Escolhas competitivas fortes",
+          "description": "Personagens muito úteis para PvP ranked e casual quando jogados com timing de combo sólido.",
+          "characters": [
+            "Luffy (Pré-Timeskip)",
+            "Ichigo",
+            "Kakashi",
+            "Coyote Starrk",
+            "Trunks do Futuro",
+            "Natsu",
+            "Sanji (Timeskip)",
+            "Accelerator",
+            "Mash Kyrielight",
+            "Barba Branca",
+            "Illya",
+            "Gilgamesh",
+            "Guts",
+            "Ryuko Matoi",
+            "Joseph Joestar",
+            "Sinon",
+            "Satsuki Kiryuin",
+            "Aizen",
+            "Illumi",
+            "Kirito",
+            "Vegeta (Saga Android)",
+            "Zoro (Pré-Timeskip)",
+            "Vegito",
+            "Might Guy",
+            "Byakuya",
+            "Yoruichi",
+            "Kisuke",
+            "Hisoka",
+            "Afro Samurai",
+            "Yusuke Urameshi",
+            "Ishtar",
+            "Misaka Mikoto",
+            "Tokita Ohma"
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Boas escolhas jogáveis",
+          "description": "Personagens sólidos que conseguem vencer consistentemente com conhecimento de matchup e execução limpa.",
+          "characters": [
+            "GOD Usopp",
+            "Shinji",
+            "Giorno Giovanna",
+            "Endeavor",
+            "Goku (Saga Buu)",
+            "Neji",
+            "Vegeta (Majin)",
+            "Luffy (Timeskip)",
+            "Broly",
+            "Enel",
+            "Kizaru",
+            "Itachi",
+            "Saitama",
+            "Jonathan Joestar",
+            "Sanji (Pré-Timeskip)",
+            "Sasuke",
+            "Deku",
+            "Gin",
+            "Edo Madara",
+            "Killua",
+            "Toshiro",
+            "Shisui",
+            "Ulquiorra",
+            "Kyojuro Rengoku",
+            "Rikka Takanashi",
+            "Sasuke (Shippuden)",
+            "Pain",
+            "Zoro (Timeskip)",
+            "Tobi",
+            "Akainu",
+            "Zamasu (Fundido)",
+            "Goku Black",
+            "Crocodile",
+            "Gohan (Jovem)",
+            "Shunsui",
+            "Caulifla",
+            "Kiritsugu",
+            "Gray Fullbuster",
+            "Frieza",
+            "Naruto",
+            "Zabuza",
+            "Naruto (Shippuden)",
+            "Minato (4º Hokage)",
+            "Grimmjow",
+            "Ichigo (Máscara Hollow)",
+            "Satoru Gojo",
+            "Tenya Iida",
+            "Lemillion",
+            "Yoshikage Kira",
+            "Doppio",
+            "Chika Fujiwara",
+            "Saber"
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Escolhas situacionais",
+          "description": "Personagens que precisam de mais conhecimento de matchup, melhor espaçamento ou uso cuidadoso de cooldown.",
+          "characters": [
+            "Jotaro Kujo",
+            "Dio Brando",
+            "All Might",
+            "Piccolo",
+            "Ace",
+            "Goku (Namek)",
+            "Zenitsu",
+            "Rukia",
+            "Yamamoto",
+            "Achilles",
+            "Rock Lee",
+            "Tanjiro",
+            "Hiei",
+            "Gaara",
+            "Shirou Emiya",
+            "Cu Chulainn"
+          ]
+        },
+        {
+          "tier": "D",
+          "label": "Escolhas avançadas",
+          "description": "Personagens que exigem mais conhecimento de matchup antes de parecerem consistentes na ranked.",
+          "characters": [
+            "Asuna Yuuki",
+            "Bakugou",
+            "Iskander",
+            "Kazuma",
+            "Gon",
+            "Todoroki"
+          ]
+        }
+      ]
+    },
+    "abaCharactersAndMoves": {
+      "title": "Guia de Personagens e Movimentos de Anime Battle Arena",
+      "intro": "Todo personagem de ABA é construído em torno de ataques básicos, quatro movimentos especiais, pressão aérea, bloqueio, esquiva e transformação. O melhor personagem para um jogador depende do conforto com combos, estilo de matchup, valor de awakening e quão facilmente o jogador consegue acertar o primeiro hit.",
+      "items": [
+        {
+          "title": "Estrutura central de movimentos",
+          "type": "mecânica",
+          "description": "Personagens de ABA usam ataques básicos, ataques aéreos, quatro movimentos especiais e uma tecla de transformação. Isso dá a cada lutador uma estrutura base clara antes que técnicas específicas de personagem sejam adicionadas.",
+          "inputs": [
+            "Mouse1",
+            "Espaço + Mouse1",
+            "1",
+            "2",
+            "3",
+            "4",
+            "G"
+          ]
+        },
+        {
+          "title": "Bloqueio e esquiva",
+          "type": "mecânica",
+          "description": "A defesa é construída em torno do bloqueio com F e da esquiva com Q. Novos jogadores devem praticar quando bloquear a pressão e quando se esquivar de situações de risco.",
+          "inputs": [
+            "F",
+            "Q"
+          ]
+        },
+        {
+          "title": "Iniciadores de combo",
+          "type": "mecânica",
+          "description": "A maioria dos personagens precisa de acertos de ataques básicos limpos antes de causar dano alto. Pressão de M1, ataques aéreos, uptilts e move-stacking são importantes para transformar um hit em um combo completo.",
+          "inputs": [
+            "Mouse1",
+            "Espaço + Mouse1"
+          ]
+        },
+        {
+          "title": "Timing de transformação",
+          "type": "mecânica",
+          "description": "A transformação é ativada com G e deve ser usada quando o jogador puder forçar pressão com segurança, ampliar uma vantagem ou finalizar um round.",
+          "inputs": [
+            "G"
+          ]
+        },
+        {
+          "title": "Aizen",
+          "type": "personagem",
+          "description": "Aizen é uma escolha popular do elenco de Bleach com conteúdo de guia focado em seu rework. Jogadores que buscam pelo Aizen geralmente querem a ordem dos movimentos, o timing de pressão e como usar seu kit de rework ampliado.",
+          "recommendedFor": [
+            "Fãs de Bleach",
+            "Jogadores que gostam de kits técnicos",
+            "Jogadores que querem techs fortes específicas de personagens"
+          ]
+        },
+        {
+          "title": "Nanami",
+          "type": "personagem",
+          "description": "O conteúdo do guia do Nanami foca no uso de cada habilidade, sequenciamento de ataques e aplicação de pressão em partidas ranqueadas. Ele é um bom alvo para uma página de personagem porque os jogadores costumam pesquisar o uso exato das habilidades.",
+          "recommendedFor": [
+            "Fãs de Jujutsu Kaisen",
+            "Jogadores que querem um guia de habilidades focado",
+            "Jogadores praticando confrontos ranqueados"
+          ]
+        },
+        {
+          "title": "Aoi Todo",
+          "type": "personagem",
+          "description": "O conteúdo do guia do Aoi Todo foca no timing, uso de habilidades e execução do Black Flash. Isso o torna útil para um card de personagem dedicado com notas de combo e dicas de confronto.",
+          "recommendedFor": [
+            "Fãs de Jujutsu Kaisen",
+            "Jogadores praticando movimentos baseados em timing",
+            "Jogadores que querem notas de combo específicas de personagens"
+          ]
+        }
+      ]
+    },
+    "abaCombosAndControls": {
+      "title": "Combos e Controles de Anime Battle Arena",
+      "intro": "Anime Battle Arena é construído em torno de ataques básicos, ataques aéreos, esquiva, bloqueio, quatro habilidades de personagem e transformações. Comece aprendendo primeiro os controles oficiais, depois pratique como sequências de M1 e ataques aéreos se conectam em combos mais longos.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Aprenda as teclas de movimento básicas",
+          "input": "Shift",
+          "description": "Use o Shift para correr e controlar o espaçamento antes de iniciar uma luta. Correr ajuda você a entrar no alcance de ataque, afastar-se da pressão e se reposicionar após usar um movimento.",
+          "practiceGoal": "Entre e saia do alcance do M1 sem desperdiçar a esquiva."
+        },
+        {
+          "step": 2,
+          "title": "Use o M1 como seu iniciador de combo",
+          "input": "Mouse1",
+          "description": "Ataque Básico é o Mouse1. Sequências de M1 são a base da maioria dos combos de ABA porque criam hit-stun e dão tempo para conectar um movimento especial.",
+          "practiceGoal": "Pratique acertar golpes de M1 antes de usar as habilidades 1, 2, 3 ou 4."
+        },
+        {
+          "step": 3,
+          "title": "Adicione ataques aéreos",
+          "input": "Espaço + Mouse1",
+          "description": "O Ataque Aéreo usa Espaço mais Mouse1. A descrição do jogo no Roblox diz diretamente aos jogadores para combinarem Ataques Básicos e Ataques Aéreos para descobrir novos combos.",
+          "practiceGoal": "Pratique lançar um oponente para cima após uma sequência de M1 no chão."
+        },
+        {
+          "step": 4,
+          "title": "Use a esquiva para escapar da pressão",
+          "input": "Q",
+          "description": "A esquiva é mapeada no Q. Guarde-a para momentos perigosos em vez de usá-la aleatoriamente, pois uma esquiva desperdiçada torna você mais fácil de punir.",
+          "practiceGoal": "Esquive após reconhecer uma aproximação do inimigo ou um movimento perdido."
+        },
+        {
+          "step": 5,
+          "title": "Bloqueie antes de contra-atacar",
+          "input": "F",
+          "description": "O bloqueio é mapeado no F. Bloquear ajuda você a sobreviver a ataques previsíveis e cria chances de punir quando o oponente termina um movimento.",
+          "practiceGoal": "Bloqueie primeiro, depois responda com M1 ou um movimento especial rápido."
+        },
+        {
+          "step": 6,
+          "title": "Conecte movimentos especiais após acertos confirmados",
+          "input": "1, 2, 3, 4",
+          "description": "Cada personagem usa as teclas 1, 2, 3 e 4 para movimentos especiais. Essas habilidades funcionam melhor quando usadas após um acerto confirmado, em vez de serem lançadas aleatoriamente.",
+          "practiceGoal": "Use um movimento especial apenas depois que seu M1 ou ataque aéreo conectar."
+        },
+        {
+          "step": 7,
+          "title": "Transforme-se quando o timing for seguro.",
+          "input": "G",
+          "description": "A transformação está mapeada para a tecla G. Transforme-se quando tiver espaço, após um knockback ou quando o oponente não puder te punir imediatamente.",
+          "practiceGoal": "Evite se transformar enquanto estiver diretamente na frente de um oponente ativo."
+        }
+      ]
+    },
+    "abaRankedAndPvp": {
+      "title": "Guia de Ranked e PvP de Anime Battle Arena",
+      "intro": "As lutas no ABA recompensam jogadores que controlam o espaço, esperam por aberturas e evitam desperdiçar ferramentas defensivas. O Ranked e o PvP ficam mais fáceis quando você para de soltar golpes aleatoriamente e começa a construir cada troca em torno de bloqueio, esquiva, confirmações de M1 e timing seguro de movimentos especiais.",
+      "faqs": [
+        {
+          "question": "No que devo focar antes de jogar ranked no Anime Battle Arena?",
+          "answer": "Domine os controles oficiais do ABA primeiro: Shift para correr, Q para esquivar, F para bloquear, Mouse1 para ataques básicos, Espaço mais Mouse1 para ataques aéreos, 1-4 para movimentos especiais e G para transformação.",
+          "keyPoints": [
+            "Conheça todos os comandos antes de entrar na fila do ranked.",
+            "Pratique com um personagem o tempo suficiente para memorizar o alcance dos movimentos e o ritmo de cooldown.",
+            "Use M1 e ataques aéreos como suas principais ferramentas de prática de combo."
+          ]
+        },
+        {
+          "question": "Como faço para vencer mais lutas 1v1 no Anime Battle Arena?",
+          "answer": "Jogue em torno do espaçamento e da punição no ABA. Mova-se logo além do alcance de ataque do oponente, espere que ele erre e responda com um M1 ou um movimento especial rápido.",
+          "keyPoints": [
+            "Não comece todas as lutas com um movimento especial.",
+            "Bloqueie ataques previsíveis com F.",
+            "Use Q apenas quando precisar escapar de pressão."
+          ]
+        },
+        {
+          "question": "Como devo abordar as lutas 2v2 no Anime Battle Arena?",
+          "answer": "No ABA 2v2, evite lutar sozinho por muito tempo. Fique perto o suficiente para ajudar seu companheiro de equipe, puna inimigos que se expõem demais e evite usar todos os movimentos ao mesmo tempo que seu parceiro.",
+          "keyPoints": [
+            "Foque no mesmo alvo quando possível.",
+            "Guarde uma opção defensiva para a pressão subsequente do inimigo.",
+            "Não persiga o inimigo tão longe a ponto de seu companheiro de equipe ficar isolado."
+          ]
+        },
+        {
+          "question": "O que torna um personagem bom no PvP de Anime Battle Arena?",
+          "answer": "Personagens fortes de PvP no ABA geralmente têm follow-ups de M1 confiáveis, pressão segura, mobilidade útil e movimentos especiais que podem punir erros. A melhor escolha ainda depende do conforto do jogador e do conhecimento de matchup.",
+          "keyPoints": [
+            "Confirms confiáveis importam mais do que movimentos chamativos.",
+            "Movimentos de recovery curto são mais seguros em combates próximos.",
+            "O timing da transformação pode mudar uma luta perdida."
+          ]
+        },
+        {
+          "question": "Como faço para punir melhor no Anime Battle Arena?",
+          "answer": "Puna no ABA após o inimigo errar, terminar um movimento bloqueado ou desperdiçar a esquiva. Comece com um confirm de M1 simples e depois conecte um movimento especial em vez de tentar forçar um combo completo todas as vezes.",
+          "keyPoints": [
+            "Fique atento a ataques errados.",
+            "Bloqueie primeiro quando o inimigo for previsível.",
+            "Use dano confirmado simples antes de aprender sequências avançadas."
+          ]
+        }
+      ]
+    },
+    "abaSkinsAndGamepasses": {
+      "title": "Skins e Gamepasses de Anime Battle Arena",
+      "intro": "A página oficial do ABA no Roblox inclui uma aba Loja e destaca atualizações relacionadas à loja, como JJK Gamepass + Legacy e skins. Use esta seção para separar itens cosméticos de desbloqueios que podem afetar os personagens ou o conteúdo que você pode acessar.",
+      "items": [
+        {
+          "feature": "JJK Gamepass + Legacy",
+          "category": "Item de gamepass / loja de evento",
+          "whatItDoes": "Aparece como um destaque oficial da loja e de eventos do ABA na página do Roblox.",
+          "playerValue": "Útil para jogadores que estão verificando novos conteúdos premium conectados a atualizações recentes do ABA.",
+          "beforeYouBuy": "Abra a aba Loja do Roblox e confirme os desbloqueios exatos mostrados no jogo."
+        },
+        {
+          "feature": "Skins",
+          "category": "Cosmético",
+          "whatItDoes": "Skins mudam a aparência dos personagens e geralmente estão ligadas a lançamentos de atualizações ou conteúdo da loja.",
+          "playerValue": "Ideal para jogadores que já gostam de um personagem e querem uma aparência diferente.",
+          "beforeYouBuy": "Verifique se a skin é apenas visual ou se está conectada ao desbloqueio de um personagem específico."
+        },
+        {
+          "feature": "Desbloqueios de acesso a personagens",
+          "category": "Acesso à jogabilidade",
+          "whatItDoes": "Alguns itens premium no ABA podem estar vinculados ao acesso de personagens específicos ou conteúdo legado.",
+          "playerValue": "Mais útil quando o personagem desbloqueado combina com seu estilo de jogo ou objetivos ranqueados.",
+          "beforeYouBuy": "Confirme o nome do personagem, o nome do pacote e o preço em Robux dentro do Roblox antes da compra."
+        },
+        {
+          "feature": "Aba da Loja do Roblox",
+          "category": "Área oficial de compra",
+          "whatItDoes": "A página de experiência do Roblox fornece a área oficial da Loja para compras relacionadas ao ABA.",
+          "playerValue": "O lugar mais seguro para conferir os itens atuais do ABA sem depender de listagens de terceiros.",
+          "beforeYouBuy": "Use apenas o fluxo de compra oficial do Roblox."
+        },
+        {
+          "feature": "Cosméticos vinculados a atualizações",
+          "category": "Conteúdo de atualização limitado",
+          "whatItDoes": "A cobertura de atualizações recentes mostra que as atualizações do ABA podem incluir reworks, novos personagens e skins.",
+          "playerValue": "Útil para jogadores que acompanham novos lançamentos e querem cosméticos atuais.",
+          "beforeYouBuy": "Verifique as redes sociais dos desenvolvedores e a página do Roblox após cada atualização."
+        }
+      ]
+    },
+    "abaUpdatesAndDiscord": {
+      "title": "Atualizações e Discord do Anime Battle Arena",
+      "intro": "Os jogadores de ABA geralmente conferem as atualizações pela página do jogo no Roblox, pela página da comunidade Dogs Studios: South, contas sociais dos desenvolvedores e cobertura de atualizações no YouTube. Este cronograma oferece aos usuários um caminho claro para encontrar novos personagens, reworks, mudanças de balanceamento, skins e atualizações da loja.",
+      "entries": [
+        {
+          "label": "Página oficial do jogo",
+          "title": "Listagem do ABA no Roblox",
+          "summary": "A página do Roblox é a fonte principal para a experiência ao vivo, controles oficiais, aba de Loja, aba de Servidores e créditos dos desenvolvedores.",
+          "source": "Página do ABA no Roblox"
+        },
+        {
+          "label": "Comunidade oficial",
+          "title": "Dogs Studios: South",
+          "summary": "O ABA é publicado sob a Dogs Studios: South no Roblox. Os jogadores podem usar a página da comunidade do Roblox para verificar o grupo criador conectado ao jogo.",
+          "source": "Página da comunidade do Roblox"
+        },
+        {
+          "label": "Atualização da loja",
+          "title": "JJK Gamepass + Legacy",
+          "summary": "A listagem do Roblox destaca o JJK Gamepass + Legacy como conteúdo de loja e evento, junto com novos conteúdos e skins.",
+          "source": "Página do ABA no Roblox"
+        },
+        {
+          "label": "Cobertura de atualizações recentes",
+          "title": "Itadori, rework do Itachi e skins",
+          "summary": "A cobertura recente de atualizações no YouTube foca no Itadori, em um rework do Itachi, skins e outros conteúdos de atualização do ABA.",
+          "source": "Vídeo de atualização no YouTube"
+        },
+        {
+          "label": "Redes sociais dos desenvolvedores",
+          "title": "Chicken_ManRBLX e SnakeWorl",
+          "summary": "A descrição oficial do Roblox credita os desenvolvedores, incluindo Chicken_Man e SnakeWorl, tornando seus perfis no X lugares úteis para monitorar sinais de atualização por parte dos desenvolvedores.",
+          "source": "Perfis de desenvolvedores no X"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Anime Battle Arena",
+    "titleHighlight": "FAQ",
+    "subtitle": "Perguntas frequentes sobre códigos, personagens, combos e partidas ranqueadas de Anime Battle Arena no Roblox",
+    "questions": [
+      {
+        "question": "O que é Anime Battle Arena?",
+        "answer": "Anime Battle Arena (ABA) é um jogo de luta de arena PvP no Roblox criado pela Dogs Studios: South, onde os jogadores escolhem personagens inspirados em animes, usam combos M1, movimentos especiais, bloqueios, esquivas e transformações para vencer lutas casuais ou ranqueadas."
+      },
+      {
+        "question": "Existem códigos ativos de Anime Battle Arena?",
+        "answer": "Atualmente, Anime Battle Arena não lista códigos de resgate públicos ativos em sua página oficial do Roblox. Verifique a página do ABA no Roblox e a página da comunidade Dogs Studios: South para futuros anúncios de recompensas ou códigos."
+      },
+      {
+        "question": "Como desbloqueio mais personagens no Anime Battle Arena?",
+        "answer": "Os personagens de Anime Battle Arena são acessados através da jogabilidade, itens da loja e desbloqueios relacionados a gamepasses. Verifique a aba Loja do Roblox na página do ABA para ver quais personagens ou pacotes estão disponíveis no momento."
+      },
+      {
+        "question": "Quais são os controles básicos no Anime Battle Arena?",
+        "answer": "Anime Battle Arena usa Shift para correr, Q para esquivar, F para bloquear, Mouse1 para ataques básicos, Espaço mais Mouse1 para ataques aéreos, 1-4 para movimentos especiais e G para transformação."
+      },
+      {
+        "question": "Anime Battle Arena tem modo ranqueado?",
+        "answer": "Sim. Anime Battle Arena suporta lutas ranqueadas e PvP, incluindo formatos 1v1 e em equipe. Foque em espaçamento, punição e o tempo certo de movimentos especiais seguros para subir no ranking ranqueado do ABA."
+      },
+      {
+        "question": "Onde posso acompanhar as atualizações de Anime Battle Arena?",
+        "answer": "Acompanhe as atualizações de Anime Battle Arena através da página do jogo no Roblox, da página da comunidade Dogs Studios: South, dos perfis de desenvolvedores no X como Chicken_ManRBLX e SnakeWorl, e da cobertura de atualizações no YouTube."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para lutar no Anime Battle Arena?",
+    "description": "Junte-se à comunidade de Anime Battle Arena no Discord para códigos, atualizações, tier lists e discussões sobre a arena!",
+    "joinCommunity": "Juntar-se ao Discord",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Anime Battle Arena",
+    "description": "Seu hub de recursos completo para códigos, tier lists, combos, movesets e estratégias de PvP de arena do Anime Battle Arena.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "roblox": "Roblox",
+    "youtube": "YouTube",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Anime Battle Arena Wiki. Não afiliado aos desenvolvedores de Anime Battle Arena ou à Roblox Corporation.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
   }
 }
