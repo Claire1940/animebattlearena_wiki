@@ -10,7 +10,157 @@
       "twitterDescription": "ABA codes, character tier lists, combos, and arena PvP strategy for the Roblox anime fighting game."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "tierlist": "Tier List",
+    "characters": "Characters",
+    "combos": "Combos",
+    "guide": "Guide",
+    "skins": "Skins",
+    "music": "Music"
+  },
+  "pages": {
+    "codes": {
+      "title": "Anime Battle Arena Codes",
+      "description": "Latest Anime Battle Arena codes status, where rewards appear, and how to claim event rewards when no public text codes are active.",
+      "metaTitle": "Anime Battle Arena Codes - Reward Status & Event Rewards",
+      "metaDescription": "Check Anime Battle Arena codes status. Learn where ABA rewards appear and how to claim event rewards even when no public text codes are active.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Anime Battle Arena codes are redeemable text strings players enter to claim free rewards. ABA currently focuses on event-based rewards rather than traditional public text codes, so this section tracks the official codes status and where rewards show up.",
+      "why": "Why check ABA codes?",
+      "whySteps": {
+        "step1Title": "Confirm the current codes status",
+        "step1Description": "See whether ABA has active public text codes right now or is using event-based rewards instead.",
+        "step2Title": "Know where rewards appear",
+        "step2Description": "Learn which Roblox page tab or in-game menu shows your claimed rewards so you never miss a drop.",
+        "step3Title": "Follow official channels safely",
+        "step3Description": "Use the ABA Roblox page and Dogs Studios: South community page to verify future code or reward announcements."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "tierlist": {
+      "title": "Anime Battle Arena Tier List",
+      "description": "Anime Battle Arena tier list ranking the best characters for ranked 1v1, 2v2, and casual PvP by pressure, combo safety, and matchup value.",
+      "metaTitle": "Anime Battle Arena Tier List - Best Characters for Ranked PvP",
+      "metaDescription": "Rank the best Anime Battle Arena characters for ranked 1v1, 2v2, and casual PvP. Tier list based on pressure, combo safety, awakenings, and matchup value.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is the Tier List?",
+      "whatIsDescription": "The Anime Battle Arena tier list ranks characters by PvP strength, including pressure tools, combo safety, guard breaks, awakening value, matchups, and current ranked usage. It helps players pick a main and understand the competitive meta.",
+      "why": "Why use the tier list?",
+      "whySteps": {
+        "step1Title": "Pick the right main",
+        "step1Description": "Choose a character that fits your combo comfort and matchup style instead of picking randomly.",
+        "step2Title": "Understand matchup value",
+        "step2Description": "See which characters handle pressure, punish mistakes, and perform well in ranked 1v1 and 2v2.",
+        "step3Title": "Track the current meta",
+        "step3Description": "Stay current with reworks, new characters, and balance changes that shift the ABA ranked landscape."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Tier List Guides"
+    },
+    "characters": {
+      "title": "Anime Battle Arena Characters and Moves",
+      "description": "Anime Battle Arena character guides covering movesets, special moves, awakenings, roles, and who each character is recommended for.",
+      "metaTitle": "Anime Battle Arena Characters & Moves Guide",
+      "metaDescription": "Browse Anime Battle Arena characters and movesets. Learn special moves, awakenings, roles, and which players each ABA character suits best.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What are Characters?",
+      "whatIsDescription": "Anime Battle Arena characters are anime-inspired fighters built around basic attacks, four special moves, aerial pressure, blocking, dodging, and transformation. Each character has a unique moveset, role, and awakening that suits different playstyles.",
+      "why": "Why study characters?",
+      "whySteps": {
+        "step1Title": "Learn each moveset",
+        "step1Description": "Understand basic attacks, special moves 1-4, and transformation timing for every character you play.",
+        "step2Title": "Find your role",
+        "step2Description": "Discover which characters fit pressure, zoning, combo, or punish playstyles in ranked and casual.",
+        "step3Title": "Plan unlocks and gamepasses",
+        "step3Description": "Check the Roblox Store tab to see which characters or packs are available before spending Robux."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Character Guides"
+    },
+    "combos": {
+      "title": "Anime Battle Arena Combos and Combo Guide",
+      "description": "Anime Battle Arena combo guides covering M1 strings, aerials, downslam, combo escape, and ranked 1v1 and 2v2 combo habits.",
+      "metaTitle": "Anime Battle Arena Combos - M1 Strings, Aerials & Combo Guide",
+      "metaDescription": "Master Anime Battle Arena combos with M1 strings, aerial attacks, downslam, combo escape, and ranked 1v1 and 2v2 combo habits for ABA.",
+      "categoryLabel": "COMBOS",
+      "whatIs": "What are Combos?",
+      "whatIsDescription": "Anime Battle Arena combos chain basic attacks, aerial attacks, and special moves into extended damage strings. Combos decide how much damage you deal after landing a clean hit and are central to ranked and casual PvP.",
+      "why": "Why learn combos?",
+      "whySteps": {
+        "step1Title": "Start with M1 strings",
+        "step1Description": "Build fundamental M1 pressure before adding aerials and special move extensions.",
+        "step2Title": "Add aerials and downslam",
+        "step2Description": "Practice launching opponents and connecting aerial attacks and downslam for extra damage.",
+        "step3Title": "Escape enemy combos",
+        "step3Description": "Learn when to dodge and block so you can break out of pressure and reset neutral."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Combo Guides"
+    },
+    "guide": {
+      "title": "Anime Battle Arena Guide",
+      "description": "Anime Battle Arena guide covering beginner tips, controls, mobile and console play, maps, prestige, money farming, and the latest updates.",
+      "metaTitle": "Anime Battle Arena Guide - Beginner Tips, Controls & Updates",
+      "metaDescription": "Complete Anime Battle Arena guide with beginner tips, controls, mobile and console setup, maps, prestige, money farming, and update coverage.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is the Guide?",
+      "whatIsDescription": "The Anime Battle Arena guide covers everything outside of character-specific pages: beginner starting tips, full controls, mobile and console setup, maps, prestige, money farming, and update tracking for ABA players.",
+      "why": "Why read the guide?",
+      "whySteps": {
+        "step1Title": "Learn the controls",
+        "step1Description": "Master Shift sprint, Q dodge, F block, M1 attacks, aerials, 1-4 special moves, and G transformation.",
+        "step2Title": "Play on any platform",
+        "step2Description": "Set up ABA on mobile, console, or PC with the right controls and sensitivity for each device.",
+        "step3Title": "Stay updated",
+        "step3Description": "Track new characters, reworks, balance changes, and events through official ABA channels."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "skins": {
+      "title": "Anime Battle Arena Skins and Cosmetics",
+      "description": "Anime Battle Arena skins guide covering all skins, legendary skins, cosmetics, store items, and gamepass-related unlocks.",
+      "metaTitle": "Anime Battle Arena Skins - All Skins, Legendary & Cosmetics",
+      "metaDescription": "Browse Anime Battle Arena skins and cosmetics. See all skins, legendary skins, store items, and gamepass unlocks for ABA characters.",
+      "categoryLabel": "SKINS",
+      "whatIs": "What are Skins?",
+      "whatIsDescription": "Anime Battle Arena skins are cosmetic items that change how characters look. They are tied to store content, update drops, and event highlights, and do not change character stats or movesets.",
+      "why": "Why browse skins?",
+      "whySteps": {
+        "step1Title": "See all available skins",
+        "step1Description": "Browse the full skin catalog and find cosmetics for your favorite ABA characters.",
+        "step2Title": "Track legendary skins",
+        "step2Description": "Identify rare and legendary skins tied to events, updates, or store highlights.",
+        "step3Title": "Buy safely on Roblox",
+        "step3Description": "Use only the official Roblox Store tab to confirm skin names, packs, and Robux prices before purchase."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Skin Guides"
+    },
+    "music": {
+      "title": "Anime Battle Arena Music and Soundtrack",
+      "description": "Anime Battle Arena music guide covering the soundtrack, battle themes, and how music ties into the anime arena fighting experience.",
+      "metaTitle": "Anime Battle Arena Music - Soundtrack & Battle Themes",
+      "metaDescription": "Explore Anime Battle Arena music and soundtrack. Discover battle themes and how music shapes the ABA anime arena fighting experience.",
+      "categoryLabel": "MUSIC",
+      "whatIs": "What is the Music section?",
+      "whatIsDescription": "The Anime Battle Arena music section covers the soundtrack and battle themes that play during fights. Music in ABA reflects the anime origins of each character and adds to the arena fighting atmosphere.",
+      "why": "Why explore the music?",
+      "whySteps": {
+        "step1Title": "Identify battle themes",
+        "step1Description": "Find out which tracks play during fights and how they connect to each character's anime source.",
+        "step2Title": "Track soundtrack updates",
+        "step2Description": "See how music changes when new characters, reworks, or events are added to ABA.",
+        "step3Title": "Enjoy the arena atmosphere",
+        "step3Description": "Use the soundtrack to deepen the anime arena fighting experience during casual and ranked play."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Music Guides"
+    }
+  },
   "common": {
     "home": "Home",
     "more": "More",

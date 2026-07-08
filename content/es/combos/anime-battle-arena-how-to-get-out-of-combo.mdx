@@ -1,0 +1,163 @@
+import { Swords, Shield, Sparkles, Map, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cómo salir de un combo en Anime Battle Arena: Guía defensiva",
+  description: "Aprende cómo salir de los combos en Anime Battle Arena. Domina los canceles de esquiva, el espaciado defensivo, el tiempo de bloqueo y las estrategias de escape específicas de cada personaje.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/350906/fff?text=Get+Out+Of+Combo+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Anime Battle Arena"
+}
+
+<Callout type="info" title="Guía rápida">
+- **cómo salir de un combo en Anime Battle Arena**: Los combos verdaderos (true combos) no se pueden romper fácilmente, pero comprender las mecánicas de escape como los canceles de esquiva y el espaciado es vital.
+- **Técnica de cancelación de esquiva (Dodge Cancel)**: Usa tu esquiva rápida (flash dodge) inmediatamente después o durante ciertas animaciones para escapar de la presión.
+- **Escapar de los M1**: Cuando te atrapen a la distancia máxima de un M1, mantén presionado el bloqueo y muévete en dirección opuesta para aprovechar los huecos de la hitbox.
+- **Escapes con Stand y asistentes**: Utiliza mecánicas específicas de personajes o stands para interrumpir los combos entrantes.
+- **Defensa preventiva**: Cuenta los ataques básicos del enemigo y bloquea antes de que impacte el quinto M1, que rompe la guardia.
+</Callout>
+
+<Section icon={Shield} title="Comprendiendo las mecánicas de combo y las hitboxes">
+
+Quedar atrapado en una serie devastadora de golpes en Anime Battle Arena (ABA) puede costarte rápidamente una vida si no entiendes cómo funcionan las mecánicas defensivas. En ABA, una vez que un oponente conecta un "combo verdadero" (una secuencia de ataques sin espacios en el aturdimiento por golpe o hit-stun), por lo general estás atrapado hasta que la secuencia concluya o fallen el ritmo. Sin embargo, comprender las hitboxes, las cadenas de M1 y el espaciado te permite encontrar pequeñas ventanas de oportunidad para escapar.
+
+La secuencia de ataque básica en ABA consta de cinco golpes M1. Los primeros cuatro golpes son ataques neutrales que infligen daño y causan hit-stun, mientras que el quinto golpe es un remate (como una patada de empuje, un golpe hacia abajo o un lanzamiento hacia arriba) que puede romper tu guardia si intentas bloquearlo. 
+
+| Fase de ataque | Tipo de golpe | Estado de bloqueo | Oportunidad de escape |
+|---|---|---|---|
+| **Golpes M1 del 1 al 4** | Neutral | Bloqueable | Baja (Hit-stun verdadero) |
+| **Golpe M1 5 (Remate)** | Rompebloqueo | Rompe la guardia | Alta (Si fallan o se retrasan) |
+| **M1 a rango máximo** | Hitbox con huecos | Bloqueable | Alta (Puedes escapar) |
+
+**Puntos clave del video:**
+- Aprende el ritmo exacto de la secuencia de 5 golpes M1.
+- Comprende cómo los tilts hacia arriba y hacia abajo hacen la transición a combos aéreos.
+- Descubre cómo detectar huecos en el ritmo del oponente para iniciar un cancel de esquiva.
+
+<YouTubeEmbed videoId="gLqGYx8rTog" title="¡LANZAMIENTO DE ABA: ANIME BATTLE ARENA YA ESTÁ DISPONIBLE! | ROBLOX" />
+
+Para ejecutar con éxito las estrategias sobre **cómo salir de un combo en Anime Battle Arena**, debes reconocer cuándo el combo de un oponente no es "verdadero". Si retrasan demasiado sus clics o calculan mal la distancia de sus ataques, se abrirán huecos en su cadena. 
+
+<Callout type="warning" title="Cuidado con los rompebloqueos">
+Nunca mantengas el bloqueo a ciegas durante toda una cadena de 5 golpes M1. El quinto golpe romperá tu guardia, dejándote aturdido durante 1 segundo completo y completamente vulnerable a un combo de seguimiento con un daño aún mayor.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Técnicas defensivas de escape esenciales">
+
+Aunque los combos verdaderos te inmovilizan, muchos jugadores fallan sus combos, intentan hacer "ladders" (combos aéreos) sin configuraciones verdaderas o calculan mal el alcance de su ataque. Cuando ocurren estos errores, debes estar listo para actuar instantáneamente con las maniobras de escape defensivas correctas.
+
+<CardGrid cols={3}>
+  <Card title="Cancelación de esquiva">
+    - **Esquiva rápida (Q)** para salir de la presión
+    - Requiere una sincronización precisa
+    - Convierte la defensa en un contraataque inmediato
+  </Card>
+  <Card title="Escapar deslizándote">
+    - Mantén presionado el **bloqueo (F)** y muévete para alejarte
+    - Funciona mejor al rango máximo de M1
+    - Aprovecha los límites de la hitbox del personaje
+  </Card>
+  <Card title="Interrupciones con Stand / Asistente">
+    - Invoca stands o mascotas mientras recibes golpes
+    - Interrumpe el ritmo de los M1 del oponente
+    - Altamente específico de cada personaje
+  </Card>
+</CardGrid>
+
+Para escapar de los combos a la distancia máxima, debes mantener activamente presionadas las teclas de movimiento para alejarte del oponente mientras bloqueas. Debido a la forma en que interactúan las hitboxes de Roblox, el ligero retroceso de un M1 puede empujarte justo lo suficiente fuera de su alcance si no avanzan de manera óptima, lo que te permitirá salir caminando directamente de la cadena.
+
+<Callout type="tip" title="Practica la cancelación de esquiva">
+Ve a un servidor privado o al área de entrenamiento y practica la cancelación de esquiva. Si usas la esquiva rápida en el momento en que ves que un oponente falla un ataque o intenta extender un combo con un movimiento no verdadero, puedes iniciar tu propio combo al instante.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a paso: Cómo escapar de combos no verdaderos">
+
+Muchos jugadores de nivel medio dependen de "ladders" (combos aéreos) que en realidad no son secuencias verdaderas. Esta es tu oportunidad de oro para escapar y castigar su exceso de confianza. Sigue estos pasos para reconocer y escapar de estos escenarios:
+
+<Steps>
+  <Step num="1" title="Identifica el tipo de combo">
+    Observa al personaje de tu oponente. Si te lanza al aire usando un tilt hacia arriba pero no tiene una habilidad de extensión de combo verdadera, está intentando un ladder no verdadero.
+  </Step>
+  <Step num="2" title="Prepara tus comandos de escape (Buffer)">
+    No entres en pánico ni presiones teclas al azar. Mantén presionada la tecla de bloqueo (F) y prepara tu tecla de esquiva (Q). Si retrasan su M1 aéreo incluso una fracción de segundo, tu bloqueo o esquiva se registrará de inmediato.
+  </Step>
+  <Step num="3" title="Ejecuta un contraataque con cancel de esquiva">
+    En el momento en que bloquees un golpe aéreo no verdadero, presiona Q para realizar una esquiva rápida detrás de ellos. Esto cancela la recuperación de tu bloqueo y te posiciona perfectamente para iniciar tu propio contraataque.
+  </Step>
+  <Step num="4" title="Restablece el espaciado neutral">
+    Si tu contraataque falla o es bloqueado, usa tu esprint (Shift) para crear distancia rápidamente y restablecer la pelea al estado neutral.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Herramientas de escape específicas de personajes">
+
+Algunos personajes en Anime Battle Arena poseen habilidades pasivas, contraataques o invocaciones únicas que facilitan mucho la salida de los combos. Elegir a estos personajes puede darte una enorme ventaja defensiva en las partidas clasificatorias.
+
+| Personaje | Herramienta de escape / defensiva | Mecanismo | Estrategia de contraataque |
+|---|---|---|---|
+| **Aizen** | Rediseño de cancel de esquiva | Alta movilidad y cancelaciones rápidas | Provoca su esquiva antes de atacar |
+| **Grimmjow** | Movimiento de contraataque | Se activa al recibir un golpe para iniciar un combo | Evita los M1 agresivos de cerca |
+| **Usuarios de Stand** | Giro de invocación de Stand | Gira el stand para interrumpir los M1 | Espacia tus M1 para evitar el stand |
+| **Usuarios de Hiperarmadura** | Habilidades de hiperarmadura | Ejecución de movimientos ininterrumpibles | No desafíes sus frames activos |
+
+Al luchar contra personajes agresivos como TS Luffy o Vegito, saber cuándo bloquear y cuándo escapar es crucial. Por ejemplo, cuando TS Luffy use Grizzly Magnum, no intentes bloquearlo; en su lugar, corre y deslízate para evitar que te rompan la guardia.
+
+<Callout type="success" title="Aprovecha la hiperarmadura">
+Si tu personaje tiene un movimiento con hiperarmadura, puedes activarlo para resistir los M1 entrantes. Esto detiene el progreso del combo del oponente y te permite intercambiar daño a tu favor.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para el dominio defensivo">
+
+Para ganar constantemente partidas clasificatorias y minimizar el daño que recibes, debes convertir los conceptos defensivos en memoria muscular. Usa esta lista de verificación para seguir tu progreso en el juego defensivo:
+
+<Checklist
+  id="defensive-progression"
+  title="Habilidades defensivas a dominar:"
+  items={[
+    "Escapar con éxito de un combo M1 a rango máximo manteniendo presionado el bloqueo y moviéndose en dirección opuesta [1.1.1]",
+    "Realizar un cancel de esquiva para salir de un ladder aéreo fallado por el oponente",
+    "Contar constantemente hasta cuatro golpes M1 y esquivar o retroceder antes de que impacte el quinto golpe que rompe el bloqueo",
+    "Provocar el movimiento de contraataque de un oponente sin quedar atrapado en su cadena de castigo",
+    "Usar movimientos con hiperarmadura para interrumpir la presión agresiva entrante"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Siempre se puede salir de un combo en Anime Battle Arena?",
+    answer: "No. Si tu oponente ejecuta un combo verdadero con una sincronización perfecta, no puedes escapar hasta que termine el combo o fallen la secuencia. Sin embargo, puedes escapar de combos no verdaderos y ladders aéreos usando canceles de esquiva o deslizándote fuera de los M1 a rango máximo."
+  },
+  {
+    question: "¿Qué es una cancelación de esquiva y cómo se hace?",
+    answer: "Una cancelación de esquiva consiste en usar tu esquiva rápida (Q) inmediatamente después de bloquear o durante un pequeño hueco en la secuencia de ataque del oponente. Te permite escapar de su presión e iniciar inmediatamente tu propio contraataque."
+  },
+  {
+    question: "¿Cómo evito que me rompan la guardia con el quinto golpe M1?",
+    answer: "Debes contar los golpes M1 del oponente. Dado que los primeros cuatro golpes no rompen el bloqueo, puedes bloquearlos de manera segura. Antes de que impacte el quinto golpe (el rompebloqueo), debes soltar el bloqueo y deslizarse para alejarte o usar una esquiva para escapar."
+  },
+  {
+    question: "¿Hay personajes que puedan escapar de los combos más fácilmente que otros?",
+    answer: "Sí. Los personajes con invocaciones de stand, contraataques (como Grimmjow) o movimientos que tienen hiperarmadura pueden interrumpir o resistir fácilmente las cadenas de combos entrantes, lo que los convierte en opciones defensivas muy efectivas."
+  }
+]} />
+
+</Section>

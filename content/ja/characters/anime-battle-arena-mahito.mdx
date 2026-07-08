@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Battle Arena 真人：技セット、コンボ、覚醒ガイド",
+  description: "RobloxのAnime Battle Arena (ABA) で真人をマスターしましょう。基本技セット、高ダメージコンボ、そして覚醒「遍殺即霊体」について学びます。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/3b0764/fff?text=Mahito+ABA+Guide",
+  date: "2026-07-09",
+  author: "Anime Battle Arena Wiki チーム",
+  keywords: "Anime Battle Arena, 真人, ABA, 呪術廻戦, ガイド, コンボ, 覚醒"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主要キャラクター**: **Anime Battle Arena の真人**の技セットを使いこなし、アリーナを支配する方法を学びましょう。
+- **核心メカニクス**: 「魂の貯蔵」を利用して、多自呪縛や改造人間を召喚します。
+- **覚醒の力**: 強力な「遍殺即霊体（へんさつそくれいたい）」を発動して敵を粉砕します。
+- **重要な戦略**: 基本のM1コンボから直接「撥（はち）」に繋げ、確実にガードブレイクを狙います。
+- **最適コンボ**: 領域展開を発動する前に、標準的なM1ラダーでダメージを最大化します。
+</Callout>
+
+<Section icon={Swords} title="真人の基本技セットと核心メカニクス">
+
+真人は、2026年7月7日の大型アップデートで乙骨憂太と共に追加された、RobloxのAnime Battle Arena (ABA) におけるテクニカルでプレッシャーの強い呪術廻戦キャラクターです。独自のリソースシステムである**「魂の貯蔵」**と多才な変形攻撃を駆使して、近距離の立ち回りを支配します。
+
+**ビデオハイライト:**
+- 真人の基本技セットと攻撃範囲の詳細な視覚的解説。
+- 二段ジャンプと回避行動の実行に関するビジュアルガイド。
+- 覚醒フォームへの移行のデモンストレーション。
+
+<YouTubeEmbed videoId="gLqGYx8rTog" title="ABA RELEASE ANIME BATTLE ARENA IS OUT! | ROBLOX" />
+
+真人の基本形態は、優先度の高い肉体変形と召喚ベースの間合い管理ツールを使用して、相手の隙を突くように設計されています。
+
+### 基本スキル一覧
+| スキル | 名称 | タイプ | 主要特性 | クールダウン |
+|-------|------|------|----------------|----------|
+| **スキル 1** | **Self-Transfiguration** | 回避 / 攻撃 | 腕を刃に変え、回転して敵を引き寄せる | 17秒 |
+| **Skill 2** | **Body Repel** | ガードブレイク / 遠距離 | 改造人間（芋虫状）または巨大な改造人間を放つ | 16秒 |
+| **Skill 3** | **Soul Storage** | 召喚 / ユーティリティ | 撃破時に多自呪縛を生成する | パッシブ / アクティブ |
+| **Skill 4** | **Idle Transfiguration** | 掴み / 近距離 | 相手を激しく掴み、肉体を改造してダメージを与える | 15秒 |
+
+<Callout type="tip" title="プロのヒント：回避的なリカバリー">
+敵のコンボに捕まった場合は、すぐに**Self-Transfiguration**を使用してください。真人は頭部を体から切り離してプレッシャーから逃れ、本体以外で反撃することができます。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ステップバイステップ：真人コンボガイド">
+
+**Anime Battle Arena の真人**で勝利を収めるには、物理攻撃と変形させた召喚物をどのように繋げるかを学ぶ必要があります。彼のコンボ構造は、確定したM1ストリングとダウン攻撃のセットアップに大きく依存しています。
+
+<Steps>
+  <Step num="1" title="M1スターターを確定させる">
+    標準的な4ヒットのM1ストリングで攻撃を開始し、相手をヒットスタン状態にします。ノックバック攻撃で終わらせず、次の移行に備えます。
+  </Step>
+  <Step num="2" title="Body Repel で追撃">
+    M1の直後に**Body Repel（撥）**を繋げます。これにより3体の改造人間が放たれ、ブロックされた場合はガードブレイクを強制し、相手を無防備な状態に保ちます。
+  </Step>
+  <Step num="3" title="Self-Transfiguration で延長">
+    **Self-Transfiguration**を使用して腕の刃を回転させます。この技の最中にジャンプボタンを押し続けると、巨大なスパイクボールに変形し、敵を押し潰しながら前方に引きずります。
+  </Step>
+  <Step num="4" title="Idle Transfiguration で仕留める">
+    距離を詰めて**Idle Transfiguration（無為転変）**を発動し、一連の動作を締めくくります。この掴み技はガード不能の大きなダメージを与え、攻防を決定づけます。
+  </Step>
+</Steps>
+
+<Callout type="warning" title="クールダウンの無駄遣い">
+立ち回りで**Idle Transfiguration**を闇雲に放たないでください。射程が4.6スタッドと短く、外すと大きな隙が生じます。必ず先にヒットを確認してから使用してください。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="覚醒：遍殺即霊体">
+
+真人の覚醒ゲージが最大になった時に**G**キーを押すと、真の姿である**「遍殺即霊体（へんさつそくれいたい）」**が解放されます。この変身により技セットが完全に刷新され、非常に耐久力が高く高速なパワーハウスへと変貌します。
+
+### 覚醒スキル一覧
+| スキル | 名称 | タイプ | 主要特性 |
+|-------|------|------|----------------|
+| **Skill 1** | **Senku Kogetsu** | 攻撃的斬撃 | 腕の刃で波状の斬撃を繰り出し、追撃を発生させる |
+| **Skill 2** | **Distortion** | 範囲攻撃 | 肉体を変異させ、周囲のすべてのターゲットを攻撃する |
+| **Skill 3** | **Instant Killing** | 高ダメージ掴み | テレポートして顔を掴み、相手を叩きつける |
+| **Skill 4** | **Self-Embodiment of Perfection** | 領域展開 | 巨大な黒いドームを展開し、改造人間を召喚する |
+
+<CardGrid cols={2}>
+  <Card title="完全体のパッシブ">
+    覚醒状態の真人は防御力と速度が大幅に向上します。HPが45%を下回るまで、受けるすべてのダメージが20%軽減されます。
+  </Card>
+  <Card title="領域の支配">
+    **「自閉円頓裹（じへいえんどんか）」**の内部では、5体の改造人間が真人に追従し、M1攻撃と同時に攻撃してボーナスダメージを与えます。
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="領域での勝利">
+相手が追い詰められた時は、必ず**Self-Embodiment of Perfection**を発動してください。領域展開時に敵を3秒間スタンさせるため、自由なセットアップが可能になります。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="対戦戦略とチェックリスト">
+
+ランクマッチの1v1で真人を使うには、攻撃的かつ非常に計算されたアプローチが必要です。以下のチェックリストを使用して、彼のメカニクスの習熟度を確認してください。
+
+<Checklist
+  id="mahito-mastery"
+  title="真人のパフォーマンス目標:"
+  items={[
+    "各試合で少なくとも3つの貯蔵された魂を確保し、多自呪縛を召喚する。",
+    "自閉円頓裹を使用して、3秒間のスタンを確実に成功させる。",
+    "20%のダメージ軽減パッシブを活用して、接戦を逆転させる。"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "真人の「魂の貯蔵」メカニクスはどのように機能しますか？",
+    question_id: "soul-storage-mechanic",
+    answer: "真人が相手を倒すたびに、3つの魂を獲得します。スキルボタンを長押しすることで、敵を能動的に追跡して攻撃する多自呪縛を召喚できます。"
+  },
+  {
+    question: "ABAにおいて真人の領域展開はブロック可能ですか？",
+    question_id: "domain-expansion-block",
+    answer: "「自閉円頓裹」の展開初期段階はガードを貫通し、黒いドーム内に捕らえられた全員を3秒間スタンさせます。"
+  },
+  {
+    question: "ピンチの際、真人の最善の防御手段は何ですか？",
+    question_id: "mahito-defensive-options",
+    answer: "最善の防御手段はスキル1の「Self-Transfiguration」です。ダメージを受けている最中に押すと、頭部を切り離してコンボから脱出しつつ、本体以外で攻撃を続行できます。"
+  }
+]} />
+
+</Section>

@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia para Iniciantes de Anime Battle Arena: Dicas Iniciais e Meta de 2026",
+  description: "Domine o Anime Battle Arena com o nosso guia para iniciantes de 2026. Aprenda os controles básicos, combos M1, tier list de personagens e estratégias de PvP ranqueado para dominar a arena.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/312e81/fff?text=Anime+Battle+Arena+Guide",
+  date: "2026-07-09",
+  author: "Equipe da Wiki de Anime Battle Arena"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia para iniciantes de Anime Battle Arena**: Comece dominando as mecânicas de Shift-Sprint (Arrancada) e F-Block (Bloqueio) antes de entrar em batalhas 1v1 ranqueadas.
+- **Mecânicas Básicas**: Foque em acertar sequências de Mouse1 (M1) para acumular hit-stun e confirmar movimentos especiais.
+- **Escolha de Personagem**: Comece com personagens confiáveis e de alto nível, como Yuji Itadori ou Ichigo, para uma curva de aprendizado equilibrada.
+- **Estratégia de Transformação**: Guarde o seu Despertar \"G\" para momentos de alta pressão ou para finalizar um oponente com vida baixa.
+- **Prioridade Defensiva**: Use o Q-Dodge (Esquiva) com moderação; gastar o tempo de recarga da sua esquiva torna você um alvo fácil para combos longos.
+</Callout>
+
+<Section icon={Map} title="Primeiros Passos: Controles Básicos e Movimentação">
+
+Entrar no mundo de Anime Battle Arena (ABA) pode ser avassalador devido ao seu combate acelerado e elenco diversificado. Desenvolvido pela Dogs Studios: South, esta experiência do Roblox foca em precisão, tempo de reação e conhecimento dos personagens. Antes de entrar em um servidor público, você precisa internalizar o esquema de controles. A movimentação é o aspecto mais crítico do jogo; se você não conseguir controlar o seu espaçamento, perderá constantemente para jogadores que sabem como usar a tática de \"atrair e punir\".
+
+**Destaques do Vídeo:**
+- **Movimentação Básica**: Demonstrando como usar o Shift-Sprint para manter a distância ideal.
+- **Defesa Básica**: Visualizando a diferença entre um F-Block bem-sucedido e um Q-Dodge.
+- **Sequências de Ataque**: Uma demonstração de como os ataques de Mouse1 se conectam a habilidades especiais.
+- **Efeitos de Transformação**: Vendo como a tecla \"G\" altera o conjunto de habilidades de um personagem.
+
+<YouTubeEmbed videoId="gLqGYx8rTog" title="ABA RELEASE ANIME BATTLE ARENA IS OUT!" />
+
+A tabela a seguir detalha os comandos essenciais que todo jogador precisa memorizar. Pratique-os na área de treino até que se tornem memória muscular.
+
+| Comando | Ação | Uso Estratégico |
+| :--- | :--- | :--- |
+| **Shift** | Arrancada | Diminuir a distância ou recuar sob pressão |
+| **Q** | Esquiva | Escapar de um combo ou se reposicionar no meio da luta |
+| **F** | Bloqueio | Mitigar o dano de ataques previsíveis |
+| **Mouse1** | Ataque Básico | A base de toda sequência de combo |
+| **Espaço + M1** | Ataque Aéreo | Lançar inimigos para combos aéreos (\"ladder\") |
+| **1, 2, 3, 4** | Movimentos Especiais | Habilidades específicas do personagem com tempos de recarga |
+| **G** | Transformação | Desbloquear formas poderosas \"Despertadas\" |
+
+<Callout type="tip" title="Dica Profissional de Espaçamento">
+Não fique apenas segurando a tecla W. Use sua arrancada para entrar e sair do alcance do M1 do seu oponente. Isso fará com que ele erre um ataque, criando uma abertura (\"whiff\") que você pode punir com seu próprio iniciador de combo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fundamentos do Combate: M1s e Teoria de Combos">
+
+Neste **guia para iniciantes de Anime Battle Arena**, compreender o sistema de \"M1\" é fundamental. A maioria dos personagens depende de uma sequência de quatro golpes de Mouse1. O último golpe dessa sequência geralmente joga o oponente longe, encerrando sua pressão. Para maximizar o dano, jogadores avançados usam \"uptilts\" ou \"ladders\" pulando e atacando (Espaço + Mouse1) para manter o oponente no ar, impedindo-o de bloquear.
+
+O combate no ABA é um jogo de recursos. Você tem vida, energia para habilidades e o tempo de recarga da sua esquiva. Se você usar todos os seus movimentos especiais de uma vez e eles forem bloqueados, você ficará vulnerável.
+
+| Fase do Combate | Objetivo Principal | Ação Recomendada |
+| :--- | :--- | :--- |
+| **Neutro** | Encontrar uma abertura | Atacar de longe com habilidades de longo alcance ou induzir uma esquiva |
+| **Vantagem** | Maximizar o dano | Usar sequências de M1 para confirmar movimentos especiais |
+| **Desvantagem** | Reiniciar a luta | Bloquear, esperar por uma brecha e usar o Q-Dodge para se afastar |
+| **Despertar** | Encerrar a rodada | Usar a Transformação G para subjugar o inimigo |
+
+<Steps>
+  <Step num="1" title="Confirme o Golpe">
+    Nunca solte um movimento especial (1-4) aleatoriamente. Sempre comece com um golpe de Mouse1. Se o M1 acertar, o oponente ficará brevemente atordoado, tornando seu movimento especial \"confirmado\" ou impossível de bloquear.
+  </Step>
+  <Step num="2" title="Estenda com Ataques Aéreos">
+    Após três golpes de M1, pule e pressione M1 novamente. Este \"uptilt\" lança o inimigo para cima. Siga-o no ar com mais golpes para estender a duração do combo.
+  </Step>
+  <Step num="3" title="Gerencie os Tempos de Recarga">
+    Fique de olho nos ícones das suas habilidades. Se o seu golpe de alto dano estiver em tempo de recarga, jogue defensivamente. Não entre em uma troca que você não possa vencer.
+  </Step>
+  <Step num="4" title="Execute a Transformação">
+    Quando sua barra amarela estiver cheia, você pode pressionar G. Isso geralmente restaura sua vida e lhe dá um conjunto de movimentos totalmente novo e mais poderoso. Use isso quando o oponente estiver com 50% de vida para garantir uma eliminação.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gerenciamento de Esquiva">
+O Q-Dodge tem um tempo de recarga significativo. Se você se esquivar aleatoriamente, um jogador habilidoso esperará a animação terminar e iniciará um combo completo do qual você não poderá escapar. Guarde sua esquiva para quando estiver preso em uma habilidade de alto dano.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tier List de 2026: Escolhendo seu Primeiro Personagem Principal">
+
+Escolher o personagem certo é uma parte crucial deste **guia para iniciantes de Anime Battle Arena**. Embora o ABA conte com mais de 100 personagens de vários animes como *One Piece*, *Naruto* e *Jujutsu Kaisen*, alguns são muito mais fáceis de aprender para quem está começando. Os personagens de nível S normalmente possuem \"quebras de guarda\" (movimentos que acertam mesmo se o oponente estiver bloqueando) ou animações de M1 muito rápidas.
+
+<CardGrid cols={3}>
+  <Card title="Arquétipo Combatente (Brawler)">
+    - **Exemplo**: Yuji Itadori, Luffy
+    - **Prós**: Vida alta, conexões fáceis de M1
+    - **Contras**: Exige coragem para lutar de perto
+  </Card>
+  <Card title="Arquétipo de Controle (Zoner)">
+    - **Exemplo**: Starrk, Kizaru
+    - **Prós**: Mantém os inimigos à distância
+    - **Contras**: Vulnerável se for encurralado
+  </Card>
+  <Card title="Arquétipo Técnico">
+    - **Exemplo**: Aizen, Trafalgar Law
+    - **Prós**: Teto de habilidade alto, combos chamativos
+    - **Contras**: Difícil para novos jogadores
+  </Card>
+</CardGrid>
+
+A tabela a seguir representa as classificações do meta de 2026 para iniciantes que desejam subir nas ranqueadas.
+
+| Tier | Personagem | Por que eles são bons | Dificuldade |
+| :--- | :--- | :--- | :--- |
+| **S** | **Broly (Legacy)** | Caixas de colisão massivas e dano alto | Fácil |
+| **S** | **Satoru Gojo** | Fortes ferramentas defensivas e quebras de guarda | Média |
+| **A** | **Ichigo** | Conjunto equilibrado com projétil confiável | Fácil |
+| **A** | **Coyote Starrk** | Excelente recuo tático (kiting) e pressão de longo alcance | Média |
+| **B** | **Goku (Saga Buu)** | Conjunto clássico, muito previsível mas sólido | Fácil |
+| **C** | **Zenitsu** | Rápido, mas exige um tempo de reação preciso | Difícil |
+
+<Callout type="success" title="Recomendação para Começar">
+Para as suas primeiras horas de jogo, recomendamos fortemente o **Ichigo** ou o **Luffy (Pré-Timeskip)**. Os conjuntos de habilidades deles são diretos e ensinam o básico de confirmações de \"M1 para Habilidade\" sem mecânicas complexas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Modo Ranqueado e Estratégia PvP">
+
+Quando você se sentir confortável com o conjunto de movimentos do seu personagem, é hora de entrar no 1v1 Ranqueado. É aqui que reside o verdadeiro teste deste **guia para iniciantes de Anime Battle Arena**. As partidas ranqueadas recompensam você com pontos que determinam sua classificação na comunidade. Para vencer de forma consistente, você deve transitar do \"esmaga-botões\" para o \"combate tático\".
+
+**Principais Estratégias de PvP:**
+- **Paciência é a Chave**: Deixe o oponente atacar primeiro. A maioria dos iniciantes usará todas as suas habilidades imediatamente. Bloqueie-as e depois puna-os durante os quadros de recuperação deles.
+- **Quebra de Guarda**: Aprenda quais das suas habilidades podem quebrar bloqueios. Use-as quando um oponente estiver jogando de forma defensiva demais.
+- **Consciência Ambiental**: Não se deixe encurralar nos cantos. Use o espaço da arena para manter suas rotas de fuga abertas.
+- **Punindo o \"G\"**: Se você vir um oponente se transformar, jogue de forma extremamente segura. O despertar deles é temporário; se você conseguir fugir ou bloquear até que termine, terá neutralizado a maior vantagem deles.
+
+| Recurso | Servidores Casuais | 1v1 Ranqueado |
+| :--- | :--- | :--- |
+| **Limite de Jogadores** | Até 16 jogadores | Apenas 2 jogadores |
+| **Recompensa** | Diversão e prática | Pontos de ranque e prestígio |
+| **Nível de Habilidade** | Misto/Jogadores novos | Competitivo/Habilidade alta |
+| **Tamanho do Mapa** | Arenas grandes | Mapas pequenos e focados |
+
+<Callout type="info" title="Conhecimento de Confrontos">
+Vencer no ABA é 50% mecânica e 50% conhecimento. Você precisa saber o que os *outros* personagens fazem. Se você não souber que um determinado personagem tem um movimento de contra-ataque, continuará batendo nele e recebendo dano de volta.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Visuais, Gamepasses e Progressão">
+
+A progressão no ABA consiste principalmente em desbloquear novos personagens e personalizar os seus favoritos. A maioria dos personagens pode ser comprada com a moeda do jogo obtida ao disputar partidas. No entanto, existem opções premium disponíveis na aba da Loja do Roblox que podem acelerar o seu progresso ou fornecer conteúdo exclusivo.
+
+| Tipo de Item | Propósito | Valor para Iniciantes |
+| :--- | :--- | :--- |
+| **Gamepass de JJK** | Desbloqueia personagens de Jujutsu Kaisen | Alto se você gosta de JJK |
+| **Skins (Visuais)** | Apenas mudanças cosméticas | Baixo (Apenas visual) |
+| **Legacy Pass** | Acesso a unidades antigas e poderosas | Médio (Depende do meta) |
+| **Servidor Privado** | Praticar com amigos | Alto para treinar combos |
+
+<Checklist
+  id="beginner-goals"
+  title="Suas Metas para a Primeira Semana:"
+  items={[
+    "Desbloquear pelo menos 3 personagens com a moeda do jogo",
+    "Vencer 5 partidas em um servidor público",
+    "Acertar com sucesso um combo de 5 acertos de M1 para Habilidade",
+    "Concluir sua primeira partida de classificação no 1v1 Ranqueado",
+    "Alcançar o Nível 15 para compreender as mecânicas principais"
+  ]}
+/>
+
+<Callout type="tip" title="Ganhando Moedas Rapidamente">
+A maneira mais rápida de ganhar moedas como iniciante é participar de partidas na \"Arena\" pública. Mesmo se você não vencer, o dano causado e o tempo gasto em combate contribuem para a sua recompensa total de moedas ao final da rodada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+Para encerrar este **guia para iniciantes de Anime Battle Arena**, aqui estão as perguntas mais comuns que os novos jogadores fazem ao iniciar sua jornada no ABA.
+
+<FAQ items={[
+  {
+    question: "Como consigo mais personagens no Anime Battle Arena?",
+    answer: "Você pode desbloquear personagens gastando as moedas ganhas jogando ou comprando Gamepasses específicos na loja do Roblox. A maioria dos personagens custa entre 1.000 e 3.000 moedas."
+  },
+  {
+    question: "Qual é a melhor maneira de escapar de um combo?",
+    answer: "A única maneira de escapar de um combo garantido é usando o seu Q-Dodge. No entanto, se o oponente errar um golpe ou usar um movimento com início lento, você pode tentar Bloquear (F) ou contra-atacar."
+  },
+  {
+    question: "Existem códigos ativos para o ABA em 2026?",
+    answer: "Atualmente, o Anime Battle Arena não utiliza um sistema frequente de códigos públicos. A maioria das recompensas é obtida jogando, em eventos ou por meio de atualizações dos desenvolvedores postadas no Discord oficial deles."
+  },
+  {
+    question: "Como a barra de Despertar (G) é preenchida?",
+    answer: "A barra amarela de Despertar se enche conforme você causa dano aos oponentes e também quando você recebe dano. Assim que estiver cheia, pressione G para se transformar em uma versão mais poderosa do seu personagem."
+  }
+]} />
+
+<Callout type="warning" title="Lembrete Final">
+ABA é um jogo de prática. Você perderá muitas partidas no início, mas cada derrota é uma oportunidade de aprender o alcance e o tempo de reação de um personagem. Seja persistente!
+</Callout>
+
+</Section>

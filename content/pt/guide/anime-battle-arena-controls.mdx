@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, MousePointer2, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Controles de Anime Battle Arena: Guia de Configuração e Combos Essenciais",
+  description: "Domine os controles de Anime Battle Arena com nosso guia de 2026. Aprenda comandos básicos, mecânicas defensivas e sequências de combos avançadas para dominar o PvP do Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=ABA+Controls+Guide",
+  date: "2026-07-09",
+  author: "Equipe da Wiki de Anime Battle Arena",
+  keywords: "Anime Battle Arena, ABA, controles, combos, Roblox, tutorial, guia de jogo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Os controles de Anime Battle Arena** são centrados nas teclas **Shift, Q, F e Mouse1** para movimentação e combate principal.
+- **O jogo defensivo** exige o tempo preciso das teclas **F (Bloqueio)** e **Q (Esquiva)** para evitar punições de alto dano.
+- **Combos ofensivos** geralmente começam com sequências de **Mouse1 (M1)** seguidas por **Espaço + Mouse1** para extensões aéreas.
+- **Transformações (G)** devem ser reservadas para momentos críticos quando sua barra de awakening estiver cheia para virar o jogo.
+- **A execução de habilidades** utiliza as **teclas numéricas 1-4**, que variam significativamente entre personagens como Aizen ou Nanami.
+</Callout>
+
+<Section icon={MousePointer2} title="Layout de Comandos e Movimentação Básica">
+
+Entender os **controles fundamentais de Anime Battle Arena** é o primeiro passo para se tornar um jogador competitivo neste arena fighter do Roblox. Desenvolvido pela Dogs Studios: South, o jogo utiliza um esquema de movimento tradicional WASD suplementado por teclas de ação específicas que ditam o ritmo do combate. Quer você esteja jogando casualmente ou em partidas ranqueadas 1v1, sua habilidade de reagir com esses comandos determina sua sobrevivência.
+
+**Destaques do Vídeo:**
+- Explicação detalhada da transição de **M1 para Habilidade**.
+- Guia visual para o tempo da **Esquiva (Q)** contra personagens populares.
+- Demonstração de iniciadores de combo **Aéreos (Espaço + M1)**.
+- Dicas para gerenciar a transformação de **Awakening (G)**.
+
+<YouTubeEmbed videoId="w5Wd9yBBG00" title="Guia de Combos e Controles de Anime Battle Arena" />
+
+O principal modificador de movimento é a tecla **Shift**, que alterna sua corrida. Correr não serve apenas para fechar distância; é essencial para o "spacing" (espaçamento) — a arte de ficar fora do alcance do oponente enquanto permanece perto o suficiente para punir seus ataques errados.
+
+| Tecla | Ação | Propósito Principal |
+| :--- | :--- | :--- |
+| **W/A/S/D** | Movimentação | Posicionamento básico do personagem e deslocamento lateral |
+| **Shift** | Correr | Aumentar a velocidade de movimento para espaçamento e engajamento |
+| **Espaço** | Pular | Movimento vertical e início de ataques aéreos |
+| **Mouse1** | Ataque Básico | A base para todos os combos e hit-stun |
+| **1, 2, 3, 4** | Golpes Especiais | Habilidades específicas do personagem com tempos de recarga |
+| **G** | Transformação | Ativar o modo "Awakening" para atributos aprimorados |
+
+<Callout type="info" title="Dica de Especialista em Espaçamento">
+Sempre mantenha sua tecla **Shift** ativa quando estiver no neutro. Um alvo parado é fácil de ser combado, mas um jogador correndo pode usar a velocidade extra para "iscar" uma habilidade do oponente e então avançar para uma punição.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas Defensivas: Bloqueio e Esquiva">
+
+A defesa é indiscutivelmente mais importante que o ataque em partidas de alto nível no ABA. Os **controles de Anime Battle Arena** fornecem duas ferramentas defensivas principais: **F (Bloqueio)** e **Q (Esquiva)**. Dominar a diferença entre essas duas é o que separa os iniciantes dos veteranos ranqueados.
+
+O bloqueio permite anular o dano da maioria dos ataques básicos e habilidades que não quebram guarda. No entanto, muitos personagens possuem "Guard Breaks" (GBs) que o deixarão atordoado se você segurar a tecla F por muito tempo. A esquiva, mapeada na tecla **Q**, fornece uma breve janela de invulnerabilidade e reposicionamento, mas possui um tempo de recarga significativo.
+
+| Mecânica | Comando | Benefício | Fraqueza |
+| :--- | :--- | :--- | :--- |
+| **Bloqueio** | **F** | Anula dano de M1 e habilidades padrão | Vulnerável a Quebras de Guarda e dano residual |
+| **Esquiva** | **Q** | Evita completamente um ataque recebido | Tempo de recarga longo; deixa você exposto se usado na hora errada |
+| **Evasivo** | **Varia** | Interrompe a sequência de combo do oponente | Geralmente requer barra cheia ou personagem específico |
+
+<CardGrid cols={2}>
+  <Card title="Quando Bloquear (F)">
+    - Contra sequências padrão de **Mouse1**.
+    - Quando vir um projétil de vários acertos se aproximando.
+    - Para induzir o oponente a usar uma Quebra de Guarda que você possa esquivar.
+  </Card>
+  <Card title="Quando Esquivar (Q)">
+    - Para escapar de um ultimate de alto dano ou habilidade de Awakening.
+    - Quando for pego em um combo "Ladder" (escada).
+    - Para se reposicionar atrás de um oponente para um ataque pelas costas.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gerenciamento de Tempo de Recarga">
+Não use a tecla **Q** freneticamente. Se você desperdiçar sua esquiva enquanto o oponente ainda tem habilidades de alto dano disponíveis, você essencialmente entrega um combo gratuito a ele. Salve sua esquiva para movimentos que você não consegue bloquear com segurança.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sequências Ofensivas e Execução de Combos">
+
+O núcleo do combate no ABA é a sequência de **Mouse1 (M1)**. A maioria dos personagens possui uma sequência de ataque básico de 4 ou 5 acertos. O último acerto geralmente resulta em um knockback (repulsão), que encerra sua pressão. Para maximizar o dano, os jogadores usam os **controles de Anime Battle Arena** para "estender" esses combos usando ataques aéreos e habilidades.
+
+A extensão mais comum é o **Uptilt**. Ao pressionar **Espaço + Mouse1** durante uma sequência de M1, você lança o oponente ao ar. Isso permite que você siga com mais acertos ou uma habilidade especial enquanto eles estão suspensos, impedindo-os de bloquear.
+
+<Steps>
+  <Step num="1" title="O Iniciador M1">
+    Acerte 3 golpes de **Mouse1** consecutivos no chão. Isso cria hit-stun suficiente para impedir que o oponente se esquive imediatamente.
+  </Step>
+  <Step num="2" title="O Lançamento Aéreo">
+    Pressione **Espaço + Mouse1** imediatamente após o terceiro acerto. Este "Uptilt" lança o inimigo ao ar.
+  </Step>
+  <Step num="3" title="Acompanhamento Aéreo">
+    Siga o inimigo no ar e acerte mais 2-3 golpes de **Mouse1**. Não finalize a sequência aérea, ou você irá repeli-los para longe.
+  </Step>
+  <Step num="4" title="Integração de Habilidade">
+    Pressione **1, 2, 3 ou 4** para usar um golpe especial enquanto o inimigo ainda está caindo. Isso "confirma" o dano da habilidade.
+  </Step>
+</Steps>
+
+| Tipo de Combo | Sequência de Comandos | Dificuldade |
+| :--- | :--- | :--- |
+| **Básico Terrestre** | M1 > M1 > M1 > M1 | Iniciante |
+| **Ladder Uptilt** | M1 > M1 > M1 > Espaço+M1 > M1 > M1 | Intermediário |
+| **Confirmação de Skill** | M1 > M1 > M1 > [Tecla da Skill] | Intermediário |
+| **Reset Avançado** | M1 > M1 > M1 > Q (atrás) > M1 | Especialista |
+
+<Callout type="tip" title="Dica de Combo Pro">
+Personagens como **Aoi Todo** ou **Nanami** dependem muito de um tempo específico. Pratique seus ritmos de M1 em um servidor privado para garantir que você não esteja apenas "esmagando" as teclas, o que pode levar a comandos perdidos e combos interrompidos.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Awakening e Transformação (G)">
+
+A tecla **G** é a ferramenta mais poderosa em seu arsenal de **controles de Anime Battle Arena**. Conforme você causa e recebe dano, sua barra amarela de Awakening se enche. Quando estiver cheia, pressionar **G** transforma seu personagem em sua forma "Ultimate", concedendo novas habilidades e aumento de dano.
+
+A transformação não é apenas um aumento de poder; é um reset tático. Ativar seu Awakening geralmente fornece um breve momento de invulnerabilidade ou uma onda de choque que repele os inimigos. Isso pode ser usado defensivamente para parar o ímpeto de um oponente ou ofensivamente para encerrar uma rodada rapidamente.
+
+**Melhores Práticas de Transformação:**
+- **Espere o momento certo**: Não se transforme no segundo em que sua barra encher se o oponente já estiver com pouca vida. Guarde para a próxima vida (stock).
+- **Identifique as mudanças**: Alguns personagens, como **Itadori** ou **Aizen**, ganham conjuntos de habilidades completamente diferentes (1-4) durante o Awakening.
+- **Cuidado com o cronômetro**: O Awakening é temporário. Se você passar toda a duração perseguindo um oponente móvel, desperdiçará sua maior vantagem.
+
+| Ação | Tecla | Efeito |
+| :--- | :--- | :--- |
+| **Verificar Barra** | Visual | Observe a barra amarela na parte inferior da tela |
+| **Ativar** | **G** | Entra no modo de transformação; substitui as habilidades 1-4 |
+| **Movimento Ultimate** | **Varia** | A maioria dos personagens despertados tem um golpe de "hit único" ou de dano massivo |
+
+<Callout type="success" title="Vencendo com o G">
+Usar o **G** enquanto a esquiva (Q) do seu oponente está em tempo de recarga é a maneira mais eficaz de garantir que suas habilidades definitivas acertem. Sempre monitore o uso defensivo deles antes de se comprometer com sua transformação.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Maestria e Progressão">
+
+Tornar-se um profissional em Anime Battle Arena requer mais do que apenas saber quais botões apertar; requer memória muscular e consciência situacional. Use a seguinte lista para acompanhar seu progresso conforme domina os **controles de Anime Battle Arena**.
+
+<Checklist
+  id="aba-mastery"
+  title="Marcos do Jogador Pro:"
+  items={[
+    "Acertar consistentemente um M1 de 3 hits seguido de um Uptilt aéreo.",
+    "Bloquear com sucesso uma sequência completa de M1 sem usar a esquiva por pânico.",
+    "Usar a tecla Q para esquivar atrás de um oponente para uma punição pelas costas.",
+    "Dominar o ritmo de tempo de recarga de pelo menos três personagens diferentes.",
+    "Alcançar o rank Ouro em partidas 1v1 usando técnicas de espaçamento adequadas.",
+    "Sincronizar com sucesso uma transformação (G) para interromper um combo inimigo."
+  ]}
+/>
+
+Para mais informações, você pode visitar a [Página Oficial do ABA no Roblox](https://www.roblox.com/games/1458767429/ABA) ou entrar no [Discord da Dogs Studios: South](https://discord.gg/aba) para se manter atualizado sobre reformulações de personagens e mudanças nos controles.
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quais são os controles básicos de Anime Battle Arena para iniciantes?",
+    answer: "Os controles básicos são WASD para movimento, Shift para correr, Mouse1 para ataques básicos, Espaço para pular, F para bloquear e Q para esquivar. Os movimentos especiais são mapeados nas teclas 1, 2, 3 e 4, enquanto G ativa sua transformação."
+  },
+  {
+    question: "Como eu realizo um combo aéreo no ABA?",
+    answer: "Para começar um combo aéreo, acerte três golpes de Mouse1 no chão e então pressione Espaço + Mouse1 (Uptilt). Isso lança o oponente ao ar, permitindo que você siga com mais ataques aéreos ou habilidades."
+  },
+  {
+    question: "Por que meu bloqueio (F) não está funcionando contra alguns ataques?",
+    answer: "Algumas habilidades em Anime Battle Arena são 'Guard Breaks' (Quebras de Guarda). Esses movimentos são projetados para ignorar a tecla F (Bloqueio). Se você vir um movimento com uma aura vermelha ou uma animação pesada específica, você deve usar Q (Esquiva) ou se afastar em vez de bloquear."
+  },
+  {
+    question: "Posso mudar as teclas de atalho (keybinds) dos controles do ABA?",
+    answer: "Atualmente, o Anime Battle Arena do Roblox não possui um menu interno para personalizar totalmente as teclas. A maioria dos jogadores usa o layout padrão, embora alguns utilizem softwares de terceiros ou macros de mouse para comandos específicos (por sua conta e risco em relação às regras do jogo)."
+  }
+]} />
+
+</Section>

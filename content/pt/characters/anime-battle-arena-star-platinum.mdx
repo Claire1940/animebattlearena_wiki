@@ -1,0 +1,141 @@
+import { Swords, Trophy, Target, Shield, Sparkles, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Batalha Arena Star Platinum: Guia de Movimentos de Jotaro Kujo",
+  description: "Domine Jotaro Kujo e o Star Platinum em Anime Batalha Arena (ABA). Aprenda movimentos básicos, combos de despertar e dicas profissionais para dominar partidas ranqueadas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Star+Platinum+Guide",
+  date: "2026-07-09",
+  author: "Equipe da Wiki de Anime Batalha Arena"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Personagem Principal**: Jotaro Kujo comanda o lendário Stand, **anime batalha arena star platinum**, para aplicar uma forte pressão a curta distância.
+- **Kit Básico**: Apresenta uma rajada poderosa, uma postura focada em contra-ataque e uma habilidade aérea altamente versátil.
+- **Poder de Despertar**: Ativar o **Star Platinum: The World** concede uma esquiva com Salto no Tempo (Time Skip) e uma devastadora Parada no Tempo (Time Stop) de 5 segundos.
+- **Estratégia Ranqueada**: Jogue pacientemente controlando o espaçamento, usando a defesa para induzir erros do oponente e punir com combos de alto dano.
+</Callout>
+
+<Section icon={Swords} title="Anime Batalha Arena Star Platinum: Visão Geral do Kit Básico">
+
+O lendário Stand **anime batalha arena star platinum** pertence a Jotaro Kujo (Stardust Crusaders), um personagem extremamente poderoso disponível no elenco de JoJo's Bizarre Adventure por $1.000 de dinheiro do jogo. Jotaro se destaca na pressão a curta distância e no contra-ataque defensivo, tornando-se uma escolha formidável tanto para lutas casuais quanto para o PvP ranqueado.
+
+**Destaques do Vídeo:**
+- Análise visual detalhada do conjunto de movimentos básicos de Jotaro e das animações do Star Platinum.
+- Demonstrações táticas mostrando como fazer a transição de bloqueios defensivos para sequências ofensivas.
+- Demonstração da transformação de Despertar e da mecânica da icônica Parada no Tempo.
+
+<YouTubeEmbed videoId="gLqGYx8rTog" title="Trailer de Lançamento do ABA" />
+
+Em sua forma básica, Jotaro depende muito do Star Platinum para iniciar combos, mitigar a pressão recebida e quebrar guardas. Compreender os tempos de recarga precisos, os números de dano e as propriedades de cada movimento é crucial para uma execução consistente.
+
+| Nome do Movimento | Atalho | Dano | Tempo de Recarga | Propriedades e Mecânicas Chave |
+| :--- | :--- | :--- | :--- | :--- |
+| **Stand Rush** | 1 | ~30 de Dano | 15 Segundos | Rajada de vários acertos, empurra no último golpe, bloqueável |
+| **Stand Defense** | 2 | 16 de Dano | 15 Segundos | Reduz o dano em 70%, pode cancelar com M1 para contra-atacar |
+| **Star Finger** | 3 | 15 de Dano | 12 Segundos | Cortes de 180° no ar, empurra se estiver muito perto no chão |
+| **Stand Leap** | 4 | Variável | 20 Segundos | Melhora a força do pulo, derruba os inimigos se atingir diretamente |
+
+<Callout type="tip" title="Otimização do Stand Defense">
+Não segure o Stand Defense passivamente. Espere o oponente se comprometer com uma sequência agressiva de M1, ative o Stand Defense para absorver o golpe e pressione imediatamente o botão de ataque para desferir um contra-ataque de 16 de dano que inicia o seu próprio combo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Despertar: Star Platinum The World">
+
+Quando sua barra de Despertar estiver cheia, pressionar **G** desbloqueia o verdadeiro potencial do **anime batalha arena star platinum**. Jotaro ganha uma aura ameaçadora, substituindo sua esquiva padrão (Q) por um **Time Skip Dash** de teletransporte e desbloqueando ferramentas ofensivas que mudam o rumo do jogo.
+
+<CardGrid cols={3}>
+  <Card title="Time Skip Dash">
+    Substitui sua esquiva padrão. Permite que Jotaro se teletransporte instantaneamente por curtas distâncias, permitindo que você passe por trás da guarda inimiga ou escape da pressão sem esforço.
+  </Card>
+  <Card title="The World (Time Stop)">
+    Para o tempo completamente por 5 segundos. Todos os oponentes ficam congelados no lugar, permitindo que você acumule um dano massivo que é registrado instantaneamente assim que o tempo volta a correr.
+  </Card>
+  <Card title="Beatdown">
+    Agarra o oponente pelo pescoço para desferir uma enxurrada implacável de socos e chutes. Este movimento possui hiper armadura (hyper armor) e não pode ser cancelado.
+  </Card>
+</CardGrid>
+
+| Movimento Despertado | Atalho | Dano | Tempo de Recarga | Propriedades e Mecânicas Chave |
+| :--- | :--- | :--- | :--- | :--- |
+| **Stand Rush (Despertado)** | 1 | ~42 de Dano | 15 Segundos | Dano muito maior, gira o oponente para longe no último golpe |
+| **The World** | 2 | N/D | 45 Segundos | Para o tempo por 5 segundos, o dano é aplicado após o tempo voltar a correr |
+| **Star Finger (Despertado)** | 3 | 25 de Dano | 12 Segundos | Alcance aumentado e caixas de colisão (hitboxes) mais amplas em comparação com a forma básica |
+| **Beatdown** | 4 | ~55 de Dano | 25 Segundos | Agarre desbloqueável com hiper armadura, estende a duração da Parada no Tempo |
+
+<Callout type="warning" title="Contra-ataque à Parada no Tempo">
+Tenha cuidado ao usar o "The World" contra outros personagens que também podem parar o tempo (como o Dio). Se outro usuário de Parada no Tempo ativar sua habilidade durante o seu congelamento, ele poderá se mover livremente e punir você enquanto você ataca.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Combo Passo a Passo">
+
+Para ter sucesso em partidas ranqueadas de alto nível, você deve aprender como fazer a transição de ataques básicos M1 para as habilidades especializadas do Star Platinum. Siga esta progressão estruturada para dominar os combos básicos e despertados.
+
+<Steps>
+  <Step num="1" title="O Combo Básico no Chão">
+    Acerte 4 ataques básicos M1 no chão e, em seguida, ative imediatamente o **Star Finger** (3) para garantir um dano fácil e inevitável enquanto o oponente está em hit-stun.
+  </Step>
+  <Step num="2" title="A Extensão Aérea">
+    Execute 3 ataques básicos M1, pule no ar com o oponente, realize 2 M1s aéreos e, em seguida, ative imediatamente o **Star Finger** (3) no ar para executar um corte de 180 graus.
+  </Step>
+  <Step num="3" title="O Contra-ataque de Stand Defense">
+    Ative o **Stand Defense** (2) quando um oponente avançar contra você. No momento em que ele atingir seu escudo, pressione a tecla de ataque para socá-lo e, em seguida, continue com uma sequência completa de M1.
+  </Step>
+  <Step num="4" title="O Combo de Eliminação com Parada no Tempo Despertada">
+    Ative o **The World** (2) para congelar seu oponente. Aproxime-se e execute uma sequência completa de M1, use o **Stand Rush** (1) e finalize imediatamente com o **Beatdown** (4) para estender o congelamento e garantir uma eliminação certa.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de PvP Ranqueado e Estratégia de Confronto">
+
+Jogar com Jotaro Kujo usando o **anime batalha arena star platinum** exige uma mentalidade defensiva e disciplinada. Use esta checklist para garantir que você está utilizando o kit dele em seu potencial máximo em partidas ranqueadas 1v1.
+
+<Checklist
+  id="jotaro-ranked-checklist"
+  title="Checklist de Desempenho Ranqueado:"
+  items={[
+    "Nunca comece uma rodada usando o Stand Rush aleatoriamente, pois ele é facilmente bloqueado e punido [1.1.2].",
+    "Use o Stand Leap para encurtar a distância ou escapar de personagens de zoneamento que tentam fugir.",
+    "Acompanhe o tempo de recarga da esquiva do oponente antes de se comprometer com o seu Beatdown de despertar.",
+    "Utilize os cortes aéreos do Star Finger para atingir oponentes que tentam pular sobre a sua guarda.",
+    "Provoque os quebra-guardas do inimigo antes de ativar o Stand Defense para evitar ter sua guarda quebrada."
+  ]}
+/>
+
+</Section>
+
+<Section icon={HelpCircle} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quanto custa o Jotaro Kujo no Anime Batalha Arena?",
+    answer: "Jotaro Kujo pertence ao elenco de JoJo's Bizarre Adventure e custa $1.000 de dinheiro do jogo para ser desbloqueado."
+  },
+  {
+    question: "O Stand Defense é bloqueável ou pode ter a guarda quebrada?",
+    answer: "O Stand Defense reduz o dano recebido em 70% e pode contra-atacar, mas ele pode ter a guarda quebrada se for atingido por um movimento pesado de quebra de guarda ou se você o segurar por muito tempo contra uma sequência completa de M1."
+  },
+  {
+    question: "Os oponentes podem escapar do Beatdown Despertado do Jotaro?",
+    answer: "Não. O Beatdown é um agarre desbloqueável que possui hiper armadura, o que significa que não pode ser cancelado ou interrompido assim que a animação começa."
+  },
+  {
+    question: "Como funciona o dano da Parada no Tempo com o Star Platinum?",
+    answer: "Durante o 'The World', qualquer dano que você causar a oponentes congelados é acumulado e aplicado de uma só vez em um grande impacto imediatamente após o término da parada no tempo de 5 segundos."
+  }
+]} />
+
+</Section>

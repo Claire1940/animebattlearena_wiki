@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "tierlist": "Lista de Niveles",
+    "characters": "Personajes",
+    "combos": "Combos",
+    "guide": "Guía",
+    "skins": "Skins",
+    "music": "Música"
+  }
+}

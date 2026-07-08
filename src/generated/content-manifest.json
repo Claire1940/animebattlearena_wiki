@@ -1,1 +1,706 @@
-{}
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "anime-battle-arena-aizen",
+        "file": "anime-battle-arena-aizen"
+      },
+      {
+        "slug": "anime-battle-arena-akaza",
+        "file": "anime-battle-arena-akaza"
+      },
+      {
+        "slug": "anime-battle-arena-baam",
+        "file": "anime-battle-arena-baam"
+      },
+      {
+        "slug": "anime-battle-arena-characters",
+        "file": "anime-battle-arena-characters"
+      },
+      {
+        "slug": "anime-battle-arena-chihiro-rokuhira",
+        "file": "anime-battle-arena-chihiro-rokuhira"
+      },
+      {
+        "slug": "anime-battle-arena-gojo",
+        "file": "anime-battle-arena-gojo"
+      },
+      {
+        "slug": "anime-battle-arena-mahito",
+        "file": "anime-battle-arena-mahito"
+      },
+      {
+        "slug": "anime-battle-arena-reigen",
+        "file": "anime-battle-arena-reigen"
+      },
+      {
+        "slug": "anime-battle-arena-rimuru",
+        "file": "anime-battle-arena-rimuru"
+      },
+      {
+        "slug": "anime-battle-arena-star-platinum",
+        "file": "anime-battle-arena-star-platinum"
+      },
+      {
+        "slug": "anime-battle-arena-yuta",
+        "file": "anime-battle-arena-yuta"
+      },
+      {
+        "slug": "anime-battle-arena-zuko",
+        "file": "anime-battle-arena-zuko"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "anime-battle-arena-codes",
+        "file": "anime-battle-arena-codes"
+      }
+    ],
+    "combos": [
+      {
+        "slug": "anime-battle-arena-1v1",
+        "file": "anime-battle-arena-1v1"
+      },
+      {
+        "slug": "anime-battle-arena-2v2",
+        "file": "anime-battle-arena-2v2"
+      },
+      {
+        "slug": "anime-battle-arena-combo-guide",
+        "file": "anime-battle-arena-combo-guide"
+      },
+      {
+        "slug": "anime-battle-arena-combos",
+        "file": "anime-battle-arena-combos"
+      },
+      {
+        "slug": "anime-battle-arena-downslam",
+        "file": "anime-battle-arena-downslam"
+      },
+      {
+        "slug": "anime-battle-arena-how-to-get-out-of-combo",
+        "file": "anime-battle-arena-how-to-get-out-of-combo"
+      },
+      {
+        "slug": "anime-battle-arena-ranked",
+        "file": "anime-battle-arena-ranked"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-battle-arena-beginner-guide",
+        "file": "anime-battle-arena-beginner-guide"
+      },
+      {
+        "slug": "anime-battle-arena-console",
+        "file": "anime-battle-arena-console"
+      },
+      {
+        "slug": "anime-battle-arena-controls",
+        "file": "anime-battle-arena-controls"
+      },
+      {
+        "slug": "anime-battle-arena-guide",
+        "file": "anime-battle-arena-guide"
+      },
+      {
+        "slug": "anime-battle-arena-maps",
+        "file": "anime-battle-arena-maps"
+      },
+      {
+        "slug": "anime-battle-arena-mobile",
+        "file": "anime-battle-arena-mobile"
+      },
+      {
+        "slug": "anime-battle-arena-money-fast",
+        "file": "anime-battle-arena-money-fast"
+      },
+      {
+        "slug": "anime-battle-arena-prestige",
+        "file": "anime-battle-arena-prestige"
+      },
+      {
+        "slug": "anime-battle-arena-tips-and-tricks-beginners",
+        "file": "anime-battle-arena-tips-and-tricks-beginners"
+      },
+      {
+        "slug": "anime-battle-arena-update",
+        "file": "anime-battle-arena-update"
+      }
+    ],
+    "music": [
+      {
+        "slug": "anime-battle-arena-music",
+        "file": "anime-battle-arena-music"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "anime-battle-arena-all-skins",
+        "file": "anime-battle-arena-all-skins"
+      },
+      {
+        "slug": "anime-battle-arena-legendary-skins",
+        "file": "anime-battle-arena-legendary-skins"
+      },
+      {
+        "slug": "anime-battle-arena-skins",
+        "file": "anime-battle-arena-skins"
+      }
+    ],
+    "tierlist": [
+      {
+        "slug": "anime-battle-arena-2v2-characters",
+        "file": "anime-battle-arena-2v2-characters"
+      },
+      {
+        "slug": "anime-battle-arena-best-characters",
+        "file": "anime-battle-arena-best-characters"
+      },
+      {
+        "slug": "anime-battle-arena-broken-characters",
+        "file": "anime-battle-arena-broken-characters"
+      },
+      {
+        "slug": "anime-battle-arena-ranged-characters",
+        "file": "anime-battle-arena-ranged-characters"
+      },
+      {
+        "slug": "anime-battle-arena-skill-chart",
+        "file": "anime-battle-arena-skill-chart"
+      },
+      {
+        "slug": "anime-battle-arena-tier-list",
+        "file": "anime-battle-arena-tier-list"
+      }
+    ]
+  },
+  "es": {
+    "characters": [
+      {
+        "slug": "anime-battle-arena-aizen",
+        "file": "anime-battle-arena-aizen"
+      },
+      {
+        "slug": "anime-battle-arena-akaza",
+        "file": "anime-battle-arena-akaza"
+      },
+      {
+        "slug": "anime-battle-arena-baam",
+        "file": "anime-battle-arena-baam"
+      },
+      {
+        "slug": "anime-battle-arena-characters",
+        "file": "anime-battle-arena-characters"
+      },
+      {
+        "slug": "anime-battle-arena-chihiro-rokuhira",
+        "file": "anime-battle-arena-chihiro-rokuhira"
+      },
+      {
+        "slug": "anime-battle-arena-gojo",
+        "file": "anime-battle-arena-gojo"
+      },
+      {
+        "slug": "anime-battle-arena-mahito",
+        "file": "anime-battle-arena-mahito"
+      },
+      {
+        "slug": "anime-battle-arena-reigen",
+        "file": "anime-battle-arena-reigen"
+      },
+      {
+        "slug": "anime-battle-arena-rimuru",
+        "file": "anime-battle-arena-rimuru"
+      },
+      {
+        "slug": "anime-battle-arena-star-platinum",
+        "file": "anime-battle-arena-star-platinum"
+      },
+      {
+        "slug": "anime-battle-arena-yuta",
+        "file": "anime-battle-arena-yuta"
+      },
+      {
+        "slug": "anime-battle-arena-zuko",
+        "file": "anime-battle-arena-zuko"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "anime-battle-arena-codes",
+        "file": "anime-battle-arena-codes"
+      }
+    ],
+    "combos": [
+      {
+        "slug": "anime-battle-arena-1v1",
+        "file": "anime-battle-arena-1v1"
+      },
+      {
+        "slug": "anime-battle-arena-2v2",
+        "file": "anime-battle-arena-2v2"
+      },
+      {
+        "slug": "anime-battle-arena-combo-guide",
+        "file": "anime-battle-arena-combo-guide"
+      },
+      {
+        "slug": "anime-battle-arena-combos",
+        "file": "anime-battle-arena-combos"
+      },
+      {
+        "slug": "anime-battle-arena-downslam",
+        "file": "anime-battle-arena-downslam"
+      },
+      {
+        "slug": "anime-battle-arena-how-to-get-out-of-combo",
+        "file": "anime-battle-arena-how-to-get-out-of-combo"
+      },
+      {
+        "slug": "anime-battle-arena-ranked",
+        "file": "anime-battle-arena-ranked"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-battle-arena-beginner-guide",
+        "file": "anime-battle-arena-beginner-guide"
+      },
+      {
+        "slug": "anime-battle-arena-console",
+        "file": "anime-battle-arena-console"
+      },
+      {
+        "slug": "anime-battle-arena-controls",
+        "file": "anime-battle-arena-controls"
+      },
+      {
+        "slug": "anime-battle-arena-guide",
+        "file": "anime-battle-arena-guide"
+      },
+      {
+        "slug": "anime-battle-arena-maps",
+        "file": "anime-battle-arena-maps"
+      },
+      {
+        "slug": "anime-battle-arena-mobile",
+        "file": "anime-battle-arena-mobile"
+      },
+      {
+        "slug": "anime-battle-arena-money-fast",
+        "file": "anime-battle-arena-money-fast"
+      },
+      {
+        "slug": "anime-battle-arena-prestige",
+        "file": "anime-battle-arena-prestige"
+      },
+      {
+        "slug": "anime-battle-arena-tips-and-tricks-beginners",
+        "file": "anime-battle-arena-tips-and-tricks-beginners"
+      },
+      {
+        "slug": "anime-battle-arena-update",
+        "file": "anime-battle-arena-update"
+      }
+    ],
+    "music": [
+      {
+        "slug": "anime-battle-arena-music",
+        "file": "anime-battle-arena-music"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "anime-battle-arena-all-skins",
+        "file": "anime-battle-arena-all-skins"
+      },
+      {
+        "slug": "anime-battle-arena-legendary-skins",
+        "file": "anime-battle-arena-legendary-skins"
+      },
+      {
+        "slug": "anime-battle-arena-skins",
+        "file": "anime-battle-arena-skins"
+      }
+    ],
+    "tierlist": [
+      {
+        "slug": "anime-battle-arena-2v2-characters",
+        "file": "anime-battle-arena-2v2-characters"
+      },
+      {
+        "slug": "anime-battle-arena-best-characters",
+        "file": "anime-battle-arena-best-characters"
+      },
+      {
+        "slug": "anime-battle-arena-broken-characters",
+        "file": "anime-battle-arena-broken-characters"
+      },
+      {
+        "slug": "anime-battle-arena-ranged-characters",
+        "file": "anime-battle-arena-ranged-characters"
+      },
+      {
+        "slug": "anime-battle-arena-skill-chart",
+        "file": "anime-battle-arena-skill-chart"
+      },
+      {
+        "slug": "anime-battle-arena-tier-list",
+        "file": "anime-battle-arena-tier-list"
+      }
+    ]
+  },
+  "ja": {
+    "characters": [
+      {
+        "slug": "anime-battle-arena-aizen",
+        "file": "anime-battle-arena-aizen"
+      },
+      {
+        "slug": "anime-battle-arena-akaza",
+        "file": "anime-battle-arena-akaza"
+      },
+      {
+        "slug": "anime-battle-arena-baam",
+        "file": "anime-battle-arena-baam"
+      },
+      {
+        "slug": "anime-battle-arena-characters",
+        "file": "anime-battle-arena-characters"
+      },
+      {
+        "slug": "anime-battle-arena-chihiro-rokuhira",
+        "file": "anime-battle-arena-chihiro-rokuhira"
+      },
+      {
+        "slug": "anime-battle-arena-gojo",
+        "file": "anime-battle-arena-gojo"
+      },
+      {
+        "slug": "anime-battle-arena-mahito",
+        "file": "anime-battle-arena-mahito"
+      },
+      {
+        "slug": "anime-battle-arena-reigen",
+        "file": "anime-battle-arena-reigen"
+      },
+      {
+        "slug": "anime-battle-arena-rimuru",
+        "file": "anime-battle-arena-rimuru"
+      },
+      {
+        "slug": "anime-battle-arena-star-platinum",
+        "file": "anime-battle-arena-star-platinum"
+      },
+      {
+        "slug": "anime-battle-arena-yuta",
+        "file": "anime-battle-arena-yuta"
+      },
+      {
+        "slug": "anime-battle-arena-zuko",
+        "file": "anime-battle-arena-zuko"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "anime-battle-arena-codes",
+        "file": "anime-battle-arena-codes"
+      }
+    ],
+    "combos": [
+      {
+        "slug": "anime-battle-arena-1v1",
+        "file": "anime-battle-arena-1v1"
+      },
+      {
+        "slug": "anime-battle-arena-2v2",
+        "file": "anime-battle-arena-2v2"
+      },
+      {
+        "slug": "anime-battle-arena-combo-guide",
+        "file": "anime-battle-arena-combo-guide"
+      },
+      {
+        "slug": "anime-battle-arena-combos",
+        "file": "anime-battle-arena-combos"
+      },
+      {
+        "slug": "anime-battle-arena-downslam",
+        "file": "anime-battle-arena-downslam"
+      },
+      {
+        "slug": "anime-battle-arena-how-to-get-out-of-combo",
+        "file": "anime-battle-arena-how-to-get-out-of-combo"
+      },
+      {
+        "slug": "anime-battle-arena-ranked",
+        "file": "anime-battle-arena-ranked"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-battle-arena-beginner-guide",
+        "file": "anime-battle-arena-beginner-guide"
+      },
+      {
+        "slug": "anime-battle-arena-console",
+        "file": "anime-battle-arena-console"
+      },
+      {
+        "slug": "anime-battle-arena-controls",
+        "file": "anime-battle-arena-controls"
+      },
+      {
+        "slug": "anime-battle-arena-guide",
+        "file": "anime-battle-arena-guide"
+      },
+      {
+        "slug": "anime-battle-arena-maps",
+        "file": "anime-battle-arena-maps"
+      },
+      {
+        "slug": "anime-battle-arena-mobile",
+        "file": "anime-battle-arena-mobile"
+      },
+      {
+        "slug": "anime-battle-arena-money-fast",
+        "file": "anime-battle-arena-money-fast"
+      },
+      {
+        "slug": "anime-battle-arena-prestige",
+        "file": "anime-battle-arena-prestige"
+      },
+      {
+        "slug": "anime-battle-arena-tips-and-tricks-beginners",
+        "file": "anime-battle-arena-tips-and-tricks-beginners"
+      },
+      {
+        "slug": "anime-battle-arena-update",
+        "file": "anime-battle-arena-update"
+      }
+    ],
+    "music": [
+      {
+        "slug": "anime-battle-arena-music",
+        "file": "anime-battle-arena-music"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "anime-battle-arena-all-skins",
+        "file": "anime-battle-arena-all-skins"
+      },
+      {
+        "slug": "anime-battle-arena-legendary-skins",
+        "file": "anime-battle-arena-legendary-skins"
+      },
+      {
+        "slug": "anime-battle-arena-skins",
+        "file": "anime-battle-arena-skins"
+      }
+    ],
+    "tierlist": [
+      {
+        "slug": "anime-battle-arena-2v2-characters",
+        "file": "anime-battle-arena-2v2-characters"
+      },
+      {
+        "slug": "anime-battle-arena-best-characters",
+        "file": "anime-battle-arena-best-characters"
+      },
+      {
+        "slug": "anime-battle-arena-broken-characters",
+        "file": "anime-battle-arena-broken-characters"
+      },
+      {
+        "slug": "anime-battle-arena-ranged-characters",
+        "file": "anime-battle-arena-ranged-characters"
+      },
+      {
+        "slug": "anime-battle-arena-skill-chart",
+        "file": "anime-battle-arena-skill-chart"
+      },
+      {
+        "slug": "anime-battle-arena-tier-list",
+        "file": "anime-battle-arena-tier-list"
+      }
+    ]
+  },
+  "pt": {
+    "characters": [
+      {
+        "slug": "anime-battle-arena-aizen",
+        "file": "anime-battle-arena-aizen"
+      },
+      {
+        "slug": "anime-battle-arena-akaza",
+        "file": "anime-battle-arena-akaza"
+      },
+      {
+        "slug": "anime-battle-arena-baam",
+        "file": "anime-battle-arena-baam"
+      },
+      {
+        "slug": "anime-battle-arena-characters",
+        "file": "anime-battle-arena-characters"
+      },
+      {
+        "slug": "anime-battle-arena-chihiro-rokuhira",
+        "file": "anime-battle-arena-chihiro-rokuhira"
+      },
+      {
+        "slug": "anime-battle-arena-gojo",
+        "file": "anime-battle-arena-gojo"
+      },
+      {
+        "slug": "anime-battle-arena-mahito",
+        "file": "anime-battle-arena-mahito"
+      },
+      {
+        "slug": "anime-battle-arena-reigen",
+        "file": "anime-battle-arena-reigen"
+      },
+      {
+        "slug": "anime-battle-arena-rimuru",
+        "file": "anime-battle-arena-rimuru"
+      },
+      {
+        "slug": "anime-battle-arena-star-platinum",
+        "file": "anime-battle-arena-star-platinum"
+      },
+      {
+        "slug": "anime-battle-arena-yuta",
+        "file": "anime-battle-arena-yuta"
+      },
+      {
+        "slug": "anime-battle-arena-zuko",
+        "file": "anime-battle-arena-zuko"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "anime-battle-arena-codes",
+        "file": "anime-battle-arena-codes"
+      }
+    ],
+    "combos": [
+      {
+        "slug": "anime-battle-arena-1v1",
+        "file": "anime-battle-arena-1v1"
+      },
+      {
+        "slug": "anime-battle-arena-2v2",
+        "file": "anime-battle-arena-2v2"
+      },
+      {
+        "slug": "anime-battle-arena-combo-guide",
+        "file": "anime-battle-arena-combo-guide"
+      },
+      {
+        "slug": "anime-battle-arena-combos",
+        "file": "anime-battle-arena-combos"
+      },
+      {
+        "slug": "anime-battle-arena-downslam",
+        "file": "anime-battle-arena-downslam"
+      },
+      {
+        "slug": "anime-battle-arena-how-to-get-out-of-combo",
+        "file": "anime-battle-arena-how-to-get-out-of-combo"
+      },
+      {
+        "slug": "anime-battle-arena-ranked",
+        "file": "anime-battle-arena-ranked"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-battle-arena-beginner-guide",
+        "file": "anime-battle-arena-beginner-guide"
+      },
+      {
+        "slug": "anime-battle-arena-console",
+        "file": "anime-battle-arena-console"
+      },
+      {
+        "slug": "anime-battle-arena-controls",
+        "file": "anime-battle-arena-controls"
+      },
+      {
+        "slug": "anime-battle-arena-guide",
+        "file": "anime-battle-arena-guide"
+      },
+      {
+        "slug": "anime-battle-arena-maps",
+        "file": "anime-battle-arena-maps"
+      },
+      {
+        "slug": "anime-battle-arena-mobile",
+        "file": "anime-battle-arena-mobile"
+      },
+      {
+        "slug": "anime-battle-arena-money-fast",
+        "file": "anime-battle-arena-money-fast"
+      },
+      {
+        "slug": "anime-battle-arena-prestige",
+        "file": "anime-battle-arena-prestige"
+      },
+      {
+        "slug": "anime-battle-arena-tips-and-tricks-beginners",
+        "file": "anime-battle-arena-tips-and-tricks-beginners"
+      },
+      {
+        "slug": "anime-battle-arena-update",
+        "file": "anime-battle-arena-update"
+      }
+    ],
+    "music": [
+      {
+        "slug": "anime-battle-arena-music",
+        "file": "anime-battle-arena-music"
+      }
+    ],
+    "skins": [
+      {
+        "slug": "anime-battle-arena-all-skins",
+        "file": "anime-battle-arena-all-skins"
+      },
+      {
+        "slug": "anime-battle-arena-legendary-skins",
+        "file": "anime-battle-arena-legendary-skins"
+      },
+      {
+        "slug": "anime-battle-arena-skins",
+        "file": "anime-battle-arena-skins"
+      }
+    ],
+    "tierlist": [
+      {
+        "slug": "anime-battle-arena-2v2-characters",
+        "file": "anime-battle-arena-2v2-characters"
+      },
+      {
+        "slug": "anime-battle-arena-best-characters",
+        "file": "anime-battle-arena-best-characters"
+      },
+      {
+        "slug": "anime-battle-arena-broken-characters",
+        "file": "anime-battle-arena-broken-characters"
+      },
+      {
+        "slug": "anime-battle-arena-ranged-characters",
+        "file": "anime-battle-arena-ranged-characters"
+      },
+      {
+        "slug": "anime-battle-arena-skill-chart",
+        "file": "anime-battle-arena-skill-chart"
+      },
+      {
+        "slug": "anime-battle-arena-tier-list",
+        "file": "anime-battle-arena-tier-list"
+      }
+    ]
+  }
+}

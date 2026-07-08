@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "コード",
+    "tierlist": "ティアリスト",
+    "characters": "キャラクター",
+    "combos": "コンボ",
+    "guide": "ガイド",
+    "skins": "スキン",
+    "music": "音楽"
+  }
+}

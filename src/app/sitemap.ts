@@ -7,28 +7,26 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.animebattlearena.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（与 navigation.ts NAVIGATION_CONFIG 一一对应）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'codes': 0.9,
+	'tierlist': 0.9,
+	'characters': 0.9,
+	'combos': 0.8,
+	'guide': 0.8,
+	'skins': 0.7,
+	'music': 0.6,
 }
 
-// 内容更新频率配置
+// 内容更新频率配置（与 navigation.ts NAVIGATION_CONFIG 一一对应）
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'codes': 'daily',
+	'tierlist': 'weekly',
+	'characters': 'weekly',
+	'combos': 'weekly',
+	'guide': 'weekly',
+	'skins': 'monthly',
+	'music': 'monthly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
