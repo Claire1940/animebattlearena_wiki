@@ -1,36 +1,84 @@
 "use client";
 
-import { useMemo } from "react";
-import { ExternalLink } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import { Play, ExternalLink } from "lucide-react";
 
 interface VideoFeatureProps {
   videoId: string;
   title: string;
 }
 
+/**
+ * 视频区域：进入视口时自动播放，点击播放按钮作为后备。
+ * - IntersectionObserver 监测容器进入视口后加载 iframe（autoplay=1&mute=1&loop=1）
+ * - 未激活时展示 YouTube 缩略图 + 播放按钮，点击也可激活
+ */
 export function VideoFeature({ videoId, title }: VideoFeatureProps) {
-  const watchUrl = useMemo(
-    () => `https://www.youtube.com/watch?v=${videoId}`,
-    [videoId],
-  );
+  const [active, setActive] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
 
-  const embedUrl = useMemo(
-    () =>
-      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`,
-    [videoId],
-  );
+  const watchUrl = `https://www.youtube.com/watch?v=${videoId}`;
+  const posterUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+  const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&playsinline=1&rel=0`;
+
+  useEffect(() => {
+    if (active) return;
+    const node = containerRef.current;
+    if (!node || typeof IntersectionObserver === "undefined") return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            setActive(true);
+            observer.disconnect();
+            break;
+          }
+        }
+      },
+      { rootMargin: "200px", threshold: 0.25 },
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [active]);
 
   return (
     <div className="space-y-4">
-      <div className="relative w-full overflow-hidden rounded-lg" style={{ paddingBottom: "56.25%" }}>
-        <iframe
-          className="absolute top-0 left-0 w-full h-full"
-          src={embedUrl}
-          title={title}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
+      <div
+        ref={containerRef}
+        className="relative w-full overflow-hidden rounded-lg bg-black"
+        style={{ paddingBottom: "56.25%" }}
+      >
+        {active ? (
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src={embedUrl}
+            title={title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        ) : (
+          <button
+            type="button"
+            onClick={() => setActive(true)}
+            className="group absolute inset-0 h-full w-full"
+            aria-label={`Play ${title}`}
+          >
+            <img
+              src={posterUrl}
+              alt={title}
+              loading="lazy"
+              className="h-full w-full object-cover opacity-90 transition-opacity group-hover:opacity-100"
+            />
+            <span className="absolute inset-0 flex items-center justify-center">
+              <span className="flex h-16 w-16 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.9)] text-white shadow-lg transition-transform group-hover:scale-110">
+                <Play className="h-7 w-7 translate-x-0.5 fill-white" />
+              </span>
+            </span>
+          </button>
+        )}
       </div>
 
       <div className="flex justify-center">

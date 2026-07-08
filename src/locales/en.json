@@ -52,728 +52,577 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Anime Battle Arena Gameplay",
+    "description": "Anime Battle Arena is a Roblox PvP arena fighter where players pick anime-inspired characters, chain combos, block, dodge, transform, and climb casual or ranked battles."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Anime Battle Arena",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need for ABA codes, characters, combos, ranked play, and updates",
     "cards": [
       {
+        "icon": "Gift",
+        "title": "Anime Battle Arena Codes",
+        "description": "Active codes, expired list, and where rewards appear"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Anime Battle Arena Beginner Guide",
+        "description": "Controls, movement, attacks, and transformations"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Trophy",
+        "title": "Anime Battle Arena Tier List",
+        "description": "Ranked character picks for 1v1 and team fights"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Users",
+        "title": "Anime Battle Arena Characters and Moves",
+        "description": "Movesets, skills, awakenings, and roles"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Keyboard",
+        "title": "Anime Battle Arena Combos and Controls",
+        "description": "M1 strings, aerials, dodging, and combo habits"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Swords",
+        "title": "Anime Battle Arena Ranked and PvP",
+        "description": "Spacing, punishment, and matchup strategy"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "ShoppingBag",
+        "title": "Anime Battle Arena Skins and Gamepasses",
+        "description": "Cosmetics, store items, and gamepass unlocks"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Bell",
+        "title": "Anime Battle Arena Updates and Discord",
+        "description": "New characters, reworks, and update sources"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "abaCodes": {
+      "title": "Anime Battle Arena Codes",
+      "intro": "Anime Battle Arena does not list active public redeem codes on its official Roblox experience page. This section is built for players who search for ABA codes first and want a fast answer before checking gameplay guides.",
+      "items": [
+        {
+          "code": "No active public ABA codes",
+          "status": "No active code",
+          "reward": "No redeem reward listed",
+          "description": "The official ABA Roblox page currently lists controls, credits, and game information, but no active public redeem code."
+        },
+        {
+          "code": "No expired codes listed",
+          "status": "Expired codes",
+          "reward": "None",
+          "description": "There are no official expired ABA codes listed on the game page."
+        },
+        {
+          "code": "Official Roblox page",
+          "status": "Best place to check",
+          "reward": "Game updates and description changes",
+          "description": "The ABA Roblox page is the main place to verify whether new code instructions or reward systems are added."
+        },
+        {
+          "code": "Dogs Studios: South",
+          "status": "Official community",
+          "reward": "Developer and community updates",
+          "description": "The Roblox community page for Dogs Studios: South is the safest place to follow ABA-related creator updates."
+        }
+      ]
+    },
+    "abaBeginnerGuide": {
+      "title": "How to Start Playing Anime Battle Arena",
+      "intro": "Anime Battle Arena is a Roblox arena fighting game by Dogs Studios: South. New players should first learn movement, M1 attacks, blocking, dodging, aerial attacks, special moves, and transformation timing before focusing on advanced ranked matchups.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "step": 1,
+          "title": "Join the ABA experience",
+          "description": "Open ABA on Roblox and enter a match or training-style environment to test movement before playing serious fights."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "step": 2,
+          "title": "Learn the movement keys first",
+          "description": "Movement decides whether you can start combos or avoid enemy pressure.",
+          "controls": [
+            { "input": "Shift", "action": "Sprint" },
+            { "input": "Q", "action": "Dodge" },
+            { "input": "F", "action": "Block" }
+          ]
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "step": 3,
+          "title": "Practice basic attacks",
+          "description": "Use basic attacks to begin pressure, extend combos, and force opponents to react.",
+          "controls": [
+            { "input": "Mouse1", "action": "Basic attack" },
+            { "input": "Space + Mouse1", "action": "Aerial attack" }
+          ]
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "step": 4,
+          "title": "Use character special moves",
+          "description": "Each character uses four main special moves. Learn what each move does before trying long combos.",
+          "controls": [
+            { "input": "1", "action": "Special move 1" },
+            { "input": "2", "action": "Special move 2" },
+            { "input": "3", "action": "Special move 3" },
+            { "input": "4", "action": "Special move 4" }
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Save transformation for pressure",
+          "description": "Transformation can change the pace of a fight, so use it when you can safely pressure, finish a stock, or turn a close round.",
+          "controls": [
+            { "input": "G", "action": "Transformation" }
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Build simple combos before ranked",
+          "description": "Start with basic attacks, aerial attacks, and one or two special moves. After that, practice uptilts, ladders, and move-stacking from combo guide videos."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Sprint with Shift to control spacing before starting a fight.",
+        "Save dodge for dangerous moments instead of spamming it.",
+        "Block predictable attacks with F before counterattacking.",
+        "Practice one character long enough to remember move ranges and cooldowns."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "abaTierList": {
+      "title": "Anime Battle Arena Tier List",
+      "intro": "ABA has a large roster, and character strength depends on pressure tools, combo safety, guard breaks, awakenings, matchups, and current ranked usage. This tier list focuses on practical character picks players commonly search for when choosing a main.",
+      "tiers": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "tier": "S",
+          "label": "Top ranked picks",
+          "description": "Strong choices with high pressure, strong punish potential, or reliable matchup value.",
+          "characters": [
+            "Broly (Legacy)",
+            "Satoru Gojo (Legacy)",
+            "Yuji Itadori",
+            "Krillin",
+            "Big Mom",
+            "Aokiji",
+            "Jolyne Cujoh",
+            "Asta",
+            "Trafalgar Law",
+            "Shanks"
+          ]
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "tier": "A",
+          "label": "Strong competitive picks",
+          "description": "Very useful characters for ranked and casual PvP when played with solid combo timing.",
+          "characters": [
+            "Luffy (Pre-Timeskip)",
+            "Ichigo",
+            "Kakashi",
+            "Coyote Starrk",
+            "Future Trunks",
+            "Natsu",
+            "Sanji (Timeskip)",
+            "Accelerator",
+            "Mash Kyrielight",
+            "Whitebeard",
+            "Illya",
+            "Gilgamesh",
+            "Guts",
+            "Ryuko Matoi",
+            "Joseph Joestar",
+            "Sinon",
+            "Satsuki Kiryuin",
+            "Aizen",
+            "Illumi",
+            "Kirito",
+            "Vegeta (Android Saga)",
+            "Zoro (Pre-Timeskip)",
+            "Vegito",
+            "Might Guy",
+            "Byakuya",
+            "Yoruichi",
+            "Kisuke",
+            "Hisoka",
+            "Afro Samurai",
+            "Yusuke Urameshi",
+            "Ishtar",
+            "Misaka Mikoto",
+            "Tokita Ohma"
+          ]
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "tier": "B",
+          "label": "Good playable picks",
+          "description": "Solid characters that can win consistently with matchup knowledge and clean execution.",
+          "characters": [
+            "GOD Usopp",
+            "Shinji",
+            "Giorno Giovanna",
+            "Endeavor",
+            "Goku (Buu Saga)",
+            "Neji",
+            "Vegeta (Majin)",
+            "Luffy (Timeskip)",
+            "Broly",
+            "Enel",
+            "Kizaru",
+            "Itachi",
+            "Saitama",
+            "Jonathan Joestar",
+            "Sanji (Pre-Timeskip)",
+            "Sasuke",
+            "Deku",
+            "Gin",
+            "Edo Madara",
+            "Killua",
+            "Toshiro",
+            "Shisui",
+            "Ulquiorra",
+            "Kyojuro Rengoku",
+            "Rikka Takanashi",
+            "Sasuke (Shippuden)",
+            "Pain",
+            "Zoro (Timeskip)",
+            "Tobi",
+            "Akainu",
+            "Zamasu (Fused)",
+            "Goku Black",
+            "Crocodile",
+            "Gohan (Teen)",
+            "Shunsui",
+            "Caulifla",
+            "Kiritsugu",
+            "Gray Fullbuster",
+            "Frieza",
+            "Naruto",
+            "Zabuza",
+            "Naruto (Shippuden)",
+            "Minato (4th Hokage)",
+            "Grimmjow",
+            "Ichigo (Hollow Mask)",
+            "Satoru Gojo",
+            "Tenya Iida",
+            "Lemillion",
+            "Yoshikage Kira",
+            "Doppio",
+            "Chika Fujiwara",
+            "Saber"
+          ]
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "tier": "C",
+          "label": "Situational picks",
+          "description": "Characters that need more matchup knowledge, better spacing, or careful cooldown use.",
+          "characters": [
+            "Jotaro Kujo",
+            "Dio Brando",
+            "All Might",
+            "Piccolo",
+            "Ace",
+            "Goku (Namek)",
+            "Zenitsu",
+            "Rukia",
+            "Yamamoto",
+            "Achilles",
+            "Rock Lee",
+            "Tanjiro",
+            "Hiei",
+            "Gaara",
+            "Shirou Emiya",
+            "Cu Chulainn"
+          ]
+        },
+        {
+          "tier": "D",
+          "label": "Advanced picks",
+          "description": "Characters that ask for more matchup knowledge before they feel consistent in ranked.",
+          "characters": [
+            "Asuna Yuuki",
+            "Bakugou",
+            "Iskander",
+            "Kazuma",
+            "Gon",
+            "Todoroki"
+          ]
         }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "abaCharactersAndMoves": {
+      "title": "Anime Battle Arena Characters and Moves Guide",
+      "intro": "Every ABA character is built around basic attacks, four special moves, aerial pressure, blocking, dodging, and transformation. The best character for a player depends on combo comfort, matchup style, awakening value, and how easily the player can land the first hit.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "title": "Core move structure",
+          "type": "mechanic",
+          "description": "ABA characters use basic attacks, aerial attacks, four special moves, and a transformation key. This gives every fighter a clear base structure before character-specific tech is added.",
+          "inputs": ["Mouse1", "Space + Mouse1", "1", "2", "3", "4", "G"]
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "title": "Blocking and dodging",
+          "type": "mechanic",
+          "description": "Defense is built around blocking with F and dodging with Q. New players should practice when to block pressure and when to dodge out of unsafe situations.",
+          "inputs": ["F", "Q"]
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "title": "Combo starters",
+          "type": "mechanic",
+          "description": "Most characters need clean basic-attack hits before dealing strong damage. M1 pressure, aerial attacks, uptilts, and move-stacking are important for turning one hit into a full combo.",
+          "inputs": ["Mouse1", "Space + Mouse1"]
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "title": "Transformation timing",
+          "type": "mechanic",
+          "description": "Transformation is activated with G and should be used when the player can safely force pressure, extend a lead, or finish a round.",
+          "inputs": ["G"]
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "title": "Aizen",
+          "type": "character",
+          "description": "Aizen is a popular Bleach roster pick with rework-focused guide content. Players searching Aizen usually want move order, pressure timing, and how to use his larger reworked kit.",
+          "recommendedFor": [
+            "Bleach fans",
+            "Players who like technical kits",
+            "Players who want strong character-specific tech"
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "title": "Nanami",
+          "type": "character",
+          "description": "Nanami guide content focuses on using every skill, sequencing attacks, and applying ranked pressure. He is a good character page target because players often search for exact skill usage.",
+          "recommendedFor": [
+            "Jujutsu Kaisen fans",
+            "Players who want a focused skill guide",
+            "Players practicing ranked matchups"
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "title": "Aoi Todo",
+          "type": "character",
+          "description": "Aoi Todo guide content focuses on timing, skill use, and Black Flash execution. This makes him useful for a dedicated character card with combo notes and matchup tips.",
+          "recommendedFor": [
+            "Jujutsu Kaisen fans",
+            "Players practicing timing-based moves",
+            "Players who want character-specific combo notes"
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "abaCombosAndControls": {
+      "title": "Anime Battle Arena Combos and Controls",
+      "intro": "Anime Battle Arena is built around basic attacks, aerial attacks, dodging, blocking, four character skills, and transformations. Start by learning the official controls first, then practice how M1 strings and aerial attacks connect into longer combos.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "step": 1,
+          "title": "Learn the basic movement keys",
+          "input": "Shift",
+          "description": "Use Shift to sprint and control spacing before starting a fight. Sprinting helps you enter attack range, back away from pressure, and reposition after using a move.",
+          "practiceGoal": "Move in and out of M1 range without wasting dodge."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "step": 2,
+          "title": "Use M1 as your combo starter",
+          "input": "Mouse1",
+          "description": "Basic Attack is Mouse1. M1 strings are the foundation of most ABA combos because they create hit-stun and give you time to connect a special move.",
+          "practiceGoal": "Practice landing M1 hits before using skills 1, 2, 3, or 4."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "step": 3,
+          "title": "Add aerial attacks",
+          "input": "Space + Mouse1",
+          "description": "Aerial Attack uses Space plus Mouse1. The Roblox game description directly tells players to combine Basic Attacks and Aerial Attacks to discover new combos.",
+          "practiceGoal": "Practice launching an opponent upward after a grounded M1 string."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "step": 4,
+          "title": "Use dodge to escape pressure",
+          "input": "Q",
+          "description": "Dodge is mapped to Q. Save it for dangerous moments instead of using it randomly, because a wasted dodge makes you easier to punish.",
+          "practiceGoal": "Dodge after recognizing an enemy approach or missed move."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "step": 5,
+          "title": "Block before counterattacking",
+          "input": "F",
+          "description": "Block is mapped to F. Blocking helps you survive predictable attacks and creates chances to punish when the opponent finishes a move.",
+          "practiceGoal": "Block first, then answer with M1 or a fast special move."
+        },
+        {
+          "step": 6,
+          "title": "Connect special moves after confirmed hits",
+          "input": "1, 2, 3, 4",
+          "description": "Each character uses keys 1, 2, 3, and 4 for special moves. These skills work best when used after a confirmed hit instead of being thrown out at random.",
+          "practiceGoal": "Use one special move only after your M1 or aerial attack connects."
+        },
+        {
+          "step": 7,
+          "title": "Transform when the timing is safe",
+          "input": "G",
+          "description": "Transformation is mapped to G. Transform when you have space, after a knockback, or when the opponent cannot immediately punish you.",
+          "practiceGoal": "Avoid transforming while standing directly in front of an active opponent."
+        }
+      ]
+    },
+    "abaRankedAndPvp": {
+      "title": "Anime Battle Arena Ranked and PvP Guide",
+      "intro": "ABA fights reward players who control space, wait for openings, and avoid wasting defensive tools. Ranked and PvP become easier when you stop throwing moves randomly and start building each exchange around block, dodge, M1 confirms, and safe special-move timing.",
+      "faqs": [
+        {
+          "question": "What should I focus on before playing ranked in Anime Battle Arena?",
+          "answer": "Master the official ABA controls first: Shift to sprint, Q to dodge, F to block, Mouse1 for basic attacks, Space plus Mouse1 for aerial attacks, 1-4 for special moves, and G for transformation.",
+          "keyPoints": [
+            "Know every input before queuing ranked.",
+            "Practice one character long enough to remember move range and cooldown rhythm.",
+            "Use M1 and aerial attacks as your main combo practice tools."
+          ]
+        },
+        {
+          "question": "How do I win more 1v1 fights in Anime Battle Arena?",
+          "answer": "Play around spacing and punishment in ABA. Move just outside the opponent's attack range, wait for them to miss, then answer with M1 or a fast special move.",
+          "keyPoints": [
+            "Do not open every fight with a special move.",
+            "Block predictable attacks with F.",
+            "Use Q only when you need to escape pressure."
+          ]
+        },
+        {
+          "question": "How should I approach 2v2 fights in Anime Battle Arena?",
+          "answer": "In ABA 2v2, avoid fighting alone for too long. Stay close enough to help your teammate, punish enemies who overextend, and avoid using all moves at the same time as your partner.",
+          "keyPoints": [
+            "Focus the same target when possible.",
+            "Save one defensive option for enemy follow-up pressure.",
+            "Do not chase so far that your teammate becomes isolated."
+          ]
+        },
+        {
+          "question": "What makes a character good in Anime Battle Arena PvP?",
+          "answer": "Strong ABA PvP characters usually have reliable M1 follow-ups, safe pressure, useful mobility, and special moves that can punish mistakes. The best pick still depends on the player's comfort and matchup knowledge.",
+          "keyPoints": [
+            "Reliable confirms matter more than flashy moves.",
+            "Short recovery moves are safer in close fights.",
+            "Transformation timing can change a losing fight."
+          ]
+        },
+        {
+          "question": "How do I punish better in Anime Battle Arena?",
+          "answer": "Punish in ABA after the enemy misses, finishes a blocked move, or wastes dodge. Start with a simple M1 confirm, then connect one special move instead of trying to force a full combo every time.",
+          "keyPoints": [
+            "Watch for missed attacks.",
+            "Block first when the enemy is predictable.",
+            "Use simple confirmed damage before learning advanced strings."
+          ]
+        }
+      ]
+    },
+    "abaSkinsAndGamepasses": {
+      "title": "Anime Battle Arena Skins and Gamepasses",
+      "intro": "The official ABA Roblox page includes a Store tab and highlights store-related updates such as JJK Gamepass + Legacy and skins. Use this section to separate cosmetic items from unlocks that may affect the characters or content you can access.",
+      "items": [
+        {
+          "feature": "JJK Gamepass + Legacy",
+          "category": "Gamepass / event store item",
+          "whatItDoes": "Appears as an official ABA store and event highlight on the Roblox listing.",
+          "playerValue": "Useful for players checking new premium content connected to recent ABA updates.",
+          "beforeYouBuy": "Open the Roblox Store tab and confirm the exact unlocks shown in-game."
+        },
+        {
+          "feature": "Skins",
+          "category": "Cosmetic",
+          "whatItDoes": "Skins change how characters look and are commonly tied to update drops or store content.",
+          "playerValue": "Best for players who already like a character and want a different appearance.",
+          "beforeYouBuy": "Check whether the skin is only visual or connected to a specific character unlock."
+        },
+        {
+          "feature": "Character access unlocks",
+          "category": "Gameplay access",
+          "whatItDoes": "Some premium items in ABA may be tied to access for specific characters or legacy content.",
+          "playerValue": "Most useful when the unlocked character fits your playstyle or ranked goals.",
+          "beforeYouBuy": "Confirm the character name, pack name, and Robux price inside Roblox before purchase."
+        },
+        {
+          "feature": "Roblox Store tab",
+          "category": "Official purchase area",
+          "whatItDoes": "The Roblox experience page provides the official Store area for ABA-related purchases.",
+          "playerValue": "The safest place to check current ABA items without relying on third-party listings.",
+          "beforeYouBuy": "Use only the official Roblox purchase flow."
+        },
+        {
+          "feature": "Update-linked cosmetics",
+          "category": "Limited update content",
+          "whatItDoes": "Recent update coverage shows ABA updates can include reworks, new characters, and skins.",
+          "playerValue": "Useful for players who follow new drops and want current cosmetics.",
+          "beforeYouBuy": "Check developer socials and the Roblox page after each update."
+        }
+      ]
+    },
+    "abaUpdatesAndDiscord": {
+      "title": "Anime Battle Arena Updates and Discord",
+      "intro": "ABA players usually check updates through the Roblox game page, the Dogs Studios: South community page, developer social accounts, and YouTube update coverage. This timeline gives users a clean path for finding new characters, reworks, balance changes, skins, and store updates.",
+      "entries": [
+        {
+          "label": "Official game page",
+          "title": "Roblox ABA listing",
+          "summary": "The Roblox page is the core source for the live experience, official controls, Store tab, Servers tab, and developer credits.",
+          "source": "Roblox ABA page"
+        },
+        {
+          "label": "Official community",
+          "title": "Dogs Studios: South",
+          "summary": "ABA is published under Dogs Studios: South on Roblox. Players can use the Roblox community page to check the creator group connected to the game.",
+          "source": "Roblox community page"
+        },
+        {
+          "label": "Store update",
+          "title": "JJK Gamepass + Legacy",
+          "summary": "The Roblox listing highlights JJK Gamepass + Legacy as store and event content, along with new content and skins.",
+          "source": "Roblox ABA page"
+        },
+        {
+          "label": "Recent update coverage",
+          "title": "Itadori, Itachi rework, and skins",
+          "summary": "Recent YouTube update coverage focuses on Itadori, an Itachi rework, skins, and other ABA update content.",
+          "source": "YouTube update video"
+        },
+        {
+          "label": "Developer socials",
+          "title": "Chicken_ManRBLX and SnakeWorl",
+          "summary": "The official Roblox description credits developers including Chicken_Man and SnakeWorl, making their X profiles useful places to monitor developer-side update signals.",
+          "source": "X developer profiles"
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Anime Battle Arena",
+    "titleHighlight": "FAQ",
+    "subtitle": "Common questions about Anime Battle Arena codes, characters, combos, and ranked play on Roblox",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Anime Battle Arena?",
+        "answer": "Anime Battle Arena (ABA) is a Roblox PvP arena fighter by Dogs Studios: South where players pick anime-inspired characters, use M1 combos, special moves, blocks, dodges, and transformations to win casual or ranked fights."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Are there any active Anime Battle Arena codes?",
+        "answer": "Anime Battle Arena does not currently list active public redeem codes on its official Roblox page. Check the ABA Roblox page and Dogs Studios: South community page for any future reward or code announcements."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How do I unlock more characters in Anime Battle Arena?",
+        "answer": "Anime Battle Arena characters are accessed through gameplay, store items, and gamepass-related unlocks. Check the Roblox Store tab on the ABA page to see which characters or packs are currently available."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What are the basic controls in Anime Battle Arena?",
+        "answer": "Anime Battle Arena uses Shift to sprint, Q to dodge, F to block, Mouse1 for basic attacks, Space plus Mouse1 for aerial attacks, 1-4 for special moves, and G for transformation."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Does Anime Battle Arena have ranked mode?",
+        "answer": "Yes. Anime Battle Arena supports ranked and PvP fights, including 1v1 and team formats. Focus on spacing, punishment, and safe special-move timing to climb the ABA ranked ladder."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where can I follow Anime Battle Arena updates?",
+        "answer": "Follow Anime Battle Arena updates through the Roblox game page, the Dogs Studios: South community page, developer X profiles like Chicken_ManRBLX and SnakeWorl, and YouTube update coverage."
       }
     ]
   },
@@ -799,127 +648,5 @@
     "copyrightNotice": "Copyright",
     "copyright": "© 2026 Anime Battle Arena Wiki. Not affiliated with the developers of Anime Battle Arena or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
-  },
-  "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
-    }
   }
 }
