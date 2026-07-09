@@ -1,0 +1,148 @@
+import { Swords, Trophy, Target, Shield, Sparkles, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "DIO no Anime Battle Arena: Guia de Movimentos, Combos e Despertar",
+  description: "Domine o DIO no Anime Battle Arena. Aprenda seu conjunto de movimentos básicos completo, o despertar Greatest High, combos mortais de hit único e estratégias essenciais de Stardust Crusaders.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=DIO+Character+Guide",
+  date: "2026-07-09",
+  author: "Equipe da Wiki do Anime Battle Arena"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Personagem Principal**: DIO (Dio Brando da Parte 3 de JJBA) é um personagem premium que custa **250 Robux** no Pacote JoJo's Bizarre Adventure.
+- **Mecânica Chave**: O Poder do Stand substitui os ataques M1 normais pelos **M1s do The World**, concedendo um alcance ligeiramente maior, mas adicionando um único frame de inicialização no primeiro golpe.
+- **Melhor Estratégia**: Confie no **Time Shift** para quebrar a guarda de oponentes defensivos, e em seguida, emende com combos de alto dano de Stand Rush ou Knives (Facas).
+- **Dica Crítica**: Durante o seu despertar **Greatest High**, DIO pode parar o tempo até duas vezes, dominando completamente o campo de batalha.
+- **Melhor Escolha**: Ideal para jogadores que amam estilos de jogo agressivos e de pressão (rushdown), com habilidades de drenagem de vida de alto risco e alta recompensa.
+</Callout>
+
+<Section icon={Swords} title="Conjunto de Movimentos Básicos do DIO no Anime Battle Arena">
+
+DIO é um lutador agressivo no Anime Battle Arena (ABA) que se destaca em manter a pressão sobre seus oponentes por meio de golpes de stand de curto alcance com alto dano e perturbação com projéteis à distância. Ele é adquirido como parte do Pacote de Gamepass de JoJo, junto com Doppio/Diavolo.
+
+**Destaques do Vídeo:**
+- **Mecânicas do Stand Rush**: Aprenda a maximizar o dano de múltiplos acertos do The World.
+- **Extensores de Combo**: Veja como Knives (Facas) e Time Shift se encadeiam perfeitamente.
+- **Poder do Despertar**: Assista à destruição pura da transformação Greatest High em partidas PvP reais.
+
+<YouTubeEmbed videoId="qsbeeQD4NNw" title="A Dupla de Dragon Ball Super | Anime Battle Arena" />
+
+Entender seu kit básico é crucial para carregar sua barra de despertar. Aqui está uma análise do conjunto de movimentos básicos do DIO:
+
+| Nome do Movimento | Comando | Dano | Interação com Guarda | Tempo de Recarga | Descrição |
+|---|---|---|---|---|---|
+| **Stand Rush** | 1 | **31 de Dano** | Bloqueável | 20 Segundos | O The World desfere uma rápida sequência de socos que termina com um golpe de forte repulsão. |
+| **Knives** | 2 | **18 de Dano** | Bloqueável | 10 Segundos | Lança 3 facas para a frente. Funciona como um excelente extensor de combo de longo alcance. |
+| **Time Shift** | 3 | **20 de Dano** | **Quebra de Guarda** | 19 Segundos | Para o tempo brevemente para socar o oponente, mandando-o longe assim que o tempo é retomado. |
+| **Absorb** | 4 | **10 de Dano** | **Ignora Guarda** | 15 Segundos | Avança para agarrar o inimigo, drenando sua vida e curando o DIO em 10 de HP. |
+
+<Callout type="tip" title="Dica de Posicionamento Profissional">
+Como o Absorb é um agarrão que ignora o bloqueio, use-o quando seu oponente estiver defendendo com o escudo. Se errar, esquive-se imediatamente para evitar ser punido durante a animação de erro.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="The Greatest High: Guia do Despertar">
+
+Quando a barra de despertar de DIO está totalmente carregada, ele se transforma em sua forma suprema: **Greatest High**. Neste estado, DIO ganha regeneração de vida passiva, aumento no dano do M1 e acesso aos lendários **Road Roller** e **Za Warudo**.
+
+| Nome do Movimento | Dano | Interação com Guarda | Tempo de Recarga | Propriedades Especiais |
+|---|---|---|---|---|---|
+| **Ataques M1** | **5.1 por golpe** | Bloqueável | N/A | Substituídos por M1s de Stand com zero frames de inicialização e alcance estendido. |
+| **Finishing Kick** | **30 de Dano** | **Quebra de Guarda** | 15 Segundos | Um chute pesado e brutal que quebra escudos e prepara combos de acompanhamento. |
+| **Road Roller** | **55 de Dano** | Bloqueável | 18 Segundos | DIO joga um rolo compressor pesado sobre seu oponente, esmurrando-o para causar um enorme dano em área. |
+| **Za Warudo** | N/A | **Ignora Guarda** | Duas Vezes por Modo | Para o tempo globalmente por 3 segundos, permitindo movimentação e ataques livres. |
+
+<CardGrid cols={3}>
+  <Card title="Cura Passiva">
+    DIO ganha a passiva **Greatest High**, regenerando **1 de HP por segundo** automaticamente durante toda a duração de 60 segundos do despertar.
+  </Card>
+  <Card title="Mobilidade Aprimorada">
+    Suas esquivas rápidas padrão são substituídas por **Time Stop Dashes**, permitindo que ele se teletransporte instantaneamente por curtas distâncias para encurtar o espaço.
+  </Card>
+  <Card title="Parada de Tempo Dupla">
+    Ao contrário de Jotaro, a parada de tempo de DIO é ligeiramente mais curta, mas pode ser ativada **até duas vezes** por ciclo de despertar.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gerenciamento do Despertar">
+Não desperdice suas ativações do Za Warudo quando o oponente estiver muito longe. Como a parada de tempo dura apenas 3 segundos, você precisa estar perto o suficiente para iniciar imediatamente um combo de alto dano.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Combos do DIO Passo a Passo">
+
+Para ter sucesso com o DIO em lobbies competitivos do Anime Battle Arena, você deve dominar suas estruturas de combo. Abaixo estão as sequências passo a passo tanto para a forma básica quanto para a forma despertada.
+
+<Steps>
+  <Step num="1" title="Forma Básica: O Iniciador de Quebra de Guarda">
+    Aproxime-se do oponente e use **Time Shift** para estourar o bloqueio dele. Isso o deixará atordoado e vulnerável a um acompanhamento.
+  </Step>
+  <Step num="2" title="Forma Básica: A Drenagem de Vida">
+    Siga imediatamente com o **Absorb** para drenar a vida dele, curando a si mesmo enquanto o mantém preso no lugar.
+  </Step>
+  <Step num="3" title="Forma Básica: Finalizador com Stand Rush">
+    Execute 4 golpes M1 básicos, depois cancele a repulsão final com o **Stand Rush** seguido por **Knives** enquanto eles voam longe para maximizar o dano.
+  </Step>
+  <Step num="4" title="Forma Despertada: A Parada de Tempo de Hit Único">
+    Ative o **Za Warudo** para congelar o oponente no lugar. Corra até ele e execute uma sequência completa de 4 golpes M1.
+  </Step>
+  <Step num="5" title="Forma Despertada: Finalização com Road Roller">
+    Enquanto ele ainda estiver congelado, execute o **Finishing Kick** para quebrar a guarda e, em seguida, ative instantaneamente o **Road Roller** para esmagá-lo assim que o tempo for retomado.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Otimização de Combo">
+Se você lançar as **Knives** logo antes de ativar o **Time Shift** na forma básica, as facas congelarão no ar e serão redirecionadas diretamente para o oponente quando o tempo for retomado, criando um ataque de projétil inevitável.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégias de Confronto e Contra-ataques">
+
+Jogar como DIO exige um equilíbrio entre pressão implacável e percepção defensiva. Use a lista de verificação a seguir para avaliar seu desempenho e garantir a vitória em suas partidas.
+
+<Checklist
+  id="dio-matchup-checklist"
+  title="Lista de Combate do DIO:"
+  items={[
+    "Sempre trave a mira no seu oponente antes de conjurar o Time Shift para garantir que o golpe registre",
+    "Use o Absorb imediatamente após um oponente errar um movimento de longo tempo de recarga para puni-lo",
+    "Não ative o Za Warudo em pânico quando estiver com pouca vida; use sua regeneração passiva primeiro",
+    "Gire rapidamente sua câmera para trás do inimigo logo após o Absorb para tentar um golpe M1 pelas costas impossível de bloquear"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quanto custa o DIO no Anime Battle Arena?",
+    answer: "DIO é um personagem premium que custa 250 Robux. Ele é adquirido como parte do Pacote de Gamepass de JoJo's Bizarre Adventure, que também inclui Doppio/Diavolo."
+  },
+  {
+    question: "O Time Shift do DIO pode ser bloqueado?",
+    answer: "Não. O Time Shift é uma quebra de guarda garantida. Se seu oponente estiver bloqueando, o Time Shift quebrará a guarda dele e o deixará completamente vulnerável a um combo completo."
+  },
+  {
+    question: "Quantas vezes o DIO pode parar o tempo durante o seu despertar?",
+    answer: "DIO pode parar o tempo até duas vezes por ciclo de despertar. Isso torna sua forma Greatest High incrivelmente perigosa se você gerenciar seus tempos de recarga adequadamente."
+  },
+  {
+    question: "Qual é a melhor maneira de contra-atacar a forma básica do DIO?",
+    answer: "A melhor maneira de contra-atacar o DIO é induzi-lo a errar o Absorb e o Time Shift. Ambos os movimentos têm animações distintas e um tempo de recuperação considerável, deixando-o totalmente vulnerável a contra-ataques caso ele erre."
+  }
+]} />
+
+</Section>

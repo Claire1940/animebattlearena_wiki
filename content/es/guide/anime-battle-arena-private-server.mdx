@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Servidor Privado de Anime Battle Arena: Guía de Partidas Personalizadas y Modos de Juego",
+  description: "Aprende cómo acceder y dominar el servidor privado de Anime Battle Arena. Descubre modos de juego personalizados, partidas temáticas y estrategias de prueba de personajes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Private+Server+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Anime Battle Arena",
+  keywords: "anime battle arena, servidor privado, partidas personalizadas, modos de juego, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los entornos del **servidor privado de Anime Battle Arena** permiten a los jugadores organizar partidas personalizadas y sin lag sin el emparejamiento de la cola pública.
+- Los **modos de juego personalizados**, como partidas temáticas, guerras de clones y configuraciones 2v2v1, solo pueden configurarse de manera efectiva en salas privadas.
+- La **prueba de personajes** está altamente optimizada en los servidores privados, lo que permite a los jugadores practicar modos Despertar (Awakening) y combos sin interrupciones.
+- Los **comandos de servidor** y controles administrativos ayudan a los anfitriones a gestionar las apariciones de jugadores, límites de HP y configuraciones de fuego amigo al instante.
+</Callout>
+
+<Section icon={Map} title="Introducción a las Partidas en Servidores Privados de Anime Battle Arena">
+
+Un **servidor privado de anime battle arena** ofrece el entorno sandbox perfecto para los jugadores que quieren escapar del caótico emparejamiento de las salas públicas. En un servidor privado, obtienes control total sobre las reglas del juego, la selección de mapas y los límites de participantes. Esto lo convierte en el destino principal para torneos competitivos, batallas temáticas de personajes y para probar complejos diagramas de flujo de combos con tus amigos. 
+
+Ya sea que estés intentando coordinar peleas de equipo de alto nivel o practicar tus maniobras evasivas, las salas privadas eliminan la naturaleza impredecible de las partidas públicas.
+
+**Puntos destacados del video:**
+- **Partidas Temáticas**: Mira a los jugadores coordinar batallas de equipo temáticas usando las nuevas adiciones al elenco.
+- **Gestión del Caos**: Observa cómo los jugadores manejan escenarios de múltiples equipos (2v2v1) e incidentes de fuego amigo.
+- **Exhibiciones de Despertar**: Observa los modos Despertar de alto daño en acción, incluyendo movimientos definitivos masivos.
+
+<YouTubeEmbed videoId="e8YSgyBwEvc" title="Partidas Temáticas en Servidores Privados con los Nuevos Personajes | Anime Battle Arena" />
+
+<Callout type="tip" title="Ventaja del Anfitrión">
+Como anfitrión de un servidor privado, comunica siempre las reglas de tus modos de juego personalizados en el chat antes de comenzar. Esto asegura que todos los jugadores seleccionen personajes compatibles para las peleas temáticas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Servidor Privado vs Emparejamiento Público">
+
+Elegir dónde jugar depende totalmente de tus objetivos actuales. Mientras que el emparejamiento público es excelente para subir de rango y ganar oro, los servidores privados destacan en la práctica estructurada, eventos comunitarios y reglas personalizadas. 
+
+A continuación se muestra una comparación directa de lo que puedes esperar entre estos dos entornos.
+
+| Característica | Servidores Privados | Emparejamiento Público |
+| :--- | :--- | :--- |
+| **Control del Jugador** | Control total del anfitrión sobre los jugadores | Emparejamiento automatizado |
+| **Reglas Personalizadas** | Activar fuego amigo, límites de HP | Solo reglas estándar de la arena |
+| **Selección de Mapas** | El anfitrión selecciona o banea mapas | Votación de mapas aleatoria |
+| **Lag y Ping** | Generalmente más bajo, más estable | Sujeto a servidores regionales |
+| **Progresión** | Ideal para práctica y pruebas | Gana XP, Oro y Rango |
+
+<CardGrid cols={3}>
+  <Card title="Scrims Competitivas">
+    - **Sin interferencia pública**
+    - Perfecto para batallas de clanes
+    - Aplicar reglamentos de torneos
+  </Card>
+  <Card title="Enfrentamientos Temáticos">
+    - **Grupos de personajes restringidos**
+    - Peleas de rol o fieles al anime
+    - Composiciones de equipo personalizadas
+  </Card>
+  <Card title="Práctica de Combos">
+    - **Oportunidades de prueba infinitas**
+    - Objetivos de práctica cooperativos
+    - Entorno seguro para aprender counters
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Gestión del Ping">
+Los servidores privados suelen ofrecer tasas de ping mucho más estables, lo cual es crucial para conectar combos M1 precisos y ejecutar movimientos evasivos con una precisión de fotogramas perfecta.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a paso: Configuración de Modos de Juego Personalizados">
+
+Configurar un **servidor privado de anime battle arena** para modos de juego únicos requiere un enfoque sistemático. Sigue estos pasos para organizar una partida personalizada fluida para tu comunidad.
+
+<Steps>
+  <Step num="1" title="Adquiere e inicia tu servidor">
+    Compra o únete a un enlace de servidor privado a través de la página del juego en Roblox. Asegúrate de que todos los participantes estén en tu lista de amigos o tengan el enlace de unión directa.
+  </Step>
+  <Step num="2" title="Define el tema de la partida">
+    Selecciona un tema como Invocaciones de Clones, Solo Personajes Calvos, o Gigantes vs Spammers de Proyectiles. Restringir la selección de personajes hace que las partidas sean muy entretenidas.
+  </Step>
+  <Step num="3" title="Configura los ajustes de la sala">
+    Establece las reservas de salud, selecciona un mapa equilibrado (evitando mapas universalmente odiados como el Mapa de las Hormigas Quimera) y determina si el fuego amigo debe activarse.
+  </Step>
+  <Step num="4" title="Ejecuta y modera">
+    Inicia la partida. Vigila el comportamiento de los jugadores y los picos de lag. Usa los comandos del servidor para reiniciar o ajustar parámetros si el modelo de un personaje se bugea.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Bugs de Personajes">
+Ciertas combinaciones de personajes o transformaciones rápidas pueden ocasionalmente bugear el modelo del jugador, dejándolo incapaz de moverse. Ten a mano los comandos de reinicio del servidor para resolver estos problemas rápidamente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Formatos de Partidas Personalizadas Populares">
+
+Los servidores privados te permiten alejarte de los formatos estándar 1v1 o 4v4. Los jugadores han diseñado varios estilos de partidas personalizadas muy populares que aprovechan el elenco único del juego.
+
+| Modo de Juego | Estructura de Equipo | Restricciones de Personajes | Condición de Victoria |
+| :--- | :--- | :--- | :--- |
+| **Guerra de Clones** | Multi-equipo (ej. 3v3) | Solo clones e invocadores | Eliminar todas las invocaciones enemigas |
+| **La Comp de Calvos** | 2v2 o Todos contra todos | Exclusivamente personajes calvos | Último jugador en pie |
+| **Incursión de Jefe** | 3v1 | 1 Jefe Despertado vs 3 unidades base | Derrotar al Jefe antes de que los aniquile |
+| **Proteger al VIP** | 3v3 | 1 personaje VIP por equipo | Proteger a tu VIP mientras cazas al enemigo |
+
+<Callout type="info" title="Meta de Invocadores">
+Personajes como Morel son increíblemente populares en los modos personalizados de 'Guerra de Clones' debido a su capacidad para inundar la arena con entidades, creando campos de batalla caóticos e hilarantes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación y Objetivos del Servidor Privado">
+
+Para aprovechar al máximo tu experiencia en el servidor privado, intenta completar estos hitos con tus compañeros de entrenamiento o miembros de tu clan.
+
+<Checklist
+  id="private-server-goals"
+  title="Hitos del Anfitrión:"
+  items={[
+    "Organizar con éxito un torneo de llaves de 8 jugadores",
+    "Dominar la ejecución del diagrama de flujo de al menos tres personajes complejos",
+    "Coordinar con éxito una partida personalizada de 3 equipos sin lag del servidor",
+    "Probar y documentar el contrajuego (counter-play) para movimientos Despertados de alto nivel"
+  ]}
+/>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo un servidor privado de anime battle arena?",
+    answer: "Puedes comprar un servidor privado directamente desde la página oficial de Anime Battle Arena en Roblox usando Robux, o unirte gratis al enlace de un servidor privado activo de un amigo."
+  },
+  {
+    question: "¿Gano Oro o XP en servidores privados?",
+    answer: "No, las recompensas de emparejamiento como Oro y XP están desactivadas en los servidores privados para evitar el abuso de farmeo. Estas salas son estrictamente para práctica, torneos y partidas personalizadas."
+  },
+  {
+    question: "¿Puedo usar todos los personajes en un servidor privado?",
+    answer: "Sí, pero debes tener los personajes desbloqueados en tu cuenta principal de Roblox para seleccionarlos en el servidor privado, a menos que el anfitrión haya habilitado un comando específico de desbloqueo para todo el juego."
+  },
+  {
+    question: "¿Cuál es el mejor mapa para scrims competitivas 1v1?",
+    answer: "La mayoría de los jugadores competitivos prefieren mapas planos y sin obstrucciones con mínimos peligros ambientales, evitando mapas más grandes o desordenados como el mapa de las Hormigas Quimera."
+  }
+]} />
+
+</Section>
