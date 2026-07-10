@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Clock } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Battle Arena Nanami: Guia de Maestria e Lista de Combos",
+  description: "Domine Kento Nanami no Anime Battle Arena (ABA) com nosso guia de 2026. Aprenda as mecânicas da Proporção 7:3, combos de Black Flash e estratégias do despertar Overtime.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Nanami+Mastery+Guide",
+  date: "2026-07-10",
+  author: "Equipe Wiki de Anime Battle Arena",
+  keywords: "anime battle arena nanami, nanami aba, guia nanami, combos nanami, proporção 7:3"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Anime battle arena nanami** é um personagem técnico com um teto de habilidade alto, focado na **Técnica de Proporção 7:3** para causar dano massivo.
+- **Acertos Críticos** são ativados ao cronometrar seus cliques em uma barra deslizante; acertar 7 acertos consecutivos desbloqueia o poderoso modo **Black Flash** (Brilho Negro).
+- O **Despertar Overtime** (Hora Extra) aumenta drasticamente a energia amaldiçoada, reduzindo os tempos de recarga e aprimorando as propriedades dos movimentos para uma pressão letal.
+- **Combos Infinitos** são possíveis no modo Despertar ao utilizar a passiva do Black Flash de forma eficaz.
+- O **Posicionamento** é fundamental, pois Nanami depende de golpes corpo a corpo precisos e quebras de guarda para iniciar suas rotas mais devastadoras.
+</Callout>
+
+<Section icon={Sparkles} title="A Técnica de Proporção 7:3 e a Passiva Black Flash">
+
+Kento Nanami traz uma mecânica única baseada em ritmo para a jogabilidade de **anime battle arena nanami**. Ao contrário dos personagens padrão que dependem de um gerenciamento simples de tempo de recarga, os jogadores de Nanami devem dominar a barra deslizante 7:3 para maximizar sua eficácia. Esta mecânica se aplica ao **Bisecting Slash**, **Ratio Technique** e **7:3 Combo**.
+
+Quando você ativa esses movimentos, uma barra com 10 divisões aparece na sua tela. Um indicador se move da esquerda para a direita, desacelerando especificamente na 7ª divisão (destacada em vermelho). Clicar exatamente nesta divisão resulta em um **Acerto Crítico**, que adiciona efeitos secundários como Quebras de Guarda (Guardbreaks) ou aumento de dano.
+
+| Mecânica | Requisito | Benefício Principal |
+| :--- | :--- | :--- |
+| **Acerto Crítico** | Clique na 7ª divisão vermelha | Adiciona Quebra de Guarda/Dano Extra/Extensões de Combo |
+| **Black Flash** | Acerte 7 Acertos Críticos seguidos | Bônus de dano massivo, aumento de velocidade, tempos de recarga menores |
+| **Perda do Sub-Modo** | Erre uma barra de Black Flash | Perda imediata de todos os bônus ativos e fim do modo |
+
+<Callout type="success" title="Sinergia do Black Flash">
+Acertar 7 Acertos Críticos transforma seus movimentos em variantes Black Flash. Neste estado, seus tempos de recarga são reduzidos quase pela metade, permitindo o único combo infinito real atualmente presente no meta competitivo do jogo.
+</Callout>
+
+A relação risco-recompensa para Nanami é íngreme. Errar uma barra durante uma sequência de Black Flash não resulta apenas em menos dano; reseta completamente o seu ritmo. Jogadores profissionais frequentemente praticam o tempo da barra no modo de treino para garantir que consigam manter o estado de Black Flash durante uma vida inteira.
+
+</Section>
+
+<Section icon={Swords} title="Forma Base: Conjunto de Movimentos e Dados Técnicos">
+
+Em sua forma base, o **anime battle arena nanami** funciona como um lutador focado em punições pesadas. Seu kit foi projetado para abrir a defesa de jogadores defensivos através da **Ratio Technique** e manter a pressão com o **7:3 Combo**. Compreender os dados de quadros (frame data) e as propriedades de cada movimento é essencial para partidas de alto nível.
+
+| Nome do Movimento | Dano (Base/Crítico/BF) | Tempo de Recarga (Segundos) | Propriedades Chave |
+| :--- | :--- | :--- | :--- |
+| **Bisecting Slash** | 10 / 20 / 30 | 17 (8 se BF) | Mira Automática, Quebra de Guarda no Crítico/BF |
+| **7:3 Combo** | 5-15 / 25 / 35 | 14 (6 if BF) | Extensor de Combo, Derruba no Crítico |
+| **Ratio Technique** | 25 (Base) / 35 (BF) | 12 (6 se BF) | Quebra de Guarda no M1, Iniciador de Combo |
+| **Retirement Kick** | 20 / 30 (BF) | 10 (5 se BF) | Ignora Guarda, Finalizador |
+
+<CardGrid cols={2}>
+  <Card title="Utilidade da Ratio Technique">
+    Este movimento cria duas barras no oponente mais próximo. Se ele estiver bloqueando, seu próximo M1 quebrará a guarda dele automaticamente, tornando-se a ferramenta definitiva contra jogadores muito defensivos ("turtling").
+  </Card>
+  <Card title="Estratégia do Retirement Kick">
+    Embora ignore a guarda, o dano é reduzido para 3 se for bloqueado na forma base. Use-o principalmente como um finalizador de combo quando as opções de fuga do oponente estiverem esgotadas.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Dica Pro: Extensão do 7:3">
+Para estender um combo com o **7:3 Combo** na forma base, segure a barra de espaço após o golpe inicial. Isso evita que o seu M1 seguinte se torne um golpe para baixo (downtilt), o que faria o combo cair.
+</Callout>
+
+</Section>
+
+<Section icon={Clock} title="Despertar Overtime: O Poder de Bater o Ponto">
+
+Quando a barra de despertar de Nanami está cheia, ele entra em **Overtime** (Hora Extra). Como diz o seu voto de restrição: "Não importa o que aconteça, eu vou embora às seis." Esta transformação aumenta seus atributos físicos e lhe concede acesso ao **Ratio Collapse**, um poderoso projétil em área (AOE).
+
+<Steps>
+  <Step num="1" title="Ativação">
+    Nanami olha para o relógio e enrola a gravata na mão. Sua energia amaldiçoada aumenta e o tema "7 to 3" começa a tocar.
+  </Step>
+  <Step num="2" title="Bisecting Slash Aprimorado">
+    A versão de Acerto Crítico agora remove uma das pernas do oponente, desacelerando significativamente seus movimentos por vários segundos.
+  </Step>
+  <Step num="3" title="Uso do Ratio Collapse">
+    Nanami golpeia o chão, criando destroços que disparam para cima. Este movimento ignora a guarda no primeiro golpe e quebra a guarda no segundo, tornando quase impossível bloqueá-lo completamente.
+  </Step>
+</Steps>
+
+| Movimento Desperto | Dano (BF) | Tempo de Recarga (BF) | Efeito Especial |
+| :--- | :--- | :--- | :--- |
+| **Enhanced Slash** | 50 | 5s | Remoção de Perna (Lentidão) |
+| **Enhanced 7:3** | 54 | 3s | Recuo Extremo |
+| **Hair Grab** | 55 | 6s | Desmoronamento, Iniciador de Combo |
+| **Ratio Collapse** | 35 | 7s | Área de Efeito Massiva, Projétil |
+
+<Callout type="warning" title="Persistência do Despertar">
+Uma curiosidade única sobre o Nanami: se ele despertar duas vezes em uma única vida, seu modo nunca se esgotará na segunda vez. Esta é uma vantagem crítica em partidas longas.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Rotas de Combo e Guia de Execução">
+
+Dominar o **anime battle arena nanami** exige memorizar sequências específicas de botões tanto para a forma Base quanto para a Desperta. Devido às suas mecânicas de Acerto Crítico, esses combos não são apenas sobre esmagar botões, mas também sobre cronometrar as barras deslizantes no meio do combo.
+
+**Rota Padrão da Forma Base:**
+1. Sequência de 4x M1
+2. **7:3 Combo [Acerto Crítico]**
+3. Sequência de 4x M1 + Golpe para Cima (Uptilt) + Golpe para Baixo (Downslam)
+4. **Bisecting Slash [Acerto Crítico]**
+5. Sequência de 5x M1
+6. **Retirement Kick**
+
+**Rota Otimizada do Despertar (Overtime):**
+1. Sequência de 4x M1
+2. **Hair Grab**
+3. Sequência de 3x M1 + Golpe para Cima (Uptilt) + Golpe para Baixo (Downslam)
+4. **Bisecting Slash [Acerto Crítico]**
+5. Sequência de 5x M1
+
+| Tipo de Combo | Dificuldade | Potencial de Dano | Melhor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Base Padrão** | Moderada | Alto | Vitória Geral no Neutro |
+| **BF Infinito** | Extrema | Infinito | Eliminação Garantida |
+| **Burst Desperto** | Baixa | Muito Alto | Finalizar uma Vida Rapidamente |
+
+<Callout type="tip" title="Glitch Visual do Black Flash">
+Ser atingido pelo Black Flash do Nanami na verdade congela a tela do oponente por uma fração de segundo. Esse "travamento" visual pode ser usado a seu favor, pois frequentemente atrapalha o tempo do oponente para usar uma evasiva ou contra-ataque.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Dicas Estratégicas e Curiosidades do Personagem">
+
+Para realmente se destacar com Nanami, você deve entender o meta-jogo que envolve seu personagem. Atualmente, ele é o 5º personagem mais caro do jogo, o que o torna um investimento significativo para qualquer jogador.
+
+<Checklist
+  id="nanami-mastery"
+  title="Lista de Verificação de Maestria:"
+  items={[
+    "Pratique o tempo da barra 7:3 no Mundo AFK ou nos Servidores Pro",
+    "Aprenda a identificar quando o ponteiro surge diretamente na marcação vermelha (clique instantâneo)",
+    "Memorize o alcance do 'Hair Grab' para pegar oponentes no meio de uma investida (dash)",
+    "Mantenha os acúmulos de Black Flash para acessar a rota de combo infinito",
+    "Use o Ratio Collapse para afastar oponentes que fogem em mapas grandes"
+  ]}
+/>
+
+| Personagem | Classificação de Custo | Conjunto/Individual |
+| :--- | :--- | :--- |
+| Wano Law / Nokotan | 1º | Conjunto |
+| Jiren | 3º | Individual |
+| Toji | 4º | Individual |
+| **Kento Nanami** | 5º | Individual |
+
+<Callout type="info" title="Detalhes Visuais">
+Quando Nanami sai do seu modo, sua skin muda para mostrar a gravata enrolada na mão. Esse nível de detalhe é consistente em todas as suas skins lendárias, incluindo a versão em que ele mantém o paletó.
+</Callout>
+
+Nanami continua sendo um dos personagens mais recompensadores para jogadores que gostam de execução técnica. Embora sua barra baseada em RNG (onde o ponteiro às vezes começa na marcação vermelha) possa ser frustrante, sua habilidade de quebrar guardas e encadear combos infinitos o torna uma ameaça de alto nível nas mãos certas.
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como eu ativo o Black Flash com o Nanami?",
+    answer: "Você deve acertar 7 'Acertos Críticos' consecutivos clicando na 7ª divisão da barra deslizante. Assim que atingir 7, seus movimentos se tornarão automaticamente Black Flashes até que você erre uma barra."
+  },
+  {
+    question: "O combo infinito do Nanami ainda está no jogo?",
+    answer: "Sim, Nanami é atualmente o único personagem com um combo infinito real. Ele requer a passiva do Black Flash para reduzir os tempos de recarga o suficiente para repetir seus movimentos indefinidamente no modo Despertar."
+  },
+  {
+    question: "Qual é a melhor maneira de usar a Ratio Technique?",
+    answer: "Use-a quando um oponente estiver jogando na defensiva. Ela força uma quebra de guarda se você usar o M1 enquanto ele estiver bloqueando, permitindo que você inicie uma sequência completa de combo gratuitamente."
+  },
+  {
+    question: "Por que meu dano é tão baixo no Retirement Kick?",
+    answer: "Se o oponente bloquear o Retirement Kick na forma base, o dano cai de 20 para 3. Ele foi feito para ser um finalizador quando o oponente já está em atordoamento de acerto (hit-stun) ou não tem mais estamina para bloquear de forma eficaz."
+  }
+]} />
+
+</Section>_

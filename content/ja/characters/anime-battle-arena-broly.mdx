@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Battle Arena ブロリー：戦略ガイドと戦闘タクティクス",
+  description: "Anime Battle Arenaでのブロリーをマスターするための詳細な戦闘ガイド。パッシブスキルの最適化、コンボ、変身のヒントを網羅しています。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Broly+Combat+Guide",
+  date: "2026-07-10",
+  author: "Anime Battle Arena Wikiチーム",
+  keywords: "Anime Battle Arena, ブロリー, コンボ, 戦略, ガイド"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Anime Battle Arenaのブロリー**は、潜在能力を最大限に引き出すために特定のコンボ管理を必要とする強力なキャラクターです。
+- **超サイヤ人のパッシブ**は、彼の攻撃的なプレイスタイルを定義する不可欠なダメージバフとハイパーアーマーを提供します。
+- **カウンター技**は非常に状況に左右されるため、予測可能な敵の攻撃に対して温存すべきです。
+- **イレイザーブロウの近接派生**をマスターすることが、コンボの延長とダウンを奪うための鍵となります。
+</Callout>
+
+<Section icon={Swords} title="ブロリーのスキル構成を理解する">
+
+ブロリーはAnime Battle Arenaにおける高圧的なアーキタイプを象徴しています。彼のスキル構成は、ガードブレイク効果のある飛び道具や高ダメージの近接叩きつけを通じて、距離を詰め、相手を制裁することに焦点を当てています。
+
+**動画のハイライト:**
+- ブロリーの変身状態の圧倒的なパワーを実演。
+- 安定したダメージを与えるための必須コンボを紹介。
+- 効果的なガードブレイクのタイミングを視覚的に解説。
+
+<YouTubeEmbed videoId="OSS4fprQcxM" title="Legacy Broly Showcase | Anime Battle Arena" />
+
+通常形態とフルパワー超サイヤ人の流れを理解することが不可欠です。通常形態はセットアップに依存しますが、変身後は爆発的な攻撃力を発揮します。
+
+| アビリティ | タイプ | 効果 | クールダウン |
+| :--- | :--- | :--- | :--- |
+| パワーロア | 飛び道具 | ガードブレイク、多段ヒット | 18秒 |
+| イレイザーブロウ | ハイブリッド | ガードブレイク、ノックバック | 17秒 |
+| カウンター | 防御 | ブロック無視 | 20秒 |
+| ラスフルクラッシュ | 近接 | 叩きつけ、コンボ始動 | 17秒 |
+
+<Callout type="tip" title="戦略ノート">
+ダメージバフを維持し、ニュートラルな攻防で優位に立つために、常に超サイヤ人状態で変身を起動することを優先してください。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="コンボ実行ガイド">
+
+Anime Battle Arenaにおける効果的なコンボには、正確なタイミングと、M1攻撃と特殊技を組み合わせる正しい順序が必要です。
+
+<Steps>
+  <Step num="1" title="始動">
+    4回のM1攻撃から始めて相手をひるませ、強力な特殊技への準備を整えます。
+  </Step>
+  <Step num="2" title="コンボの延長">
+    **ラスフルクラッシュ**を使用して相手を叩きつけモーションに固定し、さらなるM1攻撃へ繋げます。
+  </Step>
+  <Step num="3" title="フィニッシャー">
+    **イレイザーブロウ**の近接派生または**パワーロア**でシーケンスを締め、ダメージを最大化しつつ距離を取ります。
+  </Step>
+</Steps>
+
+| コンボフェーズ | 推奨技 | 目的 |
+| :--- | :--- | :--- |
+| スターター | 4 M1s | 標準的な始動 |
+| エクステンダー | ラスフルクラッシュ | コンボの流れを維持 |
+| フィニッシャー | パワーロア | ガードブレイクでの確実な締め |
+
+<Callout type="warning" title="注意">
+相手がブロックしていないと確信できない限り、ニュートラル状態でラスフルクラッシュを出すのは避けてください。外した場合、非常に大きな隙が生じます。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="防御とカウンターの最適化">
+
+ブロリーの防御は受動的であることではなく、計算された反撃にあります。2023年のバランス調整以降、彼のカウンターは単なる頼みの綱ではなく、精密なツールとなりました。
+
+<CardGrid cols={3}>
+  <Card title="予測可能な技">
+    ルフィのガトリングのような予備動作の長い攻撃に対してカウンターを使用し、戦況を逆転させましょう。
+  </Card>
+  <Card title="ハイパーアーマー">
+    超サイヤ人のパッシブを活用して、軽い攻撃を耐えながら攻撃の勢いを維持しましょう。
+  </Card>
+  <Card title="スペーシング">
+    敵を射程の端に保ち、飛び道具版のスキルを安全に活用しましょう。
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="プロのヒント">
+カウンターを当てることに成功すると、一時的なダメージブーストが得られます。この隙に、即座に最大ダメージのコンボへと移行してください。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="進行状況チェックリスト">
+
+ブロリーをマスターするために、トレーニングセッションでは以下の主要なマイルストーンに焦点を当ててください。
+
+<Checklist
+  id="broly-mastery"
+  title="トレーニング目標:"
+  items={[
+    "イレイザーブロウの近接派生を安定して練習する",
+    "カウンターが有効な敵の技を特定できるようになる",
+    "超サイヤ人パッシブの発動タイミングをマスターする",
+    "変身状態を組み込んで、フルHPからのキルを成功させる"
+  ]}
+/>
+
+| スキルレベル | 重点分野 | 期待される習熟度 |
+| :--- | :--- | :--- |
+| 初級 | 基本的なM1コンボ | 成功率 80% |
+| 中級 | スキルのシーケンス | 安定したガードブレイク |
+| 上級 | カウンターのタイミング | 上位ティアの技への反撃 |
+
+<Callout type="info" title="トリビア">
+Anime Battle Arenaにおけるブロリーの現在のデザインは、Dragon Ball FighterZなどの現代の格闘ゲームの反復から強い影響を受けており、彼の攻撃的で圧倒的なプレイスタイルを強調しています。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "ブロリーはランクマッチで使えますか？",
+    answer: "はい、ブロリーは高いダメージ出力と信頼性の高いガードブレイク能力を持っているため、Anime Battle Arenaのランクマッチにおいて強力な選択肢です。"
+  },
+  {
+    question: "メテオシャワーはいつ使うべきですか？",
+    answer: "メテオシャワーは、相手を角に追い詰めた時や、迫りくる攻撃を回避する際に使用するのが最適です。優れた範囲攻撃能力を発揮します。"
+  },
+  {
+    question: "覚醒終了後もバフは維持されますか？",
+    answer: "いいえ、覚醒が終了すると超サイヤ人状態は解除されますが、変身中のアクティブなフェーズにおいてはコアバフを保持します。"
+  }
+]} />
+
+</Section>

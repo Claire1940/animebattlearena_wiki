@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Clock } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Battle Arena Nanami: Guía de Maestría y Lista de Combos",
+  description: "Domina a Kento Nanami en Anime Battle Arena (ABA) con nuestra guía de 2026. Aprende las mecánicas de la proporción 7:3, combos de Destello Negro (Black Flash) y estrategias de despertar en Horas Extra (Overtime).",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Nanami+Mastery+Guide",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de Anime Battle Arena",
+  keywords: "anime battle arena nanami, nanami aba, guia nanami, combos nanami, destello negro"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Anime battle arena nanami** es un personaje técnico con un límite de habilidad muy alto, centrado en la **Técnica de Proporción 7:3** para infligir un daño masivo.
+- Los **Golpes Críticos** se activan al sincronizar tus clics en una barra deslizante; asestar 7 golpes consecutivos desbloquea el poderoso modo **Destello Negro (Black Flash)**.
+- El **Despertar en Horas Extra (Overtime)** aumenta drásticamente la energía maldita, reduciendo los tiempos de enfriamiento y mejorando las propiedades de los movimientos para una presión letal.
+- Los **Combos Infinitos** son posibles en el modo Despertar cuando se utiliza la pasiva de Destello Negro de manera efectiva.
+- El **Posicionamiento** es clave, ya que Nanami depende de golpes cuerpo a cuerpo precisos y de romper la guardia para iniciar sus rutas más devastadoras.
+</Callout>
+
+<Section icon={Sparkles} title="La Técnica de Proporción 7:3 y la Pasiva de Destello Negro">
+
+Kento Nanami aporta una mecánica única basada en el ritmo al estilo de juego de **anime battle arena nanami**. A diferencia de los personajes estándar que dependen de una gestión sencilla de los tiempos de enfriamiento, los jugadores de Nanami deben dominar la barra de 7:3 para maximizar su eficacia. Esta mecánica se aplica a **Corte Transversal (Bisecting Slash)**, **Técnica de Proporción (Ratio Technique)** y **Combo 7:3 (7:3 Combo)**.
+
+Al activar estos movimientos, aparecerá en tu pantalla una barra con 10 divisiones. Un deslizador se moverá de izquierda a derecha, ralentizándose específicamente en la séptima división (resaltada en rojo). Hacer clic exactamente en esta marca da como resultado un **Golpe Crítico**, lo que añade efectos secundarios como Ruptura de Guardia (Guardbreak) o un aumento de daño.
+
+| Mecánica | Requisito | Beneficio Principal |
+| :--- | :--- | :--- |
+| **Golpe Crítico** | Hacer clic en la 7.ª marca roja | Añade Ruptura de Guardia/Daño Extra/Extensiones de Combo |
+| **Destello Negro** | Asestar 7 Golpes Críticos seguidos | Aumento masivo de daño, incremento de velocidad, menores enfriamientos |
+| **Pérdida de Submodo** | Fallar un deslizador de Destello Negro | Pérdida inmediata de todas las mejoras activas y fin del modo |
+
+<Callout type="success" title="Sinergia de Destello Negro">
+Asestar 7 Golpes Críticos transforma tus movimientos en variantes de Destello Negro. En este estado, tus tiempos de enfriamiento se reducen casi a la mitad, lo que permite el único combo infinito real presente actualmente en el meta competitivo del juego.
+</Callout>
+
+La relación riesgo-recompensa para Nanami es muy exigente. Fallar un deslizador durante una cadena de Destello Negro no solo resulta en menos daño, sino que reinicia por completo tu impulso. Los jugadores profesionales suelen practicar la sincronización del deslizador en los modos de entrenamiento para asegurarse de poder mantener el estado de Destello Negro durante una vida entera.
+
+</Section>
+
+<Section icon={Swords} title="Forma Base: Repertorio de Movimientos y Datos Técnicos">
+
+En su forma base, **anime battle arena nanami** funciona como un luchador especializado en castigar los errores del rival. Su repertorio está diseñado para abrir la defensa de los jugadores pasivos mediante la **Técnica de Proporción** y mantener la presión con el **Combo 7:3**. Comprender los datos de fotogramas (frame data) y las propiedades de cada movimiento es esencial para el juego de alto nivel.
+
+| Nombre del Movimiento | Daño (Base/Crítico/DN) | Enfriamiento (Segundos) | Propiedades Clave |
+| :--- | :--- | :--- | :--- |
+| **Corte Transversal** | 10 / 20 / 30 | 17 (8 si es DN) | Apuntado automático, Rompe guardia en Crítico/DN |
+| **Combo 7:3** | 5-15 / 25 / 35 | 14 (6 si es DN) | Extensor de combo, Derribo en Crítico |
+| **Técnica de Proporción** | 25 (Base) / 35 (DN) | 12 (6 si es DN) | Rompe guardia en M1, Iniciador de combo |
+| **Patada de Jubilación** | 20 / 30 (DN) | 10 (5 si es DN) | Ignora la guardia, Rematador |
+
+<CardGrid cols={2}>
+  <Card title="Utilidad de la Técnica de Proporción">
+    Este movimiento crea dos barras sobre el oponente más cercano. Si está bloqueando, tu próximo M1 romperá automáticamente su guardia, convirtiéndolo en la herramienta definitiva contra los jugadores defensivos.
+  </Card>
+  <Card title="Estrategia de la Patada de Jubilación">
+    Aunque ignora la guardia, el daño se reduce a 3 si se bloquea en forma base. Úsala principalmente como rematador de combo cuando las opciones de escape del oponente se hayan agotado.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Consejo Pro: Extensión 7:3">
+Para extender un combo con el **Combo 7:3** en forma base, mantén presionada la barra espaciadora después del golpe inicial. Esto evita que tu M1 de seguimiento se convierta en un golpe hacia abajo, lo que de otro modo rompería el combo.
+</Callout>
+
+</Section>
+
+<Section icon={Clock} title="Despertar en Horas Extra: El Poder del Fin de la Jornada">
+
+Cuando el medidor de despertar de Nanami está lleno, entra en **Horas Extra (Overtime)**. Como dicta su voto de unión: "No importa qué pase, salgo de trabajar a las seis". Esta transformación mejora sus estadísticas físicas y le otorga acceso al **Colapso de Proporción (Ratio Collapse)**, un poderoso proyectil de área de efecto (AOE).
+
+<Steps>
+  <Step num="1" title="Activación">
+    Nanami mira su reloj y se envuelve la corbata alrededor de la mano. Su energía maldita aumenta y comienza a sonar el tema "7 a 3".
+  </Step>
+  <Step num="2" title="Corte Transversal Mejorado">
+    La versión de Golpe Crítico ahora corta una de las piernas del oponente, ralentizando significativamente su movimiento durante varios segundos.
+  </Step>
+  <Step num="3" title="Uso del Colapso de Proporción">
+    Nanami golpea el suelo, creando escombros que salen disparados hacia arriba. Este movimiento ignora la guardia en el primer golpe y la rompe en el segundo, lo que hace que sea casi imposible de bloquear por completo.
+  </Step>
+</Steps>
+
+| Movimiento de Despertar | Daño (DN) | Enfriamiento (DN) | Efecto Especial |
+| :--- | :--- | :--- | :--- |
+| **Corte Mejorado** | 50 | 5s | Amputación de Pierna (Ralentización) |
+| **7:3 Mejorado** | 54 | 3s | Retroceso Extremo (Knockback) |
+| **Agarre de Cabello** | 55 | 6s | Colapso, Iniciador de Combo |
+| **Colapso de Proporción** | 35 | 7s | Área de Efecto Masiva, Proyectil |
+
+<Callout type="warning" title="Persistencia del Despertar">
+Un dato curioso único de Nanami: si se despierta dos veces en una sola vida, su modo nunca se agotará la segunda vez. Esta es una ventaja crítica en combates de larga duración.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Rutas de Combos y Guía de Ejecución">
+
+Dominar a **anime battle arena nanami** requiere memorizar secuencias de botones específicas tanto para la forma Base como para la de Despertar. Debido a sus mecánicas de Golpe Crítico, estos combos no consisten solo en machacar botones, sino también en sincronizar los deslizadores a mitad del combo.
+
+**Ruta Estándar en Forma Base:**
+1. Secuencia de 4x M1
+2. **Combo 7:3 [Golpe Crítico]**
+3. Secuencia de 4x M1 + Golpe hacia arriba + Derribo
+4. **Corte Transversal [Golpe Crítico]**
+5. Secuencia de 5x M1
+6. **Patada de Jubilación**
+
+**Ruta Óptima en Despertar (Horas Extra):**
+1. Secuencia de 4x M1
+2. **Agarre de Cabello**
+3. Secuencia de 3x M1 + Golpe hacia arriba + Derribo
+4. **Corte Transversal [Golpe Crítico]**
+5. Secuencia de 5x M1
+
+| Tipo de Combo | Dificultad | Daño Potencial | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Base Estándar** | Moderada | Alto | Victoria General en Neutro |
+| **Infinito de DN** | Extrema | Infinito | Eliminación Garantizada |
+| **Ráfaga Despertada** | Baja | Muy Alto | Terminar una Vida Rápidamente |
+
+<Callout type="tip" title="Glitch Visual del Destello Negro">
+Ser golpeado por el Destello Negro de Nanami congelará la pantalla del oponente por una fracción de segundo. Este "tartamudeo" visual se puede usar a tu favor, ya que a menudo arruina la sincronización del oponente para usar una Evasión o un Contraataque.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Consejos Estratégicos y Curiosidades del Personaje">
+
+Para sobresalir de verdad con Nanami, debes entender el meta-juego que rodea a su personaje. Actualmente es el quinto personaje más caro del juego, lo que lo convierte en una inversión significativa para cualquier jugador.
+
+<Checklist
+  id="nanami-mastery"
+  title="Lista de Verificación de Maestría:"
+  items={[
+    "Practica la sincronización del deslizador 7:3 en el Mundo AFK o en Servidores Pro",
+    "Aprende a identificar cuándo el puntero aparece directamente en la marca roja (clic instantáneo)",
+    "Memoriza el alcance de 'Agarre de Cabello' para atrapar a los oponentes a mitad de un desplazamiento",
+    "Mantén las acumulaciones de Destello Negro para acceder a la ruta del combo infinito",
+    "Usa Colapso de Proporción para zonear a los rivales que huyen en mapas grandes"
+  ]}
+/>
+
+| Personaje | Rango de Costo | Conjunto/Individual |
+| :--- | :--- | :--- |
+| Wano Law / Nokotan | 1.º | Conjunto |
+| Jiren | 3.º | Individual |
+| Toji | 4.º | Individual |
+| **Kento Nanami** | **5.º** | **Individual** |
+
+<Callout type="info" title="Detalles Visuales">
+Cuando Nanami sale de su modo, su aspecto cambia para mostrar su corbata envuelta alrededor de su mano. Este nivel de detalle es constante en sus aspectos legendarios, incluyendo la versión en la que conserva su saco.
+</Callout>
+
+Nanami sigue siendo uno de los personajes más gratificantes para los jugadores que disfrutan de la ejecución técnica. Aunque su deslizador basado en el azar (donde el puntero a veces comienza en la marca roja) puede ser frustrante, su capacidad para romper guardias y encadenar combos infinitos lo convierte en una amenaza de primer nivel en las manos adecuadas.
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo activo el Destello Negro con Nanami?",
+    answer: "Debes asestar 7 'Golpes Críticos' consecutivos haciendo clic en la séptima marca de la barra del deslizador. Una vez que llegues a 7, tus movimientos se convertirán automáticamente en Destellos Negros hasta que falles un deslizador."
+  },
+  {
+    question: "¿Sigue existiendo el combo infinito de Nanami en el juego?",
+    answer: "Sí, Nanami es actualmente el único personaje con un combo infinito real. Requiere la pasiva de Destello Negro para reducir los tiempos de enfriamiento lo suficiente como para encadenar sus movimientos indefinidamente en el modo Despertar."
+  },
+  {
+    question: "¿Cuál es la mejor manera de usar la Técnica de Proporción?",
+    answer: "Úsala cuando un oponente esté jugando a la defensiva. Fuerza una ruptura de guardia si le das un M1 mientras bloquea, lo que te permite comenzar una secuencia completa de combo de forma gratuita."
+  },
+  {
+    question: "¿Por qué mi daño es tan bajo con la Patada de Jubilación?",
+    answer: "Si el oponente bloquea la Patada de Jubilación en forma base, el daño disminuye de 20 a 3. Está diseñada para ser un rematador cuando el oponente ya está aturdido por un golpe o no tiene resistencia para bloquear con eficacia."
+  }
+]} />
+
+</Section>

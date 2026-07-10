@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Broly en Anime Battle Arena: Guía de Estrategia y Tácticas de Combate",
+  description: "Domina a Broly en Anime Battle Arena con nuestra guía detallada de combate, que cubre la optimización de habilidades pasivas, cadenas de combos y consejos de transformación.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Broly+Combat+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Anime Battle Arena",
+  keywords: "Broly, Anime Battle Arena, guía de combate, combos, estrategia, Super Saiyan"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Broly en Anime Battle Arena** es un personaje de gran potencia que requiere una gestión de combos específica para maximizar su potencial.
+- **La Pasiva de Super Saiyan** proporciona aumentos de daño esenciales e híper-armadura que definen su estilo de juego agresivo.
+- **Las mecánicas de Contraataque** son muy situacionales y deben reservarse para ataques enemigos predecibles.
+- **Dominar la Variante Cuerpo a Cuerpo** de Eraser Blow es clave para extender combos y asegurar derribos.
+</Callout>
+
+<Section icon={Swords} title="Comprendiendo el Kit de Broly">
+
+Broly representa un arquetipo de alta presión en Anime Battle Arena. Su kit se centra en cerrar distancias y castigar a los oponentes mediante proyectiles que rompen la guardia y golpes cuerpo a cuerpo de gran daño.
+
+**Puntos destacados del video:**
+- Demuestra el poder bruto del estado de transformación de Broly.
+- Muestra cadenas de combos esenciales para un daño constante.
+- Proporciona pistas visuales para calcular el tiempo de ruptura de guardia de manera efectiva.
+
+<YouTubeEmbed videoId="OSS4fprQcxM" title="Exhibición de Broly Legacy | Anime Battle Arena" />
+
+Comprender el flujo entre su forma base y el Super Saiyan de Máximo Poder es crítico. Mientras que su forma base depende de preparaciones, su transformación ofrece picos ofensivos masivos.
+
+| Habilidad | Tipo | Efecto | Enfriamiento |
+| :--- | :--- | :--- | :--- |
+| Power Roar | Proyectil | Rompe guardia, Multi-impacto | 18s |
+| Eraser Blow | Híbrido | Rompe guardia, Retroceso | 17s |
+| Counter | Defensivo | Ignora bloqueo | 20s |
+| Wrathful Crash | Cuerpo a cuerpo | Golpe hacia abajo, Iniciador de combo | 17s |
+
+<Callout type="tip" title="Nota de Estrategia">
+Prioriza siempre activar tu transformación mientras estés en el estado Super Saiyan para conservar los aumentos de daño y ganar ventaja en los intercambios neutrales.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Ejecución de Combos">
+
+Los combos efectivos en Anime Battle Arena requieren una sincronización precisa y el orden correcto de ataques M1 combinados con habilidades especiales. 
+
+<Steps>
+  <Step num="1" title="Iniciación">
+    Comienza con 4 ataques M1 para aturdir al oponente y prepararlo para una habilidad especial de gran impacto.
+  </Step>
+  <Step num="2" title="Extensión de Combo">
+    Usa **Wrathful Crash** para atrapar al oponente en una animación de golpe contra el suelo, lo que te permite seguir con M1 adicionales.
+  </Step>
+  <Step num="3" title="Finalizador">
+    Termina tu secuencia con la variante cuerpo a cuerpo de **Eraser Blow** o **Power Roar** para maximizar el daño y crear espacio.
+  </Step>
+</Steps>
+
+| Fase de Combo | Movimiento Recomendado | Propósito |
+| :--- | :--- | :--- |
+| Iniciador | 4 M1s | Apertura estándar |
+| Extensor | Wrathful Crash | Mantiene el flujo del combo |
+| Finalizador | Power Roar | Asegura un final con ruptura de guardia |
+
+<Callout type="warning" title="Advertencia">
+Evita lanzar Wrathful Crash en situaciones neutrales a menos que estés seguro de que el oponente no está bloqueando. Sigue siendo altamente castigable si fallas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimizando Defensa y Contraataques">
+
+La defensa con Broly no se trata de pasividad; se trata de una represalia calculada. Desde las actualizaciones de equilibrio de 2023, su contraataque se ha convertido en una herramienta precisa en lugar de un apoyo constante.
+
+<CardGrid cols={3}>
+  <Card title="Movimientos Predecibles">
+    Usa tu Contraataque contra ataques prolongados como el Gatling de Luffy para cambiar el rumbo de la batalla.
+  </Card>
+  <Card title="Híper-armadura">
+    Aprovecha tu pasiva de Super Saiyan para atravesar ataques ligeros y mantener tu impulso ofensivo.
+  </Card>
+  <Card title="Espaciado">
+    Mantén a los enemigos al borde de tu alcance para utilizar las versiones de proyectil de tus habilidades de forma segura.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo Pro">
+Si logras asestar un contraataque, obtendrás un aumento de daño temporal. Usa esta ventana para transicionar inmediatamente a tu cadena de combo más dañina.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión">
+
+Para dominar a Broly, debes concentrarte en estos hitos clave en tus sesiones de entrenamiento.
+
+<Checklist
+  id="broly-mastery"
+  title="Objetivos de Entrenamiento:"
+  items={[
+    "Practicar la variante cuerpo a cuerpo de Eraser Blow de forma consistente",
+    "Aprender a identificar movimientos enemigos seguros para contraatacar",
+    "Dominar el tiempo de activación de la pasiva Super Saiyan",
+    "Integrar con éxito el estado de transformación en una eliminación de barra de salud completa"
+  ]}
+/>
+
+| Nivel de Habilidad | Área de Enfoque | Maestría Esperada |
+| :--- | :--- | :--- |
+| Principiante | Combos básicos de M1 | 80% de tasa de éxito |
+| Intermedio | Secuenciación de habilidades | Rupturas de guardia constantes |
+| Avanzado | Tiempo de contraataque | Castigo de movimientos de alto nivel |
+
+<Callout type="info" title="Curiosidades">
+El diseño actual de Broly en Anime Battle Arena se inspira fuertemente en las iteraciones de los juegos de lucha modernos como Dragon Ball FighterZ, enfatizando su estilo de juego agresivo y abrumador.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Broly viable en partidas clasificatorias?",
+    answer: "Sí, Broly es una opción sólida para las partidas clasificatorias de Anime Battle Arena debido a su alto daño y sus capacidades confiables para romper la guardia."
+  },
+  {
+    question: "¿Cuándo debo usar el Meteor Shower?",
+    answer: "Meteor Shower se utiliza mejor cuando el oponente está atrapado en una esquina o para evitar ataques entrantes, ya que proporciona una excelente cobertura de área de efecto."
+  },
+  {
+    question: "¿Conserva Broly sus mejoras después de que termina el despertar?",
+    answer: "No, Broly no conservará su estado de Super Saiyan después de que termine su despertar, aunque mantiene las mejoras principales durante la fase de transformación activa."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,146 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Broly no Anime Battle Arena: Guia de Estratégia e Táticas de Combate",
+  description: "Domine Broly no Anime Battle Arena com nosso guia de combate detalhado, cobrindo otimização de habilidade passiva, sequências de combos e dicas de transformação.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Broly+Combat+Guide",
+  date: "2026-07-10",
+  author: "Equipe do Wiki de Anime Battle Arena"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Broly no Anime Battle Arena** é um personagem extremamente forte que requer um gerenciamento específico de combos para maximizar seu potencial.
+- A **Passiva de Super Saiyajin** fornece buffs de dano essenciais e hyper-armor que definem seu estilo de jogo agressivo.
+- As **mecânicas de contra-ataque** são altamente situacionais e devem ser reservadas para ataques inimigos previsíveis.
+- **Dominar a Variante Corpo a Corpo** do Eraser Blow é fundamental para estender combos e garantir derrubadas.
+</Callout>
+
+<Section icon={Swords} title="Entendendo o Kit do Broly">
+
+Broly representa um arquétipo de alta pressão no Anime Battle Arena. Seu kit se concentra em fechar distâncias e punir oponentes por meio de projéteis que quebram a guarda e golpes corpo a corpo de alto dano.
+
+**Destaques do Vídeo:**
+- Demonstra o poder bruto do estado de transformação do Broly.
+- Mostra sequências de combos essenciais para causar dano consistente.
+- Fornece dicas visuais para cronometrar quebras de guarda com eficácia.
+
+<YouTubeEmbed videoId="OSS4fprQcxM" title="Legacy Broly Showcase | Anime Battle Arena" />
+
+Entender o fluxo entre sua forma base e o Super Saiyajin de Poder Total é crítico. Enquanto sua forma base depende de preparações, sua transformação oferece picos ofensivos massivos.
+
+| Habilidade | Tipo | Efeito | Recarga |
+| :--- | :--- | :--- | :--- |
+| Power Roar | Projétil | Quebra de guarda, Multi-acertos | 18s |
+| Eraser Blow | Híbrido | Quebra de guarda, Empurrão | 17s |
+| Counter | Defensivo | Ignora Bloqueio | 20s |
+| Wrathful Crash | Corpo a corpo | Golpe para baixo, Iniciador de combo | 17s |
+
+<Callout type="tip" title="Nota de Estratégia">
+Sempre priorize ativar sua transformação enquanto estiver no estado de Super Saiyajin para manter os buffs de dano e obter vantagem nas trocas neutras.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Execução de Combos">
+
+Combos eficazes no Anime Battle Arena exigem tempo preciso e a ordem correta de ataques M1 combinados com habilidades especiais. 
+
+<Steps>
+  <Step num="1" title="Iniciação">
+    Comece com 4 ataques M1 para atordoar o oponente e prepará-lo para um golpe especial pesado.
+  </Step>
+  <Step num="2" title="Extensão do Combo">
+    Use o **Wrathful Crash** para prender o oponente em uma animação de impacto, permitindo que você continue com M1s adicionais.
+  </Step>
+  <Step num="3" title="Finalizador">
+    Termine sua sequência com a variante corpo a corpo do **Eraser Blow** ou com o **Power Roar** para maximizar o dano causado e criar espaço.
+  </Step>
+</Steps>
+
+| Fase do Combo | Movimento Recomendado | Propósito |
+| :--- | :--- | :--- |
+| Iniciador | 4 M1s | Abertura padrão |
+| Extensor | Wrathful Crash | Mantém o fluxo do combo |
+| Finalizador | Power Roar | Garante a finalização com quebra de guarda |
+
+<Callout type="warning" title="Aviso">
+Evite usar o Wrathful Crash no neutro, a menos que tenha certeza de que o oponente não está bloqueando. Ele continua sendo altamente punível se falhar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Otimizando Defesa e Contra-ataques">
+
+A defesa com o Broly não se trata de passividade; trata-se de retaliação calculada. Desde as atualizações de balanceamento de 2023, seu contra-ataque se tornou uma ferramenta precisa em vez de uma muleta.
+
+<CardGrid cols={3}>
+  <Card title="Movimentos Previsíveis">
+    Use seu Contra-ataque contra ataques longos, como o Gatling do Luffy, para virar o rumo da batalha.
+  </Card>
+  <Card title="Hyper-Armor">
+    Aproveite sua passiva de Super Saiyajin para resistir a ataques mais leves e manter seu ímpeto ofensivo.
+  </Card>
+  <Card title="Espaçamento">
+    Mantenha os inimigos no limite do seu alcance para utilizar as versões de projétil de suas habilidades com segurança.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Mestre">
+Se você conseguir acertar um contra-ataque, ganhará um aumento temporário de dano. Use essa janela para fazer a transição imediata para sua sequência de combo mais devastadora.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Progresso">
+
+Para dominar o Broly, você deve se concentrar nestes marcos importantes em suas sessões de treinamento.
+
+<Checklist
+  id="broly-mastery"
+  title="Objetivos de Treinamento:"
+  items={[
+    "Praticar a variante corpo a corpo do Eraser Blow consistentemente",
+    "Aprender a identificar movimentos inimigos que são seguros para contra-atacar",
+    "Dominar o tempo de ativação da passiva de Super Saiyajin",
+    "Integrar com sucesso o estado de transformação em uma eliminação de barra de vida cheia"
+  ]}
+/>
+
+| Nível de Habilidade | Área de Foco | Domínio Esperado |
+| :--- | :--- | :--- |
+| Iniciante | Combos básicos de M1 | 80% de taxa de sucesso |
+| Intermediário | Sequenciamento de habilidades | Quebras de guarda consistentes |
+| Avançado | Tempo de contra-ataque | Punição de movimentos de alto nível |
+
+<Callout type="info" title="Curiosidade">
+O design atual do Broly no Anime Battle Arena é fortemente inspirado em iterações modernas de jogos de luta, como o Dragon Ball FighterZ, enfatizando seu estilo de jogo agressivo e avassalador.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O Broly é viável em partidas ranqueadas?",
+    answer: "Sim, o Broly é uma escolha forte para partidas ranqueadas no Anime Battle Arena devido ao seu alto dano e capacidades confiáveis de quebra de guarda."
+  },
+  {
+    question: "Quando devo usar o Meteor Shower?",
+    answer: "O Meteor Shower é melhor utilizado quando o oponente está encurralado ou para evitar ataques recebidos, pois oferece excelente cobertura de área de efeito."
+  },
+  {
+    question: "O Broly mantém seus buffs após o término do despertar?",
+    answer: "Não, o Broly não manterá seu estado de Super Saiyajin após o término do seu despertar, embora ele mantenha os buffs principais durante a fase de transformação ativa."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Law no Anime Battle Arena: Guia de Habilidades e Melhores Combos",
+  description: "Domine Trafalgar D. Water Law no Anime Battle Arena. Aprenda seus conjuntos de movimentos pré e pós-timeskip, mecânicas avançadas de Room e combos de alto dano.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=ABA+Law+Guide",
+  date: "2026-07-10",
+  author: "Equipe Wiki do Anime Battle Arena",
+  keywords: "Anime Battle Arena, Law, Ope Ope no Mi, guia, combos, Room"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Law no Anime Battle Arena** é um personagem altamente versátil que utiliza a Ope Ope no Mi para dominar o espaço.
+- A **mecânica da Room** altera todo o seu conjunto de movimentos, transformando ataques básicos em habilidades devastadoras de área de efeito.
+- **Counter Shock** e **Slash** servem como suas principais quebras de guarda fora de sua Room.
+- **Gamma Knife** causa um dano massivo de explosão e funciona como um finalizador de combo ideal.
+- O **Despertar (Awakening)** remove todas as limitações da Room, fazendo com que ela siga Law automaticamente com um raio massivo de 34 studs.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Personagem Law no Anime Battle Arena">
+
+Trafalgar D. Water Law, o \"Cirurgião da Morte\", é o 4º personagem da lista de One Piece no Anime Battle Arena (ABA). Ele é especialista em manipulação de campo de batalha, controle de espaço e execução de combos altamente destrutivos e inescapáveis assim que sua icônica **Room** está ativa. Dominar o **Law no Anime Battle Arena** requer uma compreensão profunda de quando lutar fora de seu domínio e como explorar totalmente suas habilidades aprimoradas dentro dele.
+
+**Destaques do Vídeo:**
+- Análise visual detalhada da skin Wano Law.
+- Demonstração de sequências de ataques básicos e cancelamentos de habilidades.
+- Guia visual para executar o Amputate Smash e as invocações de rochas do Takt.
+- Demonstração dos movimentos do Despertar, incluindo Radio Knife e Mes.
+
+<YouTubeEmbed videoId="ZWV37iHAlvE" title="Wano Law Showcase | Anime Battle Arena" />
+
+| Atributo do Personagem | Forma Base | Forma Desperta |
+| :--- | :--- | :--- |
+| **Estilo de Jogo** | Controle de Espaço / Preparação de Combo | Avanço Agressivo / Inescapável |
+| **Comportamento da Room** | Estacionária, encolhe com o tempo | Móvel, centralizada no jogador, massiva |
+| **Quebras de Guarda** | Slash, Counter Shock, Amputate (2º Golpe) | Radio Knife, Mes (Execução) |
+| **Dificuldade** | Média-Alta | Média |
+
+<Callout type="tip" title="Dica de Mestre">
+Sempre posicione sua Room de forma estratégica. Lutar fora da sua Room limita significativamente suas capacidades ofensivas, mas atrair os oponentes para dentro do seu domínio lhe garante uma vantagem tática massiva.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Conjunto de Movimentos Base: Fora e Dentro da Room">
+
+Law possui dois conjuntos de movimentos distintos, dependendo se ele está ou não dentro de sua Room. Gerenciar esses dois estados é a chave para o jogo de alto nível.
+
+### Movimentos Fora da Room
+
+Ao lutar sem o seu domínio ativo, Law conta com golpes físicos rápidos e diretos para abrir a guarda dos oponentes ou se defender.
+
+| Nome do Movimento | Dano | Tempo de Recarga | Propriedades e Utilidade |
+| :--- | :--- | :--- | :--- |
+| **Slash** | 20 | 14s | Quebra de Guarda, Iniciador de Combo, Corpo a Corpo |
+| **Counter Shock** | 22 | 8s | Quebra de Guarda, Recuo (Knockback), Projétil |
+| **Room** | N/A | 5s | Modificador de Habilidades, tamanho inicial de 12 studs |
+
+### Movimentos Dentro da Room
+
+Uma vez que a **Room** está ativa, as habilidades padrão de Law se transformam em poderosas técnicas de manipulação espacial.
+
+| Nome do Movimento | Dano | Tempo de Recarga | Propriedades e Utilidade |
+| :--- | :--- | :--- | :--- |
+| **Shambles** | N/A | 7s | Teletransporte, Troca de lugar, Mobilidade |
+| **Amputate** | 28 | 33s | Golpes Múltiplos, Quebra de Guarda (2º Golpe), Extensor de Combo |
+| **Amputate Smash** | 63 (Total) | 33s | Impacto contra dois alvos, Ignora Bloqueio |
+| **Takt** | 21-42 | 3s/10s | Invoca/Arremessa rochas, Impacto no chão, I-frames ao invocar |
+| **Gamma Knife** | 32 | 16s | Quebra de Guarda, Recuo (Knockback), Finalizador de Combo |
+
+<CardGrid cols={3}>
+  <Card title="Domínio do Shambles">
+    Use o Shambles defensivamente para salvar companheiros de equipe ou ofensivamente para trocar de lugar com um oponente no meio de um combo.
+  </Card>
+  <Card title="Defesa com Takt">
+    Invocar rochas com o Takt concede breves frames de invencibilidade (I-frames). As rochas também agem como terreno físico para bloquear projéteis recebidos.
+  </Card>
+  <Card title="Amputate Smash">
+    Se você atingir um oponente diferente com o segundo corte do Amputate, Law esmaga ambos os alvos um contra o outro para causar um dano massivo.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Encolhimento da Room">
+Lembre-se de que sua Room base encolhe lentamente a uma taxa de 1,5 studs a cada 10 segundos, até um mínimo de 3x3 studs. Fique atento ao limite para não perder suas habilidades aprimoradas no meio do combate.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Poder Total da Ope Ope no Mi: Guia do Despertar">
+
+Ativar a transformação **O Cirurgião da Morte** desbloqueia o verdadeiro potencial de Law. Sua Room se expande para um tamanho massivo de 34x34 studs, não encolhe mais e o segue constantemente como o ponto central.
+
+### Conjunto de Movimentos Despertado
+
+| Nome do Movimento | Dano | Tempo de Recarga | Propriedades e Utilidade Principal |
+| :--- | :--- | :--- | :--- |
+| **TAKT (Arremesso)** | 31 | 1s/14s | Arremessa oponentes, impacto automático no limite da Room |
+| **TAKT (Esmagamento de Rocha)** | 30 | 2s/14s | Invoca e arremessa rochas gigantes, Iniciador de Combo |
+| **Shambles** | N/A | 9s | Teletransporte e troca que ignoram bloqueio |
+| **Radio Knife** | 35 | 18s | Quebra de Guarda, Área de Efeito (AoE), Golpes Múltiplos, Lançamento para o alto |
+| **Mes** | Morte Instantânea | N/A | Executa instantaneamente alvos com menos de 20 de Vida (HP) |
+
+<Steps>
+  <Step num="1" title="Inicie o Despertar">
+    Ative o modo para implantar instantaneamente a Room massiva e móvel. Isso impede que os oponentes fujam de você.
+  </Step>
+  <Step num="2" title="Isole o Alvo">
+    Use o TAKT para arremessar alvos de alta ameaça para longe de seus companheiros de equipe, utilizando o impacto nos limites da Room para finalizações fáceis.
+  </Step>
+  <Step num="3" title="Garanta a Execução">
+    Pressione o adversário com o Radio Knife e ataques básicos até que a vida dele fique abaixo de 20 HP, então use o Mes para uma execução instantânea.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Regra de Execução do Mes">
+Ao contrário de outras passivas de execução, o Mes do Law deve ser ativado manualmente como um movimento. Ele funciona estritamente quando a vida do oponente está abaixo de 20 HP, independentemente da porcentagem de vida máxima dele.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sequências de Combos Avançadas">
+
+Executar combos precisos é essencial para maximizar o dano do Law tanto na forma base quanto na desperta.
+
+### Combos na Forma Base
+
+- **Combo 1 (Quebra de Guarda Simples):** 5 M1s + **Counter Shock**
+- **Combo 2 (Extensor de Room):** 4 M1s + **Amputate** + 4 M1s + **Gamma Knife**
+- **Combo 3 (Takt Ladder):** (Com Takt ativo) 3 M1s + Elevação Aérea (Espaço + M1) + **Amputate** + Smash de Escada + **Takt**
+
+### Combos na Forma Desperta
+
+- **Combo 4 (Iniciação Básica com Arremesso):** 4 M1s + Espaço (Não Aéreo) + **TAKT**
+- **Combo 5 (Execução Suprema):** (Com Mes ativo) 3 M1s + Elevação Aérea (Espaço + M1) + **Mes** + Smash de Escada + **Radio Knife** + **TAKT**
+
+| Nome do Combo | Dificuldade | Dano Estimado | Caso de Uso Principal |
+| :--- | :--- | :--- | :--- |
+| **Combo 1** | Fácil | Baixo-Médio | Dano rápido / Quebra de guarda |
+| **Combo 2** | Médio | Alto | Combate padrão dentro da Room |
+| **Combo 3** | Difícil | Muito Alto | Configuração avançada de controle de espaço |
+| **Combo 4** | Fácil | Médio | Posicionamento rápido / Arremesso |
+| **Combo 5** | Difícil | Fatal | Garantir uma execução em alvos com pouca vida |
+
+<Callout type="tip" title="Otimização de Combos">
+Em partidas 2v2 ou 3v3, coordene com companheiros de equipe como Asuna ou All Might. O Switch da Asuna pode facilmente dar continuidade aos inimigos atordoados pelo Amputate do Law, criando cenários de eliminação inescapáveis.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estratégias de Confronto e Lista de Verificação">
+
+Para vencer partidas consistentemente com o Law, você deve entender suas forças, fraquezas e as composições de equipe ideais.
+
+### Dinâmica de Confronto
+
+- **Forte Contra:** Personagens de combate corpo a corpo de curto alcance que precisam entrar em sua Room para lutar, e personagens lentos que não conseguem fugir de seu Despertar móvel.
+- **Fraco Contra:** Personagens focados em projéteis de longo alcance (ex: Endeavor, Goku Black, Misaka Mikoto) que podem atacar Law com segurança do lado de fora de sua Room.
+
+<Checklist
+  id="law-mastery-checklist"
+  title="Metas para Dominar o Law:"
+  items={[
+    "Dominar o tempo dos I-frames do Takt para desviar de habilidades supremas inimigas",
+    "Acertar consistentemente o segundo golpe do Amputate para quebrar a guarda de oponentes que estão bloqueando",
+    "Executar com sucesso o impacto duplo do Amputate Smash em partidas 2v2",
+    "Utilizar o Shambles defensivamente para proteger aliados sob pressão",
+    "Aperfeiçoar a sequência de combo de alto dano Takt Ladder"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como combater o Law no Anime Battle Arena?",
+    answer: "A melhor maneira de combater o Law é evitar entrar em sua Room. Use personagens com projéteis de longo alcance, como Endeavor ou Goku Black, para causar dano a uma distância segura."
+  },
+  {
+    question: "A execução do Mes do Law funciona com base em porcentagem de vida?",
+    answer: "Não, o Mes não escala com porcentagens de vida. Ele exige que o oponente esteja estritamente abaixo de 20 HP para ativar a execução instantânea."
+  },
+  {
+    question: "Posso colocar uma nova Room enquanto estiver dentro da minha Room ativa?",
+    answer: "Não, para criar uma nova Room, você deve sair completamente dos limites da sua Room original ativa."
+  },
+  {
+    question: "O que torna a Room do Despertar do Law diferente de sua Room base?",
+    answer: "Sua Room Desperta é 2,83 vezes maior, não encolhe com o tempo e se move centralizada no Law, de modo que ele nunca pode ser empurrado para fora dela."
+  }
+]} />
+
+</Section>

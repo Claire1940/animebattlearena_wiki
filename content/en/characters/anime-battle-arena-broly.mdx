@@ -1,0 +1,146 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Battle Arena Broly: Strategy Guide & Combat Tactics",
+  description: "Master Broly in Anime Battle Arena with our detailed combat guide, covering passive ability optimization, combo strings, and transformation tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Broly+Combat+Guide",
+  date: "2026-07-10",
+  author: "anime battle arena Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Anime Battle Arena Broly** is a powerhouse character requiring specific combo management to maximize his potential.
+- **Super Saiyan Passive** provides essential damage buffs and hyper-armor that define his aggressive playstyle.
+- **Counter mechanics** are highly situational and should be reserved for predictable enemy attacks.
+- **Mastering the Melee Variant** of Eraser Blow is key to extending combos and securing knockdowns.
+</Callout>
+
+<Section icon={Swords} title="Understanding Broly's Kit">
+
+Broly represents a high-pressure archetype in Anime Battle Arena. His kit focuses on closing gaps and punishing opponents through guard-breaking projectiles and high-damage melee slams.
+
+**Video Highlights:**
+- Demonstrates the raw power of Broly's transformation state.
+- Showcases essential combo strings for consistent damage.
+- Provides visual cues for timing guard-breaks effectively.
+
+<YouTubeEmbed videoId="OSS4fprQcxM" title="Legacy Broly Showcase | Anime Battle Arena" />
+
+Understanding the flow between his base form and Full Power Super Saiyan is critical. While his base form relies on setups, his transformation offers massive offensive spikes.
+
+| Ability | Type | Effect | Cooldown |
+| :--- | :--- | :--- | :--- |
+| Power Roar | Projectile | Guardbreak, Multi-hit | 18s |
+| Eraser Blow | Hybrid | Guardbreak, Knockback | 17s |
+| Counter | Defensive | Ignores Block | 20s |
+| Wrathful Crash | Melee | Slam Down, Combo Starter | 17s |
+
+<Callout type="tip" title="Strategy Note">
+Always prioritize activating your transformation while in the Super Saiyan state to retain damage buffs and gain the upper hand in neutral exchanges.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Combo Execution Guide">
+
+Effective combos in Anime Battle Arena require precise timing and the correct order of M1 attacks combined with special abilities. 
+
+<Steps>
+  <Step num="1" title="Initiation">
+    Start with 4 M1 attacks to stagger the opponent and prepare them for a heavy-hitting special.
+  </Step>
+  <Step num="2" title="Combo Extension">
+    Use **Wrathful Crash** to lock the opponent into a slam animation, allowing you to follow up with additional M1s.
+  </Step>
+  <Step num="3" title="Finisher">
+    End your sequence with the **Eraser Blow** melee variant or **Power Roar** to maximize damage output and create space.
+  </Step>
+</Steps>
+
+| Combo Phase | Recommended Move | Purpose |
+| :--- | :--- | :--- |
+| Starter | 4 M1s | Standard opener |
+| Extender | Wrathful Crash | Maintains combo flow |
+| Finisher | Power Roar | Ensures guardbreak finish |
+
+<Callout type="warning" title="Warning">
+Avoid throwing out Wrathful Crash in neutral unless you are certain the opponent is not blocking. It remains highly punishable if missed.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimizing Defense and Counters">
+
+Defense with Broly is not about passivity; it is about calculated retaliation. Since the 2023 balance updates, his counter has become a precise tool rather than a crutch.
+
+<CardGrid cols={3}>
+  <Card title="Predictable Moves">
+    Use your Counter against long-winded attacks like Luffy's Gatling to turn the tide of battle.
+  </Card>
+  <Card title="Hyper-Armor">
+    Leverage your Super Saiyan passive to power through lighter attacks and maintain your offensive momentum.
+  </Card>
+  <Card title="Spacing">
+    Keep enemies at the edge of your range to utilize the projectile versions of your abilities safely.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Pro Tip">
+If you manage to land a counter, you gain a temporary damage boost. Use this window to immediately transition into your most damaging combo string.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist">
+
+To master Broly, you should focus on these key milestones in your training sessions.
+
+<Checklist
+  id="broly-mastery"
+  title="Training Objectives:"
+  items={[
+    "Practice the melee variant of Eraser Blow consistently",
+    "Learn to identify enemy moves safe to counter",
+    "Master the timing of the Super Saiyan passive activation",
+    "Successfully integrate the transformation state into a full health bar kill"
+  ]}
+/>
+
+| Skill Level | Focus Area | Expected Mastery |
+| :--- | :--- | :--- |
+| Beginner | Basic M1 combos | 80% Success rate |
+| Intermediate | Ability sequencing | Consistent guardbreaks |
+| Advanced | Counter-timing | Punishing high-tier moves |
+
+<Callout type="info" title="Trivia">
+Broly's current design in Anime Battle Arena draws heavy inspiration from modern fighting game iterations such as Dragon Ball FighterZ, emphasizing his aggressive, overwhelming playstyle.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Broly viable in ranked play?",
+    answer: "Yes, Broly is a strong pick for Anime Battle Arena ranked matches due to his high damage output and reliable guard-breaking capabilities."
+  },
+  {
+    question: "When should I use the Meteor Shower?",
+    answer: "Meteor Shower is best utilized when the opponent is trapped in a corner or to avoid incoming attacks, as it provides excellent area-of-effect coverage."
+  },
+  {
+    question: "Does Broly keep his buffs after awakening ends?",
+    answer: "No, Broly will not retain his Super Saiyan state after his awakening ends, though he retains the core buffs during the active transformation phase."
+  }
+]} />
+
+</Section>
