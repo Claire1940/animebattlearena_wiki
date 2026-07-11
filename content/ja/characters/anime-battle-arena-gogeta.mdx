@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Battle Arena ゴジータ: 技リスト＆コンボガイド",
+  description: "Anime Battle Arenaでゴジータを極めよう。基本技、超サイヤ人＆超サイヤ人ブルーへの変身、そしてランクマッチを制覇するための高ダメージコンボを解説。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=ABA+Gogeta+Guide",
+  date: "2026-07-11",
+  author: "Anime Battle Arena Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Anime Battle Arenaのゴジータ**は、ドラゴンボール枠の10番目のキャラクターであり、独自のマルチヒットM1通常攻撃モーションを持っています。
+- **基本形態**は、ガードブレイク用のKameと、非常に信頼性の高いコンボパーツであるPunisher Driveに依存しています。
+- **超サイヤ人ブルー**を解放するには、少なくとも120ダメージを与える必要があり、変身後は技セットが完全に一新されます。
+- **重要なメカニクス**として、Mad Danceをカウンターとして使用するか、スペースキーを長押しして空中版を発動させることが挙げられます。
+- **最強の戦略**は、4回目のM1のタイミングを遅らせる（ディレイをかける）ことで、相手の回避技を誘い出して仕置きすることです。
+</Callout>
+
+<Section icon={Map} title="Anime Battle Arena ゴジータ キャラクター概要">
+
+ゴジータは、Anime Battle Arena (ABA) のドラゴンボール枠における強力なキャラクターです。孫悟空とベジータのメタモル星人による融合（フュージョン）であるゴジータは、圧倒的なスピード、高いダメージポテンシャル、そして多才なコンボパーツを兼ね備えています。現在、ゲーム内で唯一独自のマルチヒットM1通常攻撃モーションを持っており、近接戦でのプレッシャーは非常に対処が困難です。
+
+**動画の見どころ:**
+- **基本キットの解説**: KameとPunisher Driveがどのように立ち回りの基礎を形成しているかを学びます。
+- **SSB変身**: 超サイヤ人ブルーモードを最大限に活用し、試合の流れを完全にひっくり返す方法を紹介します。
+- **ランクマッチのプレイ動画**: トップティアのメタキャラクターに対する高レベルなマッチアップの分析。
+
+<YouTubeEmbed videoId="lRGVAYm5GAw" title="How I DOMINATED EVERYONE With GOGETA In Anime Battle Arena" />
+
+| キャラクター属性 | 値 / 説明 |
+|---|---|
+| **ロースターの位置** | ドラゴンボール枠（10番目のキャラクター） |
+| **ユニークな特徴** | マルチヒットM1通常攻撃モーション |
+| **基本形態のガードブレイク** | Kame / Heavy Blow（地上） |
+| **覚醒タイプ** | 2段階（超サイヤ人から超サイヤ人ブルー） |
+| **SSBの解放条件** | 超サイヤ人モードで120以上のダメージを与える |
+
+<Callout type="tip" title="プロのヒント">
+ゴジータはアグレッシブな攻めで真価を発揮します。独自のマルチヒットM1を利用して相手の不意を突き、最後の打撃を遅らせる（ディレイをかける）ことで、相手の回避技（エスケープ）を誘い出して仕置きしましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="基本形態の技セットとメカニクス">
+
+基本形態のゴジータは、飛び道具、コンボパーツ、そして防御的なカウンターをバランスよく備えています。ランクマッチで安定したパフォーマンスを発揮するためには、各技の正確な特性を理解することが不可欠です。
+
+<CardGrid cols={3}>
+  <Card title="Kame & Galick">
+    - **ガードブレイク属性**
+    - クールダウン: 15 / 17秒
+    - 優れた射程とコンボの締め技
+  </Card>
+  <Card title="Punisher Drive">
+    - **ガード可能な近接ダッシュ**
+    - クールダウン: 15秒
+    - 必須のコンボ始動技・繋ぎ技
+  </Card>
+  <Card title="Mad Dance">
+    - **カウンター / 空中版あり**
+    - クールダウン: 成功時20秒 / 失敗時10秒
+    - カウンター成功時にガード不能
+  </Card>
+</CardGrid>
+
+### 基本形態の技特性
+
+| 技名 | ダメージ | クールダウン | 主な特性 |
+|---|---|---|---|
+| **Kame** | 9.5 | 15秒 | ガードブレイク、飛び道具、マルチヒット |
+| **Punisher Drive** | 16.0 | 15秒 | ガード可能、コンボパーツ、ハイパーアーマー |
+| **Mad Dance** | 14.0 | 20秒 | カウンター、ガード不能、無敵フレーム |
+| **Heavy Blow** | 12.0 | 15秒 | ガードブレイク（地上）、叩きつけ（空中） |
+
+<Callout type="warning" title="空中版に注意">
+空中でのHeavy Blowはガード可能ですが、地上版（アッパーカット）は確定ガードブレイクとなります。相手がガードを固めている場合は、常に地上版の使用を優先しましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="超サイヤ人＆超サイヤ人ブルーへの変身">
+
+ゴジータは独自の2段階覚醒システムを持っています。まず超サイヤ人（SSJ）に変身し、基本技が強化されます。SSJ状態で相手に**120ダメージ**以上を与えると、「The Strongest Fusion（最強の融合）」を発動して超サイヤ人ブルー（SSB）に変身できます。この変身時にHPが50回復し、技セットが完全に一新されます。
+
+### 超サイヤ人（SSJ）の技セット
+
+| 技名 | ダメージ | クールダウン | 主な特性 |
+|---|---|---|---|
+| **SSJ Kame** | 21.0 | 15秒 | ガード可能、飛び道具、マルチヒット |
+| **Soul Punisher** | 31.0 | 15秒 | ガード可能、コンボ始動技、マルチヒット |
+| **Super Mad Dance** | 20.0 | 18秒 | カウンター、ガード不能、叩きつけ |
+| **Stardust Fall** | 2.0 / hit | 15秒 | ガードブレイク、ガードブレイク時にテレポート |
+
+### 超サイヤ人ブルー（SSB）の技セット
+
+| 技名 | ダメージ（通常 / 最大） | クールダウン | 特殊メカニクス |
+|---|---|---|---|
+| **Comet Strike** | 21.0 / 53.0 | 13秒 / 20秒 | ダブルタップでゲージを1本消費し、巨大な光柱を発生 |
+| **God Punisher** | 30.0 / 55.0 | 18秒 | ダブルタップでゲージを1本消費し、スターダストブレイカーを発動 |
+| **Punisher Shield** | 18.0 / 19.0 | 15秒 / 18秒 | カウンター（ガード不能）または近接打撃 |
+| **Stardust Combo** | 30.0 / 48.0 | 15秒 / 20秒 | ダブルタップでゲージを1本消費し、プリズムビームを発動 |
+
+<Callout type="success" title="SSBのゲージ管理">
+SSBスキルのダブルタップ版は絶大なダメージを与えますが、覚醒ゲージを1本消費します。無闇に連発するのではなく、確実に相手のストックを奪うために戦略的に使用しましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ステップバイステップ ゴジータ コンボガイド">
+
+**Anime Battle Arenaのゴジータ**でダメージを最大化するには、3つの形態すべてにおいて基本コンボをマスターする必要があります。以下の手順に従って、完璧にコンボを決めましょう。
+
+<Steps>
+  <Step num="1" title="基本形態 応用コンボ">
+    M1を5回当て、**Punisher Drive**を発動。さらにM1を4回当ててからUptilt、Kickawayを行い、空中版の**Heavy Blow**を発動。着地後さらにM1を4回当て、Uptilt、Kickawayから、最後に空中版（スペースキー長押し）の**Mad Dance**で締めます。
+  </Step>
+  <Step num="2" title="超サイヤ人 バーストコンボ">
+    M1を3回当て、**Multiplex Afterimage**を使用。さらにM1を3回当ててからUptiltを行い、空中版の**Super Mad Dance**を発動。M1を4回当てて叩きつけ（Down Slam）を行い、最後に**Stardust Fall**で締めます。
+  </Step>
+  <Step num="3" title="超サイヤ人ブルー ワンパンコンボ">
+    M1を4回当て、**God Punisher**を発動。その後M1を5回当て、ダブルタップ版の**Stardust Combo**を発動して巨大なプリズムビームを放ちます。
+  </Step>
+</Steps>
+
+<Callout type="info" title="コンボの実用性">
+ゴジータには確定の100から0（即死）インフィニットコンボはありませんが、基本形態および覚醒形態のコンボルートは、妨害されずに完走できれば相手のHPの70〜80%を容易に削り取ることができます。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="ゴジータ マスターチェックリスト">
+
+このチェックリストを使って、Anime Battle Arenaにおけるゴジータの習熟度と上達状況を記録しましょう。
+
+<Checklist
+  id="gogeta-mastery"
+  title="目標一覧:"
+  items={[
+    "空中版（スペースキー長押し）のMad Danceによるコンボの締めのタイミングをマスターする",
+    "地上版のHeavy Blowによるガードブレイクを安定して当てる",
+    "4回目のM1にディレイをかけることで、相手の回避技を誘い出す技術を習得する",
+    "SSBモードのゲージ管理をマスターし、ダブルタップのフィニッシャーを効果的に発動する",
+    "ゴジータを使用してランクマッチで勝率60%以上を達成する"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "超サイヤ人ブルーのゴジータに変身するにはどうすればよいですか？",
+    answer: "まず超サイヤ人モードを発動する必要があります。超サイヤ人状態で相手に120以上のダメージを与えると、「The Strongest Fusion（最強の融合）」のプロンプトが解放され、これを使用するとHPが50回復し、SSB（超サイヤ人ブルー）に変身します。"
+  },
+  {
+    question: "Anime Battle Arenaのゴジータのスキルセットでは、KameとGalickのどちらが優れていますか？",
+    answer: "基本形態においては、Kameが非常に多機能です。空中キャスト時に滞空状態を維持できるため、相手からの反撃を受けにくくなります。"
+  },
+  {
+    question: "ゴジータのM1（通常攻撃）がユニークな理由は何ですか？",
+    answer: "ゴジータは、Anime Battle Arenaで唯一独自のマルチヒットM1通常攻撃モーションを持つキャラクターであり、独特のプレッシャーやのけぞり（スタガー）のタイミングを作り出すことができます。"
+  },
+  {
+    question: "超サイヤ人ブルーのPunisher Shieldはどのように機能しますか？",
+    answer: "青い気のシールドを展開するカウンターとして機能します。相手の攻撃が当たると、ゴジータが相手の頭上にテレポートして地面に叩きつけます。また、至近距離での直接打撃技としても使用可能です。"
+  }
+]} />
+
+</Section>
