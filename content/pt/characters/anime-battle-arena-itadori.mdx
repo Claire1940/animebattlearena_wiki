@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia do Itadori em Anime Battle Arena: Moveset e Melhores Combos",
+  description: "Domine Yuji Itadori no Anime Battle Arena (ABA) do Roblox. Aprenda seu moveset base, a transformação de Sukuna, combos ideais e estratégias avançadas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Itadori+ABA+Guide",
+  date: "2026-07-13",
+  author: "Equipe da Wiki de Anime Battle Arena",
+  keywords: "Anime Battle Arena, Itadori, Sukuna, Guia, Combos, Jujutsu Kaisen, Roblox"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Anime Battle Arena Itadori**: Um personagem de combate corpo a corpo altamente agressivo e focado em pressão no elenco de Jujutsu Kaisen.
+- **Mecânica Principal**: Domine o tempo do **Black Flash** para fortalecer seu dano e aprimorar todo o seu moveset.
+- **Transformação**: O Despertar transforma você em **Sukuna**, concedendo dano em área (AoE) massivo e uma poderosa Expansão de Domínio.
+- **Alto Risco**: Falhar em conseguir uma eliminação durante o despertar do Sukuna força Yuji a um **estado de Trauma** de 15 segundos com 60 de HP.
+- **Melhor Estratégia**: Use o **Manji Block** para contra-atacar oponentes agressivos e transicionar imediatamente para combos de alto dano.
+</Callout>
+
+<Section icon={Swords} title="Moveset Base e Dados de Frame do Yuji Itadori">
+
+Yuji Itadori é o primeiro personagem do elenco de Jujutsu Kaisen no Anime Battle Arena (ABA). Ele se destaca em combate de curta distância, utilizando golpes físicos de alta pressão, contra-ataques e uma mecânica de ritmo única através do Black Flash. Para jogar com o **itadori no anime battle arena** de forma eficaz, você deve entender as propriedades, tempos de recarga e a utilidade de seu kit base.
+
+O kit base de Yuji gira em torno de manter o ímpeto ofensivo. Acertar seus golpes principais concede buffs temporários que permitem derreter a barra de vida dos oponentes rapidamente.
+
+| Nome do Golpe | Dano | Recarga | Propriedades de Guarda | Tipo de Utilidade |
+| :--- | :--- | :--- | :--- | :--- |
+| **Divergent Fists** | 6 (3x2) + 2 | Sem CD (17s se Blow usado) | Bloqueável | Iniciador de Combo, Buff de Dano |
+| **Divergent Blow** | 22 (30 Black Flash) | 16 Segundos | Quebra Guarda, Cancelável | Finalizador de Combo, Melee |
+| **Black Flash (Sucesso)** | 25 | 17 Segundos | Quebra Guarda | Buff, Extensor de Combo |
+| **Black Flash (Falha)** | 10 | 17 Segundos | Bloqueável | Melee, Buff Menor |
+| **Manji Block** | 0 | 6s a 19s (Depende da carga) | Bloqueia Quebra Guardas | Contra-ataque Defensivo |
+| **Manji Kick** | 20 a 55 | 16 Segundos | Hyperarmor | Iniciador de Combo, Extensor |
+| **Skull Smash** | 21 (31 Black Flash) | 15 Segundos | Bloqueável, Cancelável | Finalizador de Combo, Melee |
+
+<Callout type="tip" title="Atraso de Energia Amaldiçoada">
+Divergent Fists e Divergent Blow possuem uma explosão de energia amaldiçoada atrasada. Quando você acerta esses golpes, o oponente sofre um golpe secundário 3 segundos depois, mesmo que o movimento já esteja em recarga. Use esse atraso para interromper contra-ataques inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas Avançadas do Kit Base">
+
+Para maximizar sua eficiência com Yuji Itadori, você deve dominar seus dois pilares mecânicos principais: o tempo do Black Flash e o sistema de contra-ataque Manji Block.
+
+### O Tempo do Black Flash
+O Black Flash é a ferramenta de maior teto de habilidade de Yuji. Ao ativar o movimento, observe sua câmera atentamente. Você deve pressionar a tecla M1 exatamente no momento em que a câmera se afasta (zoom out).
+
+- **No Sucesso**: Você causa 25 de dano, quebra a guarda do oponente e ganha um buff massivo de dano no M1. Este buff também adiciona tempos de Black Flash aos seus outros movimentos ativos (Divergent Blow, Manji Kick e Skull Smash), aumentando significativamente o dano deles.
+- **Na Falha**: Você causa apenas 10 de dano, o golpe é bloqueável e você perde o potencial do moveset aprimorado.
+
+### Contra-atacar com Manji Block
+O Manji Block é uma postura defensiva única que leva aproximadamente 0,5 segundos para se tornar ativa. Devido a esse atraso de inicialização, ele não pode ser usado puramente por reação a quebras de guarda rápidas. Em vez disso, use-o de forma preditiva quando antecipar uma opção agressiva de "wake-up" do oponente.
+
+<CardGrid cols={2}>
+  <Card title="Execução do Manji Block">
+    - **Defesa**: Bloqueia qualquer movimento recebido, incluindo quebras de guarda.
+    - **Cancelamento**: Pode ser cancelado antecipadamente pressionando M1.
+    - **Recarga**: Menor (6s) se cancelado cedo; maior (19s) se mantido totalmente sem ser atingido.
+  </Card>
+  <Card title="Seguimento com Manji Kick">
+    - **Hyperarmor**: Concede hyperarmor durante a animação do chute.
+    - **Dano Base**: Causa 20 de dano base (25 com Black Flash ativo).
+    - **Dano Carregado**: Causa 30 de dano após um bloqueio bem-sucedido, escalando até **55 de dano** se combinado com um bloqueio bem-sucedido e o buff de Black Flash ativo.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cuidado com a Recarga da Postura">
+Segurar o Manji Block por toda a sua duração sem ser atingido penaliza você com uma recarga de 19 segundos. Se você vir seu oponente se afastar, cancele a postura cedo com um M1 para manter sua recarga em 6 segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rei das Maldições: Transformação de Sukuna">
+
+Quando Yuji preenche sua barra de despertar, Ryomen Sukuna assume o controle de seu corpo. Esta transformação libera instantaneamente uma barragem de Desmantelar (Dismantles) ao redor de Sukuna, causando dano a qualquer um por perto. Sukuna altera completamente seu estilo de jogo, mudando da pressão física em alvo único para um poder destrutivo esmagador em área (AoE).
+
+| Passiva / Golpe do Sukuna | Dano | Propriedades de Guarda | Mecânicas Especiais |
+| :--- | :--- | :--- | :--- |
+| **Awakening Dismantle** | 20 | Ignora Bloqueio | Causa dano durante a animação de transformação. |
+| **Reverse Cursed Technique** | N/A | I-Frames | Regenera membros automaticamente abaixo de 50 HP ao custo de 2 barras de despertar. |
+| **Dismantle M1** | Escala | Bloqueável | Ataques M1 à distância que perfuram e atingem vários alvos. |
+| **Cleave** | 38 (Chão) / 40 (Aéreo) | Quebra Guarda (Aéreo) | Ignora bloqueio e persegue mesmo se o alvo tiver I-frames. |
+| **Slashdown** | 27 | Quebra Guarda (4º hit) | Corta à frente e lança o alvo no ar. |
+| **Vengeful Pursuit** | 38 | Quebra Guarda | Batida em alvo único que concede I-frames para Sukuna e a vítima. |
+| **Malevolent Shrine** | Dano Contínuo | Imbloqueável | Expansão de Domínio que causa dano contínuo em área. |
+| **Fuga (Fire Arrow)** | 50 (70 no Domínio) | Ignora Guarda | Projétil de alto dano direcionado para onde seu cursor estiver mais próximo. |
+
+<Callout type="danger" title="A Penalidade de Trauma">
+Sukuna é incrivelmente poderoso, mas ele vem com uma desvantagem severa. Se você matar pelo menos um oponente durante o seu despertar, Yuji recuperará o controle, definirá seu HP para 60 e entrará em um **estado de Trauma** de 15 segundos onde ele cai de joelhos. Se você sobreviver a esses 15 segundos, recupera 60 de HP. No entanto, se você não matar **ninguém** durante o despertar, sairá do modo com segurança sem entrar no estado de Trauma.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Combo Passo a Passo">
+
+Executar combos precisos é essencial para garantir eliminações antes que seu oponente possa reagir ou escapar. Use estas rotas de combo passo a passo para maximizar seu dano tanto como Yuji quanto como Sukuna.
+
+<Steps>
+  <Step num="1" title="Combo Base Padrão (Início Divergente)">
+    Inicie com **3 M1s**, realize um **Uptilt** e ative imediatamente o **Divergent Fists**. Siga com **4 M1s**, execute um **Downslam** e transicione instantaneamente para o **Black Flash**.
+  </Step>
+  <Step num="2" title="Combo Base Avançado (Dano Máximo)">
+    Execute **3 M1s**, **Uptilt** e ative o **Divergent Fists**. Acerte mais **4 M1s**, **Downslam** e acerte o tempo do seu **Black Flash**. Siga com **3 M1s**, **Uptilt**, **Kickaway** e finalize o oponente com **Skull Smash** (fortalecido pelo buff de Black Flash ativo).
+  </Step>
+  <Step num="3" title="Combo de Despertar do Sukuna">
+    Enquanto transformado, execute **4 M1s**, ative o **Cleave**, acerte mais **4 M1s**, dispare o **Dismantle** e termine a sequência com **3 M1s** para manter o oponente sob pressão.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Extensão de Black Flash">
+Acertar Black Flashes consecutivos enquanto Yuji já está bufado estende a duração de seu estado aprimorado. Pratique o tempo do zoom da câmera no modo de treinamento para manter seu dano alto durante toda a partida.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Maestria do Itadori">
+
+Para vencer partidas ranqueadas consistentemente com Yuji Itadori, tente alcançar estes marcos mecânicos durante suas sessões de prática.
+
+<Checklist
+  id="itadori-mastery"
+  title="Habilidades para Dominar:"
+  items={[
+    "Acertar consistentemente o tempo de zoom da câmera do Black Flash (taxa de sucesso de 90%+).",
+    "Usar o Manji Block de forma preditiva para contra-atacar opções agressivas de wake-up do oponente.",
+    "Cancelar o Manji Block cedo quando os oponentes se recusarem a atacar para evitar a penalidade de 19 segundos.",
+    "Garantir uma eliminação garantida durante o despertar do Sukuna para gerenciar o estado de Trauma com segurança.",
+    "Utilizar a explosão de Energia Amaldiçoada atrasada do Divergent Fists para interromper contra-ataques inimigos."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como acerto consistentemente o tempo do Black Flash no Anime Battle Arena Itadori?",
+    answer: "Você deve pressionar o botão M1 precisamente quando a câmera se afasta durante a animação do soco. Se a sua câmera não der zoom, ou se você pressionar muito cedo/tarde, obterá a versão falha e bloqueável."
+  },
+  {
+    question: "A Técnica Amaldiçoada Reversa do Sukuna o torna completamente invencível?",
+    answer: "Não. Embora ela regenere membros e conceda I-frames, ela não protege Sukuna de movimentos supremos que ignoram I-frames, como o Mugetsu de Ichigo, o Bites the Dust de Kira ou o End."
+  },
+  {
+    question: "Qual é a melhor maneira de lidar com o estado de Trauma do Yuji após o modo do Sukuna terminar?",
+    answer: "Se você conseguiu uma eliminação, ficará travado no lugar por 15 segundos com 60 de HP. Sua melhor opção é jogar de forma altamente defensiva logo antes do modo terminar, ou garantir que seus companheiros de equipe (em modos de time) o protejam enquanto você se recupera."
+  },
+  {
+    question: "Posso usar o Fuga fora da Expansão de Domínio do Sukuna?",
+    answer: "Sim. O Fuga pode ser usado fora do domínio assim que sua barra de Expansão de Domínio estiver preenchida em aproximadamente 50%. No entanto, usá-lo dentro da Expansão de Domínio aumenta seu dano de 50 para 70 e não encerra o domínio precocemente."
+  }
+]} />
+
+</Section>

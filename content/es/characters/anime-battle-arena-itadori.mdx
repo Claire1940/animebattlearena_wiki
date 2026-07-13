@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Battle Arena Itadori: Guía de Movimientos y Mejores Combos",
+  description: "Domina a Yuji Itadori en Anime Battle Arena (ABA) de Roblox. Aprende su conjunto de movimientos básicos, la transformación de Sukuna, combos óptimos y estrategias avanzadas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Itadori+ABA+Guide",
+  date: "2026-07-13",
+  author: "Equipo de Wiki de Anime Battle Arena",
+  keywords: "Anime Battle Arena, Itadori, Sukuna, combos, guía, ABA"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Anime Battle Arena Itadori**: Un personaje de combate cuerpo a cuerpo altamente agresivo y de gran presión en el elenco de Jujutsu Kaisen.
+- **Mecánica Principal**: Domina el tiempo del **Destello Negro (Black Flash)** para potenciar tu daño y mejorar todo tu conjunto de movimientos.
+- **Transformación**: El Despertar te transforma en **Sukuna**, otorgándote un daño masivo en área (AoE) y una poderosa Expansión de Dominio.
+- **Alto Riesgo**: No conseguir ninguna baja durante el despertar de Sukuna obliga a Yuji a entrar en un **estado de Trauma** de 15 segundos con 60 HP.
+- **Mejor Estrategia**: Usa el **Bloqueo Manji (Manji Block)** para contrarrestar a oponentes agresivos y realizar una transición inmediata a combos de alto daño.
+</Callout>
+
+<Section icon={Swords} title="Conjunto de Movimientos Básicos y Datos de Frames de Yuji Itadori">
+
+Yuji Itadori es el primer personaje del elenco de Jujutsu Kaisen en Anime Battle Arena (ABA). Destaca en el combate a corta distancia, utilizando golpes físicos de alta presión, contraataques y una mecánica de ritmo única a través del Destello Negro. Para jugar con **anime battle arena itadori** de manera efectiva, debes comprender las propiedades, enfriamientos y utilidad de su kit básico.
+
+El kit básico de Yuji gira en torno a mantener el impulso ofensivo. Acertar sus golpes clave otorga mejoras temporales que le permiten derretir las barras de vida de los oponentes rápidamente.
+
+| Nombre del Movimiento | Daño | Enfriamiento | Propiedades de Guardia | Tipo de Utilidad |
+| :--- | :--- | :--- | :--- | :--- |
+| **Divergent Fists** | 6 (3x2) + 2 | Sin CD (17s si se usa Blow) | Bloqueable | Iniciador de Combo, Potenciador de Daño |
+| **Divergent Blow** | 22 (30 Destello Negro) | 16 Segundos | Rompeguardias, Cancelable | Finalizador de Combo, Cuerpo a Cuerpo |
+| **Black Flash (Éxito)** | 25 | 17 Segundos | Rompeguardias | Potenciador, Extensor de Combo |
+| **Black Flash (Fallo)** | 10 | 17 Segundos | Bloqueable | Cuerpo a Cuerpo, Potenciación Menor |
+| **Manji Block** | 0 | 6s a 19s (Depende de la carga) | Bloquea Rompeguardias | Contraataque Defensivo |
+| **Manji Kick** | 20 a 55 | 16 Segundos | Hiperarmadura | Iniciador de Combo, Extensor |
+| **Skull Smash** | 21 (31 Destello Negro) | 15 Segundos | Bloqueable, Cancelable | Finalizador de Combo, Cuerpo a Cuerpo |
+
+<Callout type="tip" title="Retraso de Energía Maldita">
+Divergent Fists y Divergent Blow presentan una explosión retrasada de energía maldita. Cuando aciertas estos movimientos, el oponente recibe un segundo golpe 3 segundos después, incluso si el movimiento ya está en enfriamiento. Utiliza este retraso para interrumpir los contraataques enemigos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas Avanzadas del Kit Básico">
+
+Para maximizar tu eficiencia con Yuji Itadori, debes dominar sus dos pilares mecánicos principales: el tiempo del Destello Negro y el sistema de contraataque del Bloqueo Manji.
+
+### El Tiempo del Destello Negro (Black Flash)
+Destello Negro es la herramienta de Yuji que requiere mayor habilidad. Al activar el movimiento, observa de cerca tu cámara. Debes presionar la tecla M1 exactamente cuando la cámara se aleje (zoom out). 
+
+- **En caso de éxito**: Infringes 25 de daño, rompes la guardia del oponente y obtienes una mejora masiva de daño en tus golpes M1. Esta mejora también añade tiempos de Destello Negro a tus otros movimientos activos (Divergent Blow, Manji Kick y Skull Smash), aumentando significativamente su daño.
+- **En caso de fallo**: Infringes un pobre daño de 10, el movimiento es bloqueable y pierdes el potencial del conjunto de movimientos mejorados.
+
+### Contrarrestar con el Bloqueo Manji (Manji Block)
+El Bloqueo Manji es una postura defensiva única que tarda aproximadamente 0.5 segundos en activarse. Debido a este retraso de inicio, no se puede usar por pura reacción ante rompeguardias rápidos. En su lugar, utilízalo de forma predictiva cuando anticipes una opción de levantamiento agresiva por parte del oponente.
+
+<CardGrid cols={2}>
+  <Card title="Ejecución del Bloqueo Manji">
+    - **Defensa**: Bloquea cualquier movimiento entrante, incluidos los rompeguardias.
+    - **Cancelar**: Se puede cancelar temprano presionando M1.
+    - **Enfriamiento**: Más corto (6s) si se cancela temprano; más largo (19s) si se mantiene por completo sin recibir impactos.
+  </Card>
+  <Card title="Seguimiento con Patada Manji">
+    - **Hiperarmadura**: Otorga hiperarmadura durante la animación de la patada.
+    - **Daño Base**: Inflige 20 de daño base (25 con el Destello Negro activo).
+    - **Daño Cargado**: Inflige 30 de daño tras un bloqueo exitoso, escalando hasta **55 de daño** si se combina con un bloqueo exitoso y la mejora activa del Destello Negro.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cuidado con el Enfriamiento de la Postura">
+Mantener el Bloqueo Manji durante toda su duración sin ser golpeado te penaliza con un enfriamiento de 19 segundos. Si ves que tu oponente retrocede, cancela la postura temprano con un M1 para mantener tu enfriamiento en 6 segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El Rey de las Maldiciones: Transformación de Sukuna">
+
+Cuando Yuji llena su barra de despertar, Ryomen Sukuna toma el control de su cuerpo. Esta transformación libera instantáneamente una ráfaga de Dismantles alrededor de Sukuna, infligiendo daño a cualquiera que esté cerca. Sukuna altera por completo tu estilo de juego, pasando de la presión física a un solo objetivo a un poder destructivo abrumador en área de efecto (AoE).
+
+| Pasiva / Movimiento de Sukuna | Daño | Propiedades de Guardia | Mecánicas Especiales |
+| :--- | :--- | :--- | :--- |
+| **Awakening Dismantle** | 20 | Ignora el Bloqueo | Inflige daño durante la animación de transformación. |
+| **Reverse Cursed Technique** | N/A | I-Frames | Regenera automáticamente extremidades por debajo de 50 HP a costa de 2 barras de despertar. |
+| **Dismantle M1** | Escala | Bloqueable | Ataques M1 a distancia que atraviesan y golpean a múltiples objetivos. |
+| **Cleave** | 38 (Terrestre) / 40 (Aéreo) | Rompeguardias (Aéreo) | Ignora el bloqueo y realiza un seguimiento incluso si el objetivo tiene I-frames. |
+| **Slashdown** | 27 | Rompeguardias (4.º golpe) | Lanza cortes al frente y eleva al objetivo por los aires. |
+| **Vengeful Pursuit** | 38 | Rompeguardias | Impacto contra el suelo a un solo objetivo que otorga I-frames a Sukuna y a la víctima. |
+| **Malevolent Shrine** | Daño por pulsos | Imbloqueable | Expansión de Dominio que inflige daño continuo en área (AoE). |
+| **Fuga (Flecha de Fuego)** | 50 (70 en Dominio) | Ignora la Guardia | Proyectil de alto daño dirigido al punto más cercano a tu cursor. |
+
+<Callout type="danger" title="La Penalización de Trauma">
+Sukuna es increíblemente poderoso, pero viene con una severa desventaja. Si logras derrotar al menos a un oponente durante tu despertar, Yuji recuperará el control, establecerá tus HP en 60 y entrará en un **estado de Trauma** de 15 segundos en el que caerá de rodillas. Si sobrevives a estos 15 segundos, recuperarás 60 HP. Sin embargo, si no derrotas a **nadie** durante el despertar, saldrás del modo de forma segura sin entrar en el estado de Trauma.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Combos Paso a Paso">
+
+Ejecutar combos precisos es esencial para asegurar eliminaciones antes de que tu oponente pueda reaccionar o escapar. Utiliza estas rutas de combo paso a paso para maximizar tu daño tanto con Yuji como con Sukuna.
+
+<Steps>
+  <Step num="1" title="Combo Básico Estándar (Inicio con Divergent)">
+    Inicia con **3 M1**, realiza un **Uptilt** (golpe hacia arriba) e inmediatamente activa **Divergent Fists**. Continúa con **4 M1**, ejecuta un **Downslam** (golpe hacia abajo) y realiza la transición instantánea a **Black Flash**.
+  </Step>
+  <Step num="2" title="Combo Básico Avanzado (Daño Máximo)">
+    Ejecuta **3 M1**, **Uptilt** y activa **Divergent Fists**. Conecta otros **4 M1**, **Downslam** y acierta el tiempo de tu **Black Flash**. Continúa con **3 M1**, **Uptilt**, **Kickaway** (patada de alejamiento) y remata al oponente con **Skull Smash** (potenciado por la mejora activa del Destello Negro).
+  </Step>
+  <Step num="3" title="Combo de Despertar de Sukuna">
+    Mientras estás transformado, ejecuta **4 M1**, activa **Cleave**, conecta otros **4 M1**, lanza **Dismantle** y finaliza la secuencia con **3 M1** para mantener al oponente bajo presión.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Extensión del Destello Negro">
+Acertar Destellos Negros consecutivos mientras Yuji ya está potenciado extiende la duración de su estado mejorado. Practica el tiempo de alejamiento de la cámara en el modo de entrenamiento para mantener tu daño escalado durante todo el combate.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para Dominar a Itadori">
+
+Para ganar de forma constante partidas clasificatorias con Yuji Itadori, proponte alcanzar estos hitos mecánicos durante tus sesiones de práctica.
+
+<Checklist
+  id="itadori-mastery"
+  title="Habilidades a Dominar:"
+  items={[
+    "Acertar de forma constante el tiempo de alejamiento de cámara del Destello Negro (tasa de éxito superior al 90%).",
+    "Utilizar de manera predictiva el Bloqueo Manji para contrarrestar las opciones de levantamiento agresivas del oponente.",
+    "Cancelar el Bloqueo Manji temprano cuando los oponentes se nieguen a atacar para evitar la penalización de enfriamiento de 19 segundos.",
+    "Asegurar una baja garantizada durante el despertar de Sukuna para gestionar el estado de Trauma de forma segura.",
+    "Aprovechar la explosión retrasada de Energía Maldita de Divergent Fists para interrumpir los contraataques enemigos."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo acierto de manera constante el tiempo del Destello Negro con Itadori en Anime Battle Arena?",
+    answer: "Debes presionar el botón M1 precisamente cuando la cámara se aleja durante la animación del puñetazo. Si tu cámara no hace zoom, o si lo presionas demasiado pronto o tarde, obtendrás la versión fallida y bloqueable."
+  },
+  {
+    question: "¿La Técnica de Maldición Inversa de Sukuna lo hace completamente invencible?",
+    answer: "No. Aunque regenera extremidades y otorga I-frames, no protege a Sukuna de los movimientos definitivos que ignoran los I-frames, como el Mugetsu de Ichigo, Bites the Dust de Kira o End."
+  },
+  {
+    question: "¿Cuál es la mejor manera de manejar el estado de Trauma de Yuji después de que termina el modo de Sukuna?",
+    answer: "Si conseguiste una baja, quedarás inmovilizado en el lugar durante 15 segundos con 60 HP. Tu mejor opción es jugar de manera sumamente defensiva justo antes de que termine el modo, o asegurarte de que tus compañeros (en modos de equipo) te protejan mientras te recuperas."
+  },
+  {
+    question: "¿Puedo usar Fuga fuera de la Expansión de Dominio de Sukuna?",
+    answer: "Sí. Fuga se puede utilizar fuera del dominio una vez que tu barra de Expansión de Dominio se haya llenado aproximadamente al 50%. Sin embargo, usarlo dentro de la Expansión de Dominio aumenta su daño de 50 a 70 y no termina el dominio antes de tiempo."
+  }
+]} />
+
+</Section>

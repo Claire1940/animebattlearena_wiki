@@ -1,0 +1,165 @@
+import { Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Battle Arena カーズ：技セット＆コンボガイド",
+  description: "Anime Battle Arenaでカーズを極めよう。基本技セット、究極生命体への変身、およびランクマッチを圧倒するための高ダメージコンボを解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e1e2f/fff?text=Kars+ABA+Guide",
+  date: "2026-07-13",
+  author: "Anime Battle Arena Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Anime Battle Arenaのカーズ**: 優れたオートエイムとテレポート能力を持つ、非常に攻撃的でコンボ重視のキャラクター。
+- **主要メカニズム**: **究極生命体**に変身することで、広範囲への大ダメージと驚異的な機動力を獲得します。
+- **最善の戦略**: **Victory（勝利）**を使用してテレポートし、コンボを開始します。その後、空中版や多段ヒットの斬撃を使用してコンボを伸ばします。
+- **重要なコツ**: **Brilliant Bone Blades（輝彩滑刀）**または**Supreme Genes（究極の遺伝子）**で相手のガードを崩し、高ダメージのフィニッシャーを叩き込みましょう。
+- **おすすめのプレイヤー**: スピーディーなラッシュダウンスタイルと、ステージを支配する強力な変身能力を楽しみたい方に最適です。
+</Callout>
+
+<Section icon={Swords} title="Anime Battle Arena カーズ 基本技セット">
+
+カーズは『Anime Battle Arena』における「柱の男」の恐るべきリーダーであり、特徴的な腕の刃と冷酷な戦闘スタイルを戦場にもたらします。基本形態のカーズは、素早い接近、オートエイムテレポート、そしてガードの固い相手への強力なプレッシャー維持に優れています。基本技セットをマスターすることは、覚醒ゲージを効率的に溜めるために不可欠です。
+
+**動画の見どころ:**
+- **オートエイムテレポート**: 空中版Victory（勝利）を使用して瞬時に位置取りを行う方法。
+- **コンボの延長**: Beautiful Violence（美しき暴力）を利用して相手をステージ中引きずり回す方法。
+- **覚醒ショーケース**: 究極生命体の破壊的な能力の完全なデモンストレーション。
+
+<YouTubeEmbed videoId="V-KzGcDA-cc" title="究極生命体カーズ ショーケース | Anime Battle Arena" />
+
+### 基本形態の技詳細
+
+| 技名 | ダメージ | クールダウン | 特性 | 主な用途 |
+|---|---|---|---|---|
+| **Victory（勝利）** | 15 | 18秒 | ガード可能、オートエイム、叩きつけ | コンボ始動技 / 繋ぎ技 |
+| **Victory Is Everything!（勝てばよかろうなのだァァァァッ!!）** | 3 | 2秒（ミス時19秒） | ガード可能、オートエイム、打ち上げ | コンボフィニッシャー（空中版） |
+| **Brilliant Bone Blades（輝彩滑刀）** | 15 (7.5 x 2) | 16秒 | ガード崩し、ノックバック | コンボフィニッシャー / シールドプレッシャー |
+| **Beautiful Violence（美しき暴力）** | 15 | 15秒 | ガード可能、叩きつけ、方向調整可能 | コンボ始動技 / 移動 |
+| **Flurry Brilliance（輝彩連斬）** | 20 (2 x 10) | 16秒 | ガード可能、多段ヒット、ノックバック | コンボフィニッシャー |
+
+<Callout type="tip" title="プロのコツ">
+空中での **Victory** は **Victory Is Everything!** に変化し、ヒット時のクールダウンはわずか2秒と非常に短くなります。これを利用して相手を絶えず打ち上げ、空中での立ち回りをリセットしましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="究極生命体 覚醒変身">
+
+覚醒ゲージを溜め、エイジャの赤石がはめ込まれた石仮面を被ることで、カーズは**究極生命体**へと進化します。この変身により技セットが完全に変化し、広範囲への効果（AOE）と優れた飛行能力を備えた、高ダメージを叩き出す強力なキャラクターになります。
+
+### 覚醒技詳細
+
+| 技名 | ダメージ | クールダウン | 特性 | 主な用途 |
+|---|---|---|---|---|
+| **Supreme Genes（究極の遺伝子）** | 38 | 16秒 | ガード崩し、多段ヒット、飛び道具 | コンボ始動技 / フィニッシャー |
+| **Predator Wings（捕食者の翼）** | 20 | 15.5秒 | ガード可能、叩きつけ、飛行 | コンボ始動技 / 機動力 |
+| **Ripple Fisticuffs（波紋の拳）** | 21 | 15秒 | ガード崩し、打ち上げ、火山生成 | エリア制限 / コンボフィニッシャー |
+| **This cannot be!（そんなバカな！）** | 42.5 | 15秒 | ガード可能、多段ヒット、範囲攻撃 | 高ダメージフィニッシャー |
+
+<Callout type="warning" title="重要なメカニズム">
+**Ripple Fisticuffs（波紋の拳）**を使用すると、近くのプレイヤーの足元に小さな火山が出現し、溶岩を噴き出して持続ダメージを与えます。ただし、最初のパンチでターゲットのガードを崩した場合、火山は**出現しません**。ステージ上のパッシブなトラップダメージを最大化するために、間合いを慎重に計画しましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="カーズのステップバイステップ コンボガイド">
+
+**Anime Battle Arenaのカーズ**を高いレベルで使いこなすには、コンボルートを記憶する必要があります。基本のM1攻撃からオートエイムテレポートへと繋ぐ能力により、高ピン環境であっても彼のコンボは非常に安定して繋がります。
+
+<Steps>
+  <Step num="1" title="基本形態 地上始動">
+    基本M1攻撃を4回行い、その後打ち上げで相手を空中に浮かかせます。
+  </Step>
+  <Step num="2" title="空中テレポートによるコンボ延長">
+    すぐに **Victory** を発動して空中の相手の頭上にテレポートし、地面に叩きつけます。
+  </Step>
+  <Step num="3" title="地上での追撃">
+    倒れた相手に駆け寄ってさらにM1攻撃を4回当て、すぐに **Beautiful Violence** を実行して方向を調整し、相手を連続斬撃に拘束します。
+  </Step>
+  <Step num="4" title="コンボフィニッシャー">
+    さらにM1攻撃を4回、上強攻撃、キックバックと繋げ、すぐに **Brilliant Bone Blades** を放って高ダメージのガード崩しフィニッシュを決めます。
+  </Step>
+</Steps>
+
+<Callout type="success" title="覚醒コンボルート">
+究極生命体では、以下の連携で大ダメージを狙えます: **M1攻撃4回** -> **打ち上げ** -> **Predator Wings** -> **Supreme Genes** -> **M1攻撃4回** -> **This cannot be!**（合計100以上のダメージを与えます）。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="マッチアップ戦略と対策">
+
+カーズをプレイする際は、極めて攻撃的な姿勢と、敵の回避行動を誘い出すことのバランスが求められます。ランクマッチで様々なマッチアップに対応するために、以下の戦略を活用してください。
+
+<CardGrid cols={3}>
+  <Card title="逃げ回る相手に対して">
+    - 動き回る相手を追いかけるために、方向転換が可能な **Beautiful Violence** を使用します。
+    - 相手が空中での受け身をとった瞬間のために **Victory** を温存しておきます。
+    - **Brilliant Bone Blades** でガードを強要します。
+  </Card>
+  <Card title="ガードの固い相手（タートル）に対して">
+    - 多段ヒットする **Flurry Brilliance** でシールドにプレッシャーを与えます。
+    - **Brilliant Bone Blades** を使用して瞬時にガードを崩します。
+    - テレポートを実行する前に、相手のカウンター（当て身技）を誘い出します。
+  </Card>
+  <Card title="覚醒中">
+    - **Predator Wings** の飛行ルートを駆使して、地上のトラップを回避します。
+    - **Supreme Genes** で牽制し、相手に回避を強要します。
+    - 逃げるターゲットを捕らえるため、**This cannot be!** の発動中も移動します。
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="戦術的アドバイス">
+基本形態のカーズは技のクールダウンが比較的長いため、**Victory** や **Beautiful Violence** などの主要な技を外すと無防備になります。クールダウンの長いスキルを使用する前に、必ずM1攻撃を確実にヒットさせるようにしましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="カーズ習熟目標">
+
+パブリックサーバーやランクサーバーで以下の目標の達成を目指し、カーズの習熟度を測りましょう。
+
+<Checklist
+  id="kars-progression"
+  title="カーズプレイヤーのマイルストーン:"
+  items={[
+    "ランクマッチで基本形態の100ダメージ以上のフルコンボを成功させる",
+    "Ripple Fisticuffsの火山生成を利用してダブルキルを獲得する",
+    "Beautiful Violenceの方向を上手く調整し、回避中の相手を捕らえる",
+    "最初のストックを失うことなく覚醒ゲージを100%にする",
+    "Victory Is Everything! を使用した空中から地上への繋ぎをマスターする"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "Anime Battle Arenaのカーズは初心者向けですか？",
+    answer: "はい。オートエイムテレポート（Victory）や方向調整可能な突進技（Beautiful Violence）があるため非常に扱いやすいキャラクターですが、最適なM1攻撃でのコンボ延長をマスターするには練習が必要です。"
+  },
+  {
+    question: "カーズの究極生命体の技はガードできますか？",
+    answer: "Supreme GenesとRipple Fisticuffsはガード崩し効果があるため、ガードを貫通します。しかし、Predator Wingsと「This cannot be!」は、タイミングを合わせればガード可能です。"
+  },
+  {
+    question: "Victoryを外した後の反撃を避けるにはどうすればよいですか？",
+    answer: "空中でのVictory Is Everything!を外すと、クールダウンは19秒に増加します。闇雲に使用するのは避け、打ち上げで相手を空中に浮かせることに成功した時のみ発動するようにしてください。"
+  },
+  {
+    question: "Ripple Fisticuffsの火山はどのように機能しますか？",
+    answer: "カーズがRipple Fisticuffsで相手を攻撃した後、近くのプレイヤーの足元に自動的に出現します。火山は定期的に溶岩を噴き出しますが、最初のパンチでガード崩しが発生した場合は出現しません。"
+  }
+]} />
+
+</Section>

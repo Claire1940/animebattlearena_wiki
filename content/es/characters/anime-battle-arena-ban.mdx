@@ -1,0 +1,147 @@
+import { Shield, Swords, Target, Trophy, HelpCircle, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Baneo en Anime Battle Arena: Cómo apelar y evitar restricciones",
+  description: "Aprende cómo lidiar con un baneo en Anime Battle Arena, apelar las penalizaciones de restricción, contactar a los moderadores del juego en Roblox y proteger el progreso de tu cuenta.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=ABA+Ban+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Anime Battle Arena"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Consecuencias del baneo**: Un **baneo de Anime Battle Arena** te bloquea el acceso a tus gamepasses comprados, personajes y progreso competitivo.
+- **Causa principal**: El uso de exploits, trampas o compartir un dispositivo con un usuario con baneo de IP son los desencadenantes más comunes.
+- **Canal de apelación**: Las apelaciones de baneo deben enviarse a través del servidor oficial de Discord; enviar mensajes directos a los moderadores rara vez funciona.
+- **Baneos de personajes**: Los baneos de personajes en partidas clasificatorias (Ranked) requieren que domines al menos un personaje de respaldo para mantener tu ELO competitivo.
+</Callout>
+
+<Section icon={Shield} title="Comprendiendo el sistema de baneos de Anime Battle Arena">
+
+Un **baneo de Anime Battle Arena** puede detener instantáneamente tu progreso, bloquear tus costosos gamepasses y cortar tu conexión con la comunidad. En Anime Battle Arena (ABA), los baneos generalmente se dividen en dos categorías: baneos competitivos de personajes durante las fases de draft en partidas clasificatorias (Ranked) y baneos permanentes de cuenta emitidos por el equipo de moderación del juego.
+
+**Puntos clave del video:**
+- **Impacto del Draft en Ranked**: Por qué depender de un solo personaje como Sasuke puede arruinar tu ascenso en la tabla de clasificación.
+- **Estrategia de respaldo**: La importancia de aprender a usar personajes secundarios como Guts o Luffy para sobrevivir a los baneos de draft.
+- **Recuperación de ELO en Ranked**: Cómo ganar revanchas incluso cuando tu personaje principal está bloqueado.
+
+<YouTubeEmbed videoId="CRWoygTZuG4" title="Cuando banean a tu personaje principal... (Anime Battle Arena)" />
+
+Los baneos de cuenta son mucho más severos que los baneos de draft. Estas restricciones están vinculadas a tu ID de usuario de Roblox o a tu dirección IP local. Si recibes un baneo de cuenta, verás una notificación simple que indica que has sido baneado al intentar unirte al juego.
+
+| Tipo de baneo | Duración | Desencadenante principal | Método de resolución |
+|---|---|---|---|
+| **Baneo de personaje** | 1 partida | Fase de draft en Ranked | Seleccionar un personaje de respaldo |
+| **Baneo de cuenta** | Permanente | Uso de exploits, trampas, glitching | Apelación en el Discord oficial |
+| **Baneo de IP** | Permanente | Multicuentas, trampas en dispositivo compartido | Proceso de apelación a nivel de red |
+
+<Callout type="warning" title="Advertencia sobre dispositivos compartidos">
+Si compartes una PC o conexión a Internet con otro jugador de Roblox que usa exploits, tu cuenta puede sufrir un baneo colateral de IP. El sistema de moderación no puede distinguir fácilmente entre diferentes personas en la misma red.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo apelar un baneo de cuenta">
+
+Si crees que la restricción de tu cuenta se emitió por error, debes seguir los canales oficiales para contactar al equipo de moderación. Se desaconseja encarecidamente enviar mensajes directos a los miembros del personal en Discord, y a menudo se ignoran debido al volumen de solicitudes que reciben.
+
+<Steps>
+  <Step num="1" title="Únete al servidor oficial de Discord">
+    Accede al servidor oficial de Discord de Anime Battle Arena. Este es el centro principal donde se lleva a cabo toda la moderación de la comunidad.
+  </Step>
+  <Step num="2" title="Localiza el canal de apelaciones o el sistema de tickets">
+    Navega a los canales designados para soporte o apelaciones. No menciones (pingees) a los administradores o desarrolladores directamente en las salas de chat públicas.
+  </Step>
+  <Step num="3" title="Identifica a los moderadores correctos">
+    Enfoca tus esfuerzos de apelación en los moderadores activos dentro del juego. Mientras que los administradores de la comunidad manejan problemas específicos de Discord, los moderadores especializados del juego se encargan de restaurar las cuentas de Roblox.
+  </Step>
+  <Step num="4" title="Presenta tu caso con honestidad">
+    Proporciona tu nombre de usuario exacto de Roblox, explica tu situación sin hostilidad y presenta cualquier evidencia que demuestre tu inocencia.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Roles de los moderadores">
+El personal de moderación dentro del juego, como K1 y Strict, tiene la autoridad para levantar baneos en el juego. Los líderes de la comunidad como Hasheem se enfocan principalmente en la gestión de la comunidad de Discord en lugar de la restauración de cuentas individuales de Roblox.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gestión estratégica de personajes para baneos en Ranked">
+
+En las partidas clasificatorias (Ranked) de alto nivel, tus oponentes a menudo apuntarán a tu personaje principal durante la fase de baneo del draft. Depender de un solo personaje te hace muy vulnerable a los baneos dirigidos, lo que puede desplomar tu ELO competitivo.
+
+<CardGrid cols={3}>
+  <Card title="Diversifica tu lista de personajes">
+    Nunca dependas de un solo personaje. Domina al menos dos o tres personajes de diferentes arquetipos para mantener la versatilidad.
+  </Card>
+  <Card title="Aprende combos simples primero">
+    Si te ves obligado a usar un personaje de respaldo como Luffy, enfócate en combos seguros y básicos en lugar de configuraciones llamativas y de alto riesgo.
+  </Card>
+  <Card title="Invierte en respaldos confiables">
+    Los personajes con herramientas directas y de gran daño como Guts son excelentes opciones de respaldo cuando tu personaje principal está baneado.
+  </Card>
+</CardGrid>
+
+| Personaje | Dificultad | Rol | Mejor usado para |
+|---|---|---|---|
+| **Sasuke** | Media | Especialista en combos | Personaje principal |
+| **Luffy** | Fácil | Agresivo (Rushdown) | Respaldo simple y confiable |
+| **Guts** | Fácil | Daño pesado | Respaldo de alta presión |
+
+<Callout type="tip" title="Estrategia de Draft">
+Asegura siempre un personaje de respaldo que no comparta las mismas debilidades que tu personaje principal. Esto evita que los oponentes contrarresten a todo tu equipo con una sola elección de baneo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de seguridad y prevención de la cuenta">
+
+Proteger el progreso de tu cuenta es crucial, especialmente si has gastado dinero real en gamepasses y skins cosméticas. Utiliza esta lista de verificación para asegurarte de que tu cuenta se mantenga en buen estado con el equipo de moderación.
+
+<Checklist
+  id="aba-safety-checklist"
+  title="Pasos para la protección de la cuenta:"
+  items={[
+    "Nunca descargues ni ejecutes scripts de terceros, exploits o herramientas de macros.",
+    "Evita compartir las credenciales de tu cuenta o tus dispositivos con jugadores que hacen trampas.",
+    "Mantén tu cuenta de Roblox segura utilizando la autenticación de dos factores (2FA).",
+    "Reporta los errores a través de los canales oficiales en lugar de explotarlos para obtener una ventaja.",
+    "Mantén un comportamiento respetuoso en las salas públicas para evitar reportes manuales de los moderadores."
+  ]}
+/>
+
+<Callout type="success" title="Ventaja del juego limpio">
+Mantener tu cuenta limpia garantiza que tus gamepasses comprados, personajes y rangos competitivos de temporada permanezcan seguros de forma permanente.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo sé si recibí un baneo en Anime Battle Arena?",
+    answer: "Al intentar iniciar el juego, verás un aviso que indica que has sido baneado. No podrás ingresar al lobby principal ni acceder a ninguno de tus personajes comprados."
+  },
+  {
+    question: "¿Puedo ser desbaneado si mi hermano usó exploits en nuestra PC compartida?",
+    answer: "Es extremadamente difícil apelar un baneo de IP causado por un dispositivo compartido, ya que los moderadores no pueden verificar fácilmente quién estaba operando el hardware. El usuario que cometió la infracción debe apelar el baneo."
+  },
+  {
+    question: "¿Con quién debo comunicarme para apelar mi restricción en el juego?",
+    answer: "Debes enviar una apelación a través del servidor oficial de Discord. Los moderadores del juego como K1 y Strict son responsables de manejar los baneos de los jugadores, mientras que los moderadores principales como Hasheem gestionan los problemas específicos de Discord."
+  },
+  {
+    question: "¿Perderé mis gamepasses comprados si mi cuenta es baneada permanentemente?",
+    answer: "Sí. Un baneo permanente te impide acceder al juego por completo, lo que significa que cualquier Robux o dinero real gastado en gamepasses, personajes o cosméticos será inaccesible."
+  }
+]} />
+
+</Section>

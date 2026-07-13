@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Batalla Arena Sung Jin Woo: Guía de Personaje 2026 y Combos Meta",
+  description: "Domina a Sung Jin Woo en Anime Batalla Arena con nuestra guía 2026 que cubre mecánicas de subida de nivel, invocaciones de sombras y combos de alto daño para cada etapa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Sung+Jin+Woo+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Anime Batalla Arena",
+  keywords: "anime batalla arena, sung jin woo, guía, combos, sombras, subida de nivel"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica Principal**: **Anime batalla arena sung jin woo** utiliza un sistema único de Subida de Nivel que restaura 15 HP por etapa.
+- **Progresión de Forma**: Los jugadores evolucionan a través de seis etapas distintas, desde Cazador de Rango E hasta el Rey de las Sombras.
+- **Ejército de Sombras**: Al matar oponentes con éxito, caen sombras que invocan Caballeros, Sanadores o Magos.
+- **Despertar**: La transformación del Monarca de las Sombras reinicia el mundo y proporciona herramientas masivas de área (AOE) y movilidad.
+- **Rol en el Meta**: Personaje de alto nivel para partidas clasificatorias, capaz de ganar partidas mediante el aguante y la presión de sus invocaciones.
+</Callout>
+
+<Section icon={Zap} title="Mecánicas de Progresión y Sistema de Niveles">
+
+El ciclo principal de juego de **anime batalla arena sung jin woo** gira en torno a su pasiva "Subida de Nivel" (Level Up). A diferencia de la mayoría de los personajes del elenco misceláneo, Jin Woo no tiene una forma base estática. En su lugar, cada instancia de daño infligido aumenta una barra de mini-modo ubicada a la izquierda de la pantalla. Llenar esta barra activa una subida de nivel, evolucionando su conjunto de movimientos y proporcionando una curación crucial de 15 HP.
+
+**Aspectos Destacados del Video:**
+- Demuestra cómo Jin Woo domina las partidas clasificatorias mediante intercambios agresivos de M1.
+- Muestra la transición entre el Rango E temprano y las formas de Rey en el juego tardío.
+- Resalta la importancia del Sanador de Sombra para mantener la supervivencia.
+- Muestra la animación del despertar "Reiniciar el Mundo" y su impacto en el campo de batalla.
+
+<YouTubeEmbed videoId="udHkgWhXKrA" title="Sung Jinwoo Carries Every Ranked Match | Anime Battle Arena" />
+
+Cuando Jin Woo es derrotado, vuelve a su etapa anterior al reaparecer. Esto hace que mantener el impulso sea esencial para alcanzar sus formas finales. La progresión sigue una jerarquía estricta: Cazador de Rango E, Desvalido (Underdog), Nigromante, Mata Hormigas, Mata Gigantes y, finalmente, Rey.
+
+| Etapa | Nombre de la Forma | Beneficio Principal | Restauración de HP |
+| :--- | :--- | :--- | :--- |
+| 1 | **Cazador de Rango E** | Movilidad básica y ataques con daga | N/A |
+| 2 | **Desvalido** | Iniciadores de combo mejorados y I-frames | 15 HP |
+| 3 | **Nigromante** | Introducción de Invocaciones de Sombra y proyectiles | 15 HP |
+| 4 | **Mata Hormigas** | Melé de alta presión y rupturas de guardia | 15 HP |
+| 5 | **Mata Gigantes** | Mejoras de área y manipulación de proyectiles | 15 HP |
+| 6 | **Rey** | Máximo número de invocaciones y remates pesados | 15 HP |
+
+<Callout type="tip" title="Consejo de Sostenibilidad">
+La restauración de 15 HP al subir de nivel es tu mejor herramienta para ganar intercambios a larga distancia. Si tienes poca vida, juega a la defensiva y usa proyectiles como Mano del Gobernante (Ruler's Hand) para desgastar al enemigo hasta que tu barra se llene.
+</Callout>
+
+</Section>
+
+<Section icon={User} title="Variantes de Soldados de Sombra y Pasiva Arise">
+
+La mecánica "Arise" es lo que define a **anime batalla arena sung jin woo** como un invocador de primer nivel. Cada vez que logras una baja, cae una sombra del jugador derrotado. Tocar esta sombra invoca a uno de tres soldados de sombra aleatorios que persisten durante 20 segundos.
+
+<CardGrid cols={3}>
+  <Card title="Caballero de Sombra">
+    - **Comportamiento**: Rastrea al oponente más cercano.
+    - **Ataque**: Realiza un combo M1 terrestre.
+    - **Uso**: Ideal para mantener la presión mientras recargas tus enfriamientos.
+  </Card>
+  <Card title="Sanador de Sombra">
+    - **Comportamiento**: Persigue específicamente a Jin Woo.
+    - **Curación**: Restaura 1 HP por segundo cuando está cerca.
+    - **Uso**: Esencial para recuperarse después de un intercambio pesado.
+  </Card>
+  <Card title="Mago de Sombra">
+    - **Comportamiento**: Permanece estacionario y lanza proyectiles.
+    - **Daño**: Lanza bolas de fuego que infligen 8 de daño.
+    - **Uso**: Proporciona cobertura a larga distancia e interrumpe el movimiento enemigo.
+  </Card>
+</CardGrid>
+
+| Tipo de Soldado | Duración Máxima | Interacción Principal | Bloqueable |
+| :--- | :--- | :--- | :--- |
+| **Caballero** | 20 Segundos | Combo Melé | Sí |
+| **Sanador** | 20 Segundos | Curación 1 HP/Seg | N/A |
+| **Mago** | 20 Segundos | Bola de Fuego 8 Daño | Sí |
+
+<Callout type="warning" title="Limitaciones de Invocación">
+Aunque puedes tener múltiples sombras activas, el tipo de soldado es completamente aleatorio. No confíes únicamente en obtener un Sanador cuando tengas poca vida; ten siempre un plan de respaldo que involucre tu Rodar (Dodge Roll).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análisis del Conjunto de Movimientos de la Forma Base">
+
+El conjunto de movimientos de Jin Woo evoluciona significativamente a medida que sube de nivel. Las formas tempranas se centran en ataques individuales con daga, mientras que las formas posteriores introducen la "Autoridad del Gobernante" (Ruler's Authority) y el "Dominio del Monarca" (Monarch's Domain), que proporcionan una gran utilidad.
+
+### Juego Temprano: Rango E y Desvalido
+En estas etapas, debes confiar en **Rodar** para sobrevivir. **Desesperación del Cazador** es tu iniciador de combo principal, lanzándote hacia adelante con una ruptura de guardia. Una vez que llegas a Desvalido, obtienes **Paso de Asesino**, que te permite desaparecer y reaparecer detrás de los oponentes para un golpe fuerte.
+
+### Juego Medio: Nigromante y Mata Hormigas
+Aquí es donde Jin Woo se convierte en una amenaza de proyectiles. **Mano del Gobernante** te permite lanzar rocas con híper armadura, mientras que **Invocar: Tank** e **Invocar: Beru** proporcionan hitboxes masivos que pueden iniciar o extender combos.
+
+### Juego Tardío: Mata Gigantes y Rey
+**Dominio del Monarca** es lo más destacado aquí, creando un campo que otorga a Jin Woo un aumento del 15% en el daño, un 15% de resistencia al daño y un aumento de velocidad. **Autoridad del Gobernante** lanza múltiples dagas que rompen la guardia, haciendo casi imposible que los enemigos se mantengan defensivos.
+
+| Nombre del Movimiento | Etapa | Propiedades | Daño |
+| :--- | :--- | :--- | :--- |
+| **Corte de Daga** | Rango E/Desvalido | Bloqueable/Finalizador | 10 |
+| **Golpe Débil** | Rango E | Rompe Guardia/Retroceso | 12 |
+| **Paso del Vacío** | Nigromante/Mata Hormigas | Bloqueable/Embestida | 15 |
+| **Invocar: Beru** | Mata Hormigas | Rompe Guardia (Golpe Final) | 18 |
+| **Autoridad del Gobernante**| Mata Gigantes/Rey | Rompe Guardia/Proyectil | 32-36 |
+| **Oscuridad Eterna**| Rey | Rompe Guardia/Híper Armadura | 20-23 |
+
+<Callout type="success" title="Estrategia de Dominio">
+Lanza siempre **Dominio del Monarca** antes de usar **Autoridad del Gobernante** o **Invocar: Igris**. El bono del 15% de daño escala significativamente con estos movimientos de alto daño base, convirtiendo a menudo un combo estándar en una eliminación instantánea.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Combos Paso a Paso">
+
+Dominar la estructura de combos para cada forma es vital para maximizar tu producción de daño. A continuación se muestra la progresión más confiable para las etapas de Nigromante y Mata Gigantes.
+
+<Steps>
+  <Step num="1" title="La Cadena del Nigromante">
+    Comienza con 4 M1s, luego usa inmediatamente **Invocar: Tank**. Sigue con 4 M1s más hacia **Lluvia de Sombras** (Shadow Rain). Mientras caen, usa un Uptilt (golpe hacia arriba) seguido de **Mano del Gobernante**, terminando con una Patada de Alejamiento y **Paso del Vacío**.
+  </Step>
+  <Step num="2" title="La Ráfaga del Mata Gigantes">
+    Activa primero el **Dominio del Monarca**. Realiza 3 M1s, Uptilt y Downslam (golpe hacia abajo). Mientras están en el suelo, usa **Autoridad del Gobernante**. Sigue inmediatamente con **Invocar: Igris** y termina la cadena con **Oleada de Sombras** (Shadow Surge) una vez que toquen el suelo.
+  </Step>
+  <Step num="3" title="Ejecución del Rey">
+    Usa **Autoridad del Gobernante** para romper la guardia. Realiza 3 M1s, Uptilt y una Patada de Alejamiento retardada. Presiona repetidamente **Corte de Oscuridad Eterna** inmediatamente después de la patada para asegurar que la híper armadura evite cualquier contraataque.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Tiempo Técnico">
+El combo "Patada + Corte de Oscuridad Eterna" requiere un tiempo preciso. Debes retrasar ligeramente la patada después del uptilt para asegurar que las cajas de impacto se alineen correctamente para el finalizador.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategia del Despertar del Monarca de las Sombras">
+
+Al despertar con "Reiniciar el Mundo", Jin Woo entra en su estado más poderoso. Su etapa se establece en Nigromante independientemente de su nivel anterior, y obtiene acceso a un conjunto completamente nuevo de habilidades enfocadas en un AOE masivo y movilidad por todo el mapa.
+
+### Habilidades del Despertar
+- **Grieta Temporal**: Una herramienta de teletransportación única. Si tienes un Soldado de Sombra activo, puedes usar el dash (Q) para teletransportarte instantáneamente a su ubicación, lo que permite un movimiento increíble a través del mapa.
+- **Arise (Despertado)**: Invoca 18 soldados de sombra aleatorios a la vez. Esto crea un campo de batalla caótico donde el oponente es bombardeado constantemente por bolas de fuego y ataques melé.
+- **Eclipse Sin Fin**: Un vórtice poderoso que arrastra a todos los enemigos cercanos antes de explotar para infligir 22 de daño. Tiene híper armadura, lo que lo convierte en una herramienta perfecta para alejar a los enemigos.
+
+| Movimiento de Despertar | Propiedad | Daño | Enfriamiento |
+| :--- | :--- | :--- | :--- |
+| **Ira del Monarca** | Rompe Guardia/Híper Armadura | 14 | 12s |
+| **Eclipse Sin Fin** | Rompe Guardia/Vórtice | 22 | 24s |
+| **Arise (18 unidades)** | Invocación Masiva | N/A | 26s |
+| **Grieta Temporal** | Teletransportación | N/A | 12s |
+
+<Callout type="warning" title="Penalización del Despertar">
+Si mueres durante tu despertar, reaparecerás en la etapa de **Desvalido** (Etapa 2). Si el despertar termina naturalmente, permanecerás como **Nigromante** (Etapa 3). Protege tu barra de salud durante la transformación para evitar una regresión masiva de poder.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Maestría y Consejos">
+
+Para dominar verdaderamente con **anime batalla arena sung jin woo**, necesitas ir más allá de simplemente presionar botones y comprender los matices de su posicionamiento y gestión de recursos.
+
+<Checklist
+  id="sjw-mastery"
+  title="Objetivos Pro de Sung Jin Woo:"
+  items={[
+    "Dominar el buffer de salto durante los Downslams para altura extra de M1",
+    "Usar con éxito la Oleada de Sombras como herramienta de extensión en el suelo",
+    "Llegar a la etapa de Rey en una partida clasificatoria sin morir",
+    "Utilizar eficazmente la Grieta Temporal para escapar de un ultimate de varias personas",
+    "Mantener un Sanador de Sombra durante al menos 15 segundos durante un intercambio"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo Pro: Extensión con Oleada de Sombras">
+La Oleada de Sombras es notoriamente difícil de usar para extensiones. El secreto es esperar hasta que el modelo del oponente toque físicamente el suelo antes de activar el movimiento. Hacer un Uptilt temprano en tu cadena de M1 hace que este tiempo sea mucho más permisivo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo subo de nivel más rápido como Sung Jin Woo?",
+    answer: "Cada golpe cuenta. Céntrate en movimientos de múltiples golpes como Lluvia de Sombras o Autoridad del Gobernante. Incluso si el enemigo bloquea, el daño por chip y el contacto aumentarán tu barra de mini-modo."
+  },
+  {
+    question: "¿Puedo elegir qué Soldado de Sombra invocar?",
+    answer: "No, la invocación es completamente aleatoria entre Caballero, Sanador y Mago. Sin embargo, en el Despertar, invocas 18 a la vez, lo que generalmente garantiza varios de cada tipo."
+  },
+  {
+    question: "¿Qué pasa con mi nivel si muero?",
+    answer: "Vuelves a la etapa anterior. Por ejemplo, si mueres como Mata Hormigas (Etapa 4), reaparecerás como Nigromante (Etapa 3)."
+  },
+  {
+    question: "¿Vale la pena usar el Dominio del Monarca si me estoy moviendo?",
+    answer: "La mejora solo se aplica mientras estés físicamente dentro del dominio de 15x15. Si te ves obligado a abandonar el área, las bonificaciones del 15% de daño y resistencia se pierden inmediatamente."
+  }
+]} />
+
+</Section>
