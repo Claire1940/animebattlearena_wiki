@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "anime battle arena asta: Guía de Personaje 2026 y Meta de Movimientos",
+  description: "Domina a Asta en Anime Battle Arena con nuestra guía de 2026. Aprende sus movimientos básicos, pasiva Berserker y combos de Despertar para dominar el roster de ABA.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Anime+Battle+Arena+Asta+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de anime battle arena",
+  keywords: "anime battle arena, asta, guía de personaje, meta de movimientos, berserker, anti-magia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **anime battle arena asta** es un luchador agresivo versátil categorizado en el roster de Misceláneos (Miscellaneous), especializado en Anti-Magia.
+- **Medidor Berserk** es su pasiva principal, escalando su daño a través de tres etapas distintas: Base, Black Asta y Berserker Asta.
+- **Potencial de Rompeguardia (Guardbreak)** es alto con movimientos como Black Divider y Bull Thrust, lo que lo convierte en una amenaza para los jugadores defensivos.
+- **Forma Berserker** ofrece una producción de daño masiva pero requiere una gestión cuidadosa debido al daño por esfuerzo autoinfligido.
+- **Contraataque Anti-Magia** en su forma de Despertar es su herramienta defensiva más fuerte, reflejando los ataques de vuelta a los oponentes.
+</Callout>
+
+<Section icon={Map} title="Entendiendo la Pasiva del Medidor Berserk">
+
+La característica definitoria de **anime battle arena asta** es su sistema único de gestión de recursos conocido como el Medidor Berserk. A diferencia de los personajes que dependen de enfriamientos simples, la efectividad de Asta se correlaciona directamente con su estado de transformación, el cual es dictado por este medidor. A medida que el medidor se llena mediante el combate, Asta cicla a través de tres estados principales, cada uno ofreciendo una letalidad aumentada a costa de un mayor riesgo.
+
+<CardGrid cols={3}>
+  <Card title="Forma Base">
+    - **Daño estándar**
+    - Alta movilidad
+    - Sin autodaño
+    - Iniciadores de combo confiables
+  </Card>
+  <Card title="Black Asta">
+    - **Daño aumentado**
+    - Rango mejorado
+    - Cambio visual de aura
+    - Retroceso (knockback) mejorado
+  </Card>
+  <Card title="Berserker Asta">
+    - **Daño máximo**
+    - Mecánica de autodaño
+    - Finalizadores con teletransporte
+    - Agresión extrema
+  </Card>
+</CardGrid>
+
+La progresión a través de estas formas es similar a la mecánica Thunderclap de Zenitsu. En el meta de 2026, gestionar el estado Berserker es crucial. Aunque Berserker Asta golpea con más fuerza, el esfuerzo inflige daño de vuelta al usuario, lo que significa que debes asegurar las bajas rápidamente o arriesgarte a derrotarte a ti mismo.
+
+<Callout type="warning" title="Gestión de Estamina">
+En forma Berserker, cada movimiento que ejecutas drena una parte de tu propia salud. Evita usar movimientos de múltiples golpes como Black Hurricane si tu salud está por debajo del 15%, ya que el autodaño puede resultar en un auto-KO accidental.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Set de Movimientos y Datos de la Forma Base">
+
+La forma base de Asta está diseñada para el juego neutral e iniciar enfrentamientos. Su kit se centra en cerrar la distancia y extender combos. Comprender los datos de frames y las propiedades de estos movimientos es esencial para cualquier jugador que busque subir en la clasificación de **anime battle arena**.
+
+| Nombre del Movimiento | Daño | Enfriamiento | Propiedad | Rango |
+| :--- | :--- | :--- | :--- | :--- |
+| **Black Meteorite** | 18 | 15s | Bloqueable/Iniciador | 6.5 Studs |
+| **Black Slash** | 28 (14x2) | 20s | Proyectil/Extensor | 50+ Studs |
+| **Black Hurricane** | 21.1 | 20s | Multi-golpe/Finalizador | Variable |
+| **Black Divider** | 20 | 18s | **Rompeguardia** | 4.5 Studs |
+
+**Black Meteorite** sirve como tu principal herramienta para cerrar brechas. Si fallas el impacto inicial, Asta aún realiza un tajo descendente con un ligero aumento de velocidad, permitiéndote mantener la presión. **Black Slash** es tu herramienta de largo alcance, disparando dos proyectiles de Anti-Magia en un patrón de X, perfecto para atrapar a los que huyen o interrumpir a los que cargan.
+
+<Callout type="tip" title="Optimización de Combos">
+Usa Black Meteorite para iniciar, sigue con ataques M1 y usa Black Slash para extender el combo si el oponente intenta alejarse. Termina con Black Divider para romper su guardia si intentan bloquear el golpe final.
+</Callout>
+
+| Comparación de Formas | Daño Meteorite | Daño Slash | Daño Hurricane | Daño Divider |
+| :--- | :--- | :--- | :--- | :--- |
+| **Base** | 18 | 28 | 21.1 | 20 |
+| **Black Asta** | 22 | 32 | 25.5 | 23 |
+| **Berserker** | 23 | 64 | 30 | 25 |
+
+Como se muestra en la tabla anterior, el salto de Black Asta a Berserker Asta para **Black Slash** es masivo, pasando de 32 a 64 de daño. Sin embargo, en modo Berserker, este movimiento se convierte en un Rompeguardia y añade un retroceso significativo, terminando efectivamente un combo pero infligiendo un daño bruto masivo.
+
+</Section>
+
+<Section icon={Sparkles} title="Transformación: No Rendirse es mi Magia">
+
+Cuando Asta alcanza el medidor lleno y activa su Despertar, entra en el estado "¡No rendirse es mi magia!". Esta transformación reemplaza completamente su kit base con habilidades de Anti-Magia de alto nivel, convirtiéndolo en uno de los combatientes de corta distancia más peligrosos en **anime battle arena**.
+
+<Steps>
+  <Step num="1" title="Activar Despertar">
+    Espera a que el medidor de Poder Demoníaco llegue al 100%. Presiona la tecla de transformación para convertirte en Black Asta con alas completas.
+  </Step>
+  <Step num="2" title="Iniciar con Bull Thrust">
+    Usa Bull Thrust para cerrar la brecha instantáneamente. Este movimiento es un Rompeguardia, lo que significa que incluso los jugadores defensivos no pueden esconderse.
+  </Step>
+  <Step num="3" title="Presionar con Slash Overload">
+    Dispara 6 cortes de energía Anti-Magia para abrumar los enfriamientos de esquiva del oponente.
+  </Step>
+  <Step num="4" title="Contraatacar y Estampar">
+    Usa Anti-Magic Counter para provocar ataques, luego termina la secuencia con el BLACK DIVIDER despertado para un golpe descendente (slam).
+  </Step>
+</Steps>
+
+El kit despertado se centra en una presión implacable. **Bull Thrust** es particularmente peligroso porque actúa como herramienta de movilidad e iniciador de combo. Si el oponente intenta contraatacar, el **Anti-Magic Counter** proporciona I-frames y redirige toda la fuerza de su ataque de vuelta hacia ellos.
+
+| Movimiento Despertado | Daño | Tipo | Propiedad Especial |
+| :--- | :--- | :--- | :--- |
+| **Bull Thrust** | 25 | Melee | **Rompeguardia** / Dash |
+| **Black Slash Overload** | 45 (7.5x6) | Proyectil | Presión multi-golpe |
+| **Anti-Magic Counter** | Escalado | Contraataque | I-frames / Reflejo |
+| **BLACK DIVIDER** | 35 | Proyectil | **Rompeguardia** / Slam |
+
+<Callout type="success" title="Estrategia Meta">
+El BLACK DIVIDER despertado se usa mejor después de una cadena de M1 exitosa. Dado que estampa al oponente contra el suelo, establece una ventaja de posicionamiento perfecta para tu próximo movimiento una vez que se recuperen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas de Combate Avanzadas y Skins">
+
+Para dominar a **anime battle arena asta**, debes entender sus ventajas de hitbox. Asta es uno de los pocos personajes, junto con Illya y Chiaotzu, que posee un cuerpo más pequeño. Esto lo hace más difícil de golpear con ciertos proyectiles y le da una ligera ventaja en el "footsies" durante los intercambios de M1.
+
+**Personalización de Skins:**
+Asta cuenta con varias skins que reflejan su progresión en la serie. Aunque estas son cosméticas, son muy buscadas por la comunidad.
+
+- **Gold Skin**: Una textura prestigiosa otorgada al modelo predeterminado de Asta, que significa maestría o suerte de alto nivel en las tiradas.
+- **Savage Sword**: Una skin de nivel legendario que altera la apariencia visual de sus armas de Anti-Magia.
+
+<Checklist
+  id="asta-mastery"
+  title="Lista de Verificación de Maestría de Asta:"
+  items={[
+    "Dominar el tiempo de Black Meteorite como iniciador de combo",
+    "Aprender a rotar entre formas sin recibir daño fatal por autodaño",
+    "Acertar un Anti-Magic Counter exitoso contra una definitiva de alto daño",
+    "Usar Black Divider específicamente para castigar a los bloqueadores habituales",
+    "Mantener una alta agresión para conservar lleno el Medidor Berserk"
+  ]}
+/>
+
+<Callout type="tip" title="Dato Curioso">
+En versiones anteriores del juego, Asta podía matarse a sí mismo con sus propios movimientos mientras estaba en forma Berserker. Aunque esto se ha equilibrado en 2026, el daño por "esfuerzo" todavía existe como una mecánica central para evitar que sea demasiado poderoso.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+Dominar a Asta requiere conocimiento tanto de sus capacidades ofensivas como de sus limitaciones únicas. A continuación se presentan las preguntas más comunes sobre el estilo de juego de **anime battle arena asta**.
+
+<FAQ items={[
+  {
+    question: "¿Cómo dejo de recibir daño en la forma de Asta Berserker?",
+    answer: "No puedes detener el autodaño por completo, ya que es una mecánica integrada de la forma Berserker. Para minimizar el riesgo, solo usa movimientos cuando tengas garantizado acertar un golpe y evita usar Black Hurricane si tu salud es críticamente baja."
+  },
+  {
+    question: "¿El movimiento Black Divider de Asta es siempre un Rompeguardia?",
+    answer: "Sí, Black Divider es un Rompeguardia consistente en todas las formas (Base, Black y Berserker). En su forma de Despertar, el movimiento es aún más poderoso, añadiendo un efecto de golpe descendente que lo convierte en un excelente finalizador de combo."
+  },
+  {
+    question: "¿Qué hace a Asta diferente de otros personajes en el roster de Misceláneos?",
+    answer: "Asta destaca por su hitbox más pequeña y su Contraataque Anti-Magia. A diferencia de los contraataques estándar, el suyo escala con el poder del movimiento que intercepta, lo que lo convierte en un counter directo para personajes con habilidades de un solo golpe de alto daño."
+  },
+  {
+    question: "¿Puedo extender combos con Black Meteorite?",
+    answer: "Absolutamente. Black Meteorite está clasificado tanto como iniciador de combo como extensor. En modo Berserker, se convierte principalmente en un finalizador debido al retroceso aumentado, así que úsalo más temprano en tus secuencias durante la forma Base."
+  }
+]} />
+
+</Section>

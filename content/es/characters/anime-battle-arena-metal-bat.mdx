@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Metal Bat en Anime Battle Arena: Guía de Movimientos, Combos y Estrategia",
+  description: "Domina a Metal Bat en Anime Battle Arena (ABA). Aprende sus movimientos base y de despertar, combos de daño óptimos y estrategias competitivas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Metal+Bat+ABA+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Anime Battle Arena",
+  keywords: "anime battle arena, metal bat, guía, combos, movimientos, opm"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Metal Bat** es el tercer personaje del plantel de One Punch Man, clasificado como un héroe de Clase S, Rango 15.
+- **Fighting Spirit** (Espíritu de Lucha) es su mecánica principal, aumentando su daño bruto entre un 14% y un 21% cuando se activa con éxito.
+- **Combos Óptimos** dependen en gran medida de encadenar Relentless Strikes y Brutal Tornado en su forma base para obtener un alto daño.
+- **Forma de Despertar** convierte a Metal Bat en una potencia ofensiva con múltiples rompeguardias y una herramienta de recuperación evasiva.
+- **Skin Legendaria** (Tung Tung Tung Sahur) ofrece una gran ventaja competitiva al evitar las habilidades de fijación (lock-on) de los enemigos.
+</Callout>
+
+<Section icon={Shield} title="Descripción General de Metal Bat">
+
+En el plantel competitivo de Anime Battle Arena (ABA), **Metal Bat** destaca como un luchador cuerpo a cuerpo altamente agresivo, de alto riesgo y alta recompensa. Originario del universo de One Punch Man, este héroe de Clase S, Rango 15, aporta su actitud delincuente característica y un bate de béisbol de metal indestructible a la arena.
+
+Su mecánica definitoria es su **Fighting Spirit**, que le permite cambiar el rumbo de la batalla al recibir daño. A medida que su salud disminuye y su espíritu de lucha se enciende, sus capacidades ofensivas aumentan drásticamente, convirtiéndolo en uno de los oponentes más peligrosos cuando tiene poca vida.
+
+| Atributo | Detalle |
+| --- | --- |
+| **Posición en el Plantel** | Plantel de One Punch Man (3er Personaje) |
+| **Estilo de Juego** | Melé Agresivo, Contraatacante, Extensor de Combos |
+| **Mecánica Principal** | Aumento de daño mediante el contraataque Fighting Spirit |
+| **Tema del Despertar** | Espíritu de Lucha |
+| **Dificultad Base** | Moderada (Requiere precisión en el tiempo del contraataque) |
+
+<Callout type="tip" title="Consejo de Combate de Clase S">
+Metal Bat prospera en los intercambios agresivos. No juegues de forma pasiva; utiliza tu alcance cuerpo a cuerpo y tus golpes de alto daño para presionar a los oponentes y forzarlos a cometer errores.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análisis de Movimientos: Forma Base">
+
+El conjunto de movimientos base de Metal Bat está diseñado para castigar a los jugadores defensivos, ofreciendo excelentes capacidades para iniciar y extender combos. Comprender las propiedades de cada golpe es fundamental para asegurar victorias tanto en partidas clasificatorias como casuales.
+
+| Nombre del Movimiento | Daño | Propiedades | Enfriamiento | Rol en Combate |
+| --- | --- | --- | --- | --- |
+| **Relentless Strikes** | 22 (4 x 4 + 6) | Bloqueable, Rompeguardia (último golpe) | Moderado | Iniciador y Extensor de Combos |
+| **Brutal Tornado** | 25 (1.8 x 10 + 7) | Bloqueable | Moderado | Finalizador de Combo Multi-golpe |
+| **Fighting Spirit** | Contraataque | Ignora Guardia, I-Frames | Largo | Contraataque Defensivo y Mejora de Daño |
+| **Home Run** | 26 a 31 | Rompeguardia | Moderado | Finalizador de Empuje Agresivo |
+
+### Desglose Detallado de Movimientos
+
+- **Relentless Strikes**: Metal Bat golpea al oponente cinco veces en rápida sucesión. El golpe final estrella al objetivo contra el suelo, rompiendo su guardia si intenta bloquear toda la secuencia. Esta es tu herramienta principal para extender las cadenas de ataques básicos.
+- **Brutal Tornado**: Un vórtice giratorio de golpes que atrae a los enemigos cercanos a su órbita antes de alejarlos de una patada. Es muy eficaz para atrapar a oponentes que intentan esquivar lateralmente.
+- **Fighting Spirit**: Este es el movimiento de contraataque de Metal Bat. Al activarse, se prepara. Si es golpeado durante esta ventana, agarra al atacante, se enfurece y obtiene un aumento de daño temporal que oscila entre el **14% y el 21%** según su estado actual.
+- **Home Run**: Un golpe de gran impacto cargado que rompe las guardias instantáneamente. El daño aumenta según su nivel de Fighting Spirit:
+  - **Daño Base**: 26
+  - **Fighting Spirit v1**: 29.5
+  - **Fighting Spirit v2**: 31
+
+<Callout type="warning" title="Aviso de Contraataque">
+Fighting Spirit tiene una animación de inicio distintiva. Los jugadores experimentados dejarán de atacar si ven que te estás preparando, dejándote vulnerable a agarres o rompeguardias retardados. Úsalo de forma impredecible.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Movimientos de Despertar: Ira Enfocada">
+
+Cuando Metal Bat se golpea la cabeza para activar su Despertar, entra en un estado de enfoque absoluto. Su conjunto de movimientos cambia a una serie devastadora de golpes pesados que rompen la guardia y pueden destrozar la barra de salud de un oponente en segundos.
+
+| Movimiento de Despertar | Daño | Propiedades | Utilidad en Combate |
+| --- | --- | --- | --- |
+| **Dragon Pummelin** | ~33 (1.2-1.5 por golpe) | Bloqueable, Multi-golpe | Iniciador y Extensor de Combos |
+| **Brutal Hurricane** | ~37 (Base) / 31.2 (Tornado) | Rompeguardia (Golpe Final) | Proyectil de Medio Alcance y Atracción |
+| **Overkill Spiral** | 37.5 | Rompeguardia, Empuje | Finalizador de Combo de Alto Daño |
+| **Recovery Bash** | 27.5 (8.7 como Evasivo) | Rompeguardia, Golpe Descendente | Herramienta Evasiva y Extensor de Combos |
+| **Habilidad Definitiva** | 500 | Ignora Guardia, Agarre | Muerte Instantánea (Una vez por vida) |
+
+### Mecánicas Clave del Despertar
+
+- **Brutal Hurricane**: Una versión mejorada de Brutal Tornado. Si el golpe final no conecta con un oponente, Metal Bat lanza el tornado giratorio hacia adelante como un proyectil, atrayendo a los enemigos distantes hacia él.
+- **Recovery Bash**: Una de las herramientas más versátiles de Metal Bat. Funciona como un ataque activo que estrella a los enemigos contra el suelo, pero también puede usarse como una **recuperación evasiva** mientras te están haciendo un combo.
+- **Ultimate**: Un agarre devastador a un solo objetivo que inflige un daño plano de **500**, asegurando una muerte instantánea a cualquier oponente atrapado. Esto solo se puede usar una vez por vida.
+
+<Callout type="success" title="Maestría Evasiva">
+Debido a que Recovery Bash puede activarse durante tus propios movimientos o mientras recibes daño, mantenlo siempre listo para interrumpir una secuencia de combo de alto daño del oponente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Combos Paso a Paso">
+
+Para maximizar tu daño con **Metal Bat**, debes dominar sus reinicios de ataque básico (M1) y sus secuencias de habilidades. A continuación se presentan los combos óptimos para sus formas Base y de Despertar.
+
+<Steps>
+  <Step num="1" title="Combo Estándar de Forma Base">
+    Ejecuta **4 M1**, sigue con un **Uptilt**, realiza un **Downslam** e inmediatamente activa **Relentless Strikes**. Mientras se recuperan, aterriza otros **4 M1**, realiza un **Uptilt**, **Downslam** y termina con **Brutal Tornado** para un daño masivo en forma base.
+  </Step>
+  <Step num="2" title="Cadena de Golpe Terrestre en Despertar">
+    Inicia con **4 M1**, activa **Dragon Pummelin** para inmovilizarlos, sigue con otros **4 M1**, ejecuta **Recovery Bash** para estrellarlos contra el suelo y termina con una secuencia rápida de **5 M1**.
+  </Step>
+  <Step num="3" title="Configuración de Muerte Instantánea en Despertar">
+    Aterriza **4 M1**, transiciona a **Brutal Hurricane**, encadena inmediatamente con **Recovery Bash**, golpea con **3 M1**, ejecuta un **Uptilt**, realiza un **Kick Away** y sella el trato con **Overkill Spiral**.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Consejo de Combo">
+Overkill Spiral ocasionalmente puede registrar múltiples golpes si logras golpear al objetivo cerca de la parte deslizante del movimiento, aunque estos golpes adicionales infligen un daño ligeramente reducido.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategia Competitiva y Ventaja de Skins">
+
+Jugar con Metal Bat a un alto nivel requiere una mezcla de presión agresiva y provocación defensiva. Además, elegir la skin cosmética adecuada puede afectar realmente tu rendimiento competitivo debido a las hitboxes únicas de los personajes y las mecánicas de fijación.
+
+<CardGrid cols={3}>
+  <Card title="Provocación de Contraataque">
+    Usa tus cadenas básicas de M1 para presionar a los oponentes a atacar, luego cancela rápidamente o transiciona a **Fighting Spirit** para absorber su golpe y asegurar tu mejora de daño.
+  </Card>
+  <Card title="Presión de Rompeguardia">
+    Tanto **Home Run** como los golpes finales de sus movimientos de despertar actúan como rompeguardias fiables. Úsalos contra jugadores altamente defensivos que se esconden tras su bloqueo.
+  </Card>
+  <Card title="Ventaja de Skin (Leg2)">
+    Equipar la skin **Tung Tung Tung Sahur (Leg2)** evita que los enemigos te fijen con movimientos de seguimiento específicos, ofreciendo una defensa pasiva masiva.
+  </Card>
+</CardGrid>
+
+### La Ventaja Competitiva de la Skin Leg2
+
+La skin legendaria **Tung Tung Tung Sahur** es muy codiciada en el juego competitivo porque desactiva por completo el fijado de mando (lock-on) y las habilidades de seguimiento específicas. Esto sirve como un contraataque absoluto para algunos de los movimientos más peligrosos del juego.
+
+| Habilidades Base Contrarrestadas | Habilidades de Despertar/Definitivas Contrarrestadas |
+| --- | --- |
+| **Bisecting Slash** de Nanami | **End** de Gon (Muerte instantánea) |
+| **Behind You** de Hiei | **Mugetsu** de Hollow Mask |
+| **Cosmic Rush** de Super Goku | **Gaebolg** de Lancer |
+| **Wild Leap** de Guts | **Night Guy** de Might Guy |
+
+<Callout type="warning" title="Descargo de Responsabilidad sobre Skins">
+Aunque la skin Leg2 proporciona una ventaja masiva contra el seguimiento de fijación, no te hace inmune a la puntería manual o a los ataques AOE (Área de Efecto). Mantén el espaciado adecuado en todo momento.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo maximizo el daño de Home Run?",
+    answer: "Para obtener el mayor daño de Home Run, asegúrate de haber activado con éxito tu contraataque Fighting Spirit de antemano. Esto aumenta el daño del movimiento de una base de 26 hasta 31."
+  },
+  {
+    question: "¿Qué hace que Recovery Bash sea tan fuerte en el Despertar?",
+    answer: "Recovery Bash funciona como una herramienta evasiva activa. Puedes lanzarlo mientras recibes golpes o incluso durante tus propias animaciones de ataque, lo que te permite escapar de los combos enemigos y cambiar las tornas."
+  },
+  {
+    question: "¿Tiene Metal Bat alguna animación cosmética especial?",
+    answer: "Sí. Si derrotas a un oponente usando Home Run en su forma base, desaparecerá en el aire con un efecto de estrella caricaturesco, similar al Team Rocket. Es uno de los cinco personajes en ABA con un efecto de muerte personalizado."
+  },
+  {
+    question: "¿Por qué la skin Leg2 está prohibida en algunos torneos privados?",
+    answer: "La skin Tung Tung Tung Sahur (Leg2) elimina por completo la capacidad de los movimientos de seguimiento (como el End de Gon o el Behind You de Hiei) para fijarse en Metal Bat, lo que muchos organizadores competitivos consideran una ventaja mecánica injusta."
+  }
+]} />
+
+</Section>
