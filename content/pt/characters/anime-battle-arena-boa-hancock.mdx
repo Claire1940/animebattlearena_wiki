@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Battle Arena Boa Hancock: Lista de Golpes e Guia de Combos",
+  description: "Domine Boa Hancock em Anime Battle Arena (ABA). Descubra os golpes básicos, habilidades de despertar, combos ideais e a mecânica de petrificação para dominar as partidas ranqueadas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/9333ea/fff?text=Boa+Hancock+Guide",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de Anime Battle Arena"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Boa Hancock em Anime Battle Arena** é a 22ª personagem adicionada ao elenco de One Piece, ocupando a 19ª posição.
+- A **passiva de Petrificação** é sua mecânica principal, permitindo encantar inimigos e congelá-los em pedra para combos de alto dano.
+- **Golpes que quebram guarda (Guardbreak)**, como Dazzling Kick e Mero Mero Mellow, a tornam extremamente eficaz contra estilos de jogo defensivos.
+- O **modo de Despertar (Awakening)** transforma seu kit em uma potência de dano em área com golpes como Slave Arrow.
+- O **estilo de M1 Black Leg** a torna uma das quatro únicas personagens do jogo a compartilhar esse estilo único de ataques básicos.
+</Callout>
+
+<Section icon={Map} title="Visão Geral de Boa Hancock em Anime Battle Arena">
+
+Boa Hancock traz um estilo de jogo altamente agressivo e focado em utilidade para o elenco de One Piece em Anime Battle Arena (ABA). Operando como uma ameaça de nível médio a alto, dependendo da sua habilidade de acertar os golpes, todo o seu kit gira em torno da passiva de **Petrificação**. Ao utilizar indicadores de encantamento e convertê-los em atordoamentos completos, ela pode imobilizar oponentes móveis e executar combos devastadores de alto dano.
+
+Ela também é única por suas animações de ataque básico. Boa Hancock é a quarta personagem no jogo a utilizar o estilo de M1 Black Leg, compartilhando essa distinção com Sanji (Pós-Timeskip), Sanji (Pré-Timeskip) e Kizaru.
+
+| Atributo | Detalhe |
+|---|---|
+| **Posição no Elenco** | 22ª Personagem de One Piece (19ª Posição) |
+| **Estilo de Jogo** | Agressivo, Focado em Setup, Extensor de Combo |
+| **Estilo de M1** | Tipo Black Leg |
+| **Mecânica Principal** | Encantamento & Petrificação |
+
+<Callout type="tip" title="Mecânica Passiva: Petrificação">
+Acertar inimigos com Pistol Kiss, Dazzling Kick, Mero Mero Mellow, Kiss Rifle, Perfume Femur: Magna (dropkick) ou Perfume Breaker (último golpe) aplica um status de **Encantamento** (indicado por corações flutuantes) por 10 segundos. Acertar um inimigo encantado com qualquer um desses golpes novamente o transforma em pedra por 4 segundos. Ataques M1 ou habilidades (exceto Kiss Rifle) causam **6 de dano bônus** a alvos petrificados e quebram a pedra, repelindo-os.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de Golpes e Propriedades da Forma Base">
+
+Em sua forma base, Boa Hancock depende de uma mistura de iniciadores de combo bloqueáveis e guardbreaks imbloqueáveis para preparar seus loops de petrificação. Entender as propriedades exatas de cada golpe é crucial para um desempenho consistente em partidas ranqueadas.
+
+| Golpe | Tipo | Dano (Base / Petrificado) | Propriedades |
+|---|---|---|---|
+| **Pistol Kiss** | Projétil | 12 / 18 | Bloqueável, Iniciador de Combo, Encanta |
+| **Dazzling Kick** | Corpo a corpo | 16 / 22 | Guardbreak, Repulsão, Iniciador de Combo, Encanta |
+| **Mero Mero Mellow** | Projétil | 21 (Multi-hit) | Guardbreak, Multi-hit, Extensor de Combo, Encanta |
+| **Perfume Femur** | Corpo a corpo | 19 / 25 | Bloqueável, Multi-hit, Slam Down, Extensor de Combo |
+
+### Detalhamento dos Golpes Base
+
+- **Pistol Kiss**: Boa manda um beijo, disparando um projétil em forma de coração. Serve como um excelente golpe de longa distância e iniciador de combo para aplicar o encantamento inicial.
+- **Dazzling Kick**: Um golpe com salto para frente. Como quebra guarda, é altamente confiável para pegar jogadores defensivos de surpresa e forçar o status de encantamento.
+- **Mero Mero Mellow**: Um feixe largo em forma de coração que causa múltiplos acertos e empurra os inimigos. Este golpe é um fantástico finalizador de combo ou ferramenta de extensão quando combinado com Perfume Femur.
+- **Perfume Femur**: Um chute giratório seguido por uma barragem de chutes rápidos. Note que o efeito de slam down final só é ativado se a barragem inicial fizer contato com um oponente.
+
+<Callout type="warning" title="Aviso de Execução de Combo">
+Se você não acertar nada durante o giro inicial de **Perfume Femur**, a animação do slam down falhará, deixando você altamente vulnerável a contra-ataques.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Modo de Despertar: Poder da Imperatriz">
+
+Ativar o Despertar de Boa Hancock faz com que ela curve as costas e aponte para frente com desdém, desbloqueando um aumento massivo em suas capacidades ofensivas. Suas habilidades transitam de ferramentas de setup de alvo único para ataques massivos em área (AOE).
+
+| Golpe de Despertar | Tipo | Dano | Propriedades |
+|---|---|---|---|
+| **Kiss Rifle** | Projétil | 37.5 | Bloqueável, Disparo de 5 balas, Encanta |
+| **Perfume Femur: Magna** | Corpo a corpo / AOE | 28 (Upfling) / 40 (Dropkick) | Guardbreak (Dropkick), Upfling, Slam Down, Encanta |
+| **Slave Arrow** | Projétil | 3 por acerto (60 Máx) | Guardbreak, Multi-hit, Petrificação Direta |
+| **Perfume Breaker** | Corpo a corpo | 52 | Guardbreak (1º, 2º e golpe final), Repulsão, Encanta |
+
+<CardGrid cols={2}>
+  <Card title="Kiss Rifle & Slave Arrow">
+    - **Kiss Rifle** dispara cinco tiros espalhados, facilitando acertar oponentes que estão desviando.
+    - **Slave Arrow** é seu projétil de maior dano, causando até 60 de dano e petrificando instantaneamente quem for pego pela rajada.
+  </Card>
+  <Card title="Magna & Perfume Breaker">
+    - **Perfume Femur: Magna** permite abordagens aéreas de alta mobilidade e guardbreaks.
+    - **Perfume Breaker** é uma sequência corpo a corpo massiva de 52 de dano que destrói defesas e garante repulsão.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Otimização de Dano">
+**Perfume Femur: Magna** causa dano duas vezes se você atingir o alvo apenas com a parte do dropkick do golpe. Se você atingir um oponente que já foi lançado para cima durante seu salto inicial, ele receberá apenas um único tique de dano do dropkick.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Combo Passo a Passo">
+
+Para maximizar sua eficiência com Boa Hancock em Anime Battle Arena, você deve dominar suas sequências de combo básicas. Abaixo estão as rotas ideais para suas formas Base e Despertada.
+
+<Steps>
+  <Step num="1" title="Combo 120-a-0 da Forma Base">
+    Inicie a sequência com **Mero Mero Mellow** para quebrar a guarda ou pegar o oponente desprevenido, siga imediatamente com **Perfume Femur**, execute 3 ataques M1, realize um Uptilt, use **Pistol Kiss** no ar, acerte 4 ataques M1, use Kick Away e finalize atacando continuamente com M1 até o 4º golpe, acertando o 5º M1 no alvo petrificado.
+  </Step>
+  <Step num="2" title="Rota de Combo Básica do Despertar">
+    Acerte 3 ataques M1, realize um Uptilt, execute um Kick Away, use imediatamente **Slave Arrow** para petrificar, siga com **Perfume Femur: Magna** enquanto eles se recuperam e feche a sequência com 3 ataques M1.
+  </Step>
+  <Step num="3" title="Rota Avançada de One-Shot do Despertar">
+    Acerte 4 ataques M1, execute um Upfling, ative **Perfume Femur: Magna** no ar, faça a transição imediata para **Perfume Breaker** ao aterrissar e finalize com um único ataque M1 para garantir a eliminação.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Alerta de Combo Legado">
+O combo clássico utilizando "3 M1s + Uptilt + Pistol Kiss + 4 M1s + Dazzling Kick + Perfume Femur + 3 M1s + Uptilt + Kick Away + Mero Mero Mellow" **não é mais funcional** devido a ajustes de balanceamento feitos na repulsão e nos frames de inicialização de Mero Mero Mellow.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Maestria de Hancock">
+
+Use esta lista para acompanhar seu progresso e domínio das mecânicas de Boa Hancock no jogo competitivo.
+
+<Checklist
+  id="hancock-mastery"
+  title="Habilidades para Dominar:"
+  items={[
+    "Acertar consistentemente o combo 120-a-0 da Forma Base em partidas públicas ou ranqueadas",
+    "Dominar o espaçamento de Dazzling Kick para pegar oponentes tentando pular defendendo",
+    "Aprender a mirar manualmente a Slave Arrow para pegar corredores de alta mobilidade",
+    "Otimizar Perfume Femur: Magna para garantir o espaçamento de acerto duplo do dropkick",
+    "Gerenciar com sucesso a janela de 10 segundos de encantamento para atrair as opções evasivas do inimigo"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como eu combato jogadores que defendem as habilidades da Boa Hancock?",
+    answer: "Utilize Dazzling Kick e Mero Mero Mellow. Ambas as habilidades base possuem propriedades de guardbreak, permitindo que você ignore defesas e aplique o efeito de encantamento imediatamente."
+  },
+  {
+    question: "Boa Hancock compartilha sua mecânica de petrificação com outros personagens?",
+    answer: "Sim. Boa Hancock compartilha sua mecânica única de status de petrificação com Josuke Higashikata (Diamond Is Unbreakable) em Anime Battle Arena."
+  },
+  {
+    question: "Posso escapar do atordoamento de petrificação mais cedo?",
+    answer: "Se você for transformado em pedra, você se libertará automaticamente após 4 segundos se não sofrer dano. No entanto, se o jogador de Boa te acertar com um M1 ou habilidade, a pedra quebra instantaneamente enquanto causa 6 de dano bônus."
+  },
+  {
+    question: "O que torna seus ataques M1 únicos em Anime Battle Arena?",
+    answer: "Ela usa o estilo de M1 Black Leg, tornando-a uma das quatro únicas personagens, ao lado de Kizaru, Sanji (Pré-Timeskip) e Sanji (Pós-Timeskip), a possuir este conjunto específico de animação de ataque básico."
+  }
+]} />
+
+</Section>
