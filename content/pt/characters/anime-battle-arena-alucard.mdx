@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Battle Arena Alucard: Guia de Combos e Lista de Movimentos 2026",
+  description: "Domine Alucard no Anime Battle Arena com nosso guia de 2026. Aprenda sua passiva de Almas, as awakes Restraint e Count, e combos de alto dano para ranqueadas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/ff0000?text=Alucard+ABA+Guide",
+  date: "2026-07-16",
+  author: "Equipe Wiki de Anime Battle Arena"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Anime Battle Arena Alucard** é o 20º personagem na lista de Variados (Miscellaneous), apresentando uma mecânica única de acúmulo de vidas.
+- **Passiva de Alma (Soul)**: Concede até 3 vidas extras; cada eliminação rende uma alma, e morrer consome uma para reviver você com vida.
+- **Mudança de Forma**: Alucard possui dois despertares (awakenings) distintos: **Forma de Restrição (Restraint Form)** (Nível 1) e **Forma de Conde (Count Form)** (Nível 0).
+- **Estratégia Principal**: Utilize "Police Girl" para quebrar a guarda (guardbreak) e "Bat Swarm" para obter frames de invencibilidade (I-frames) para manter a pressão na forma base.
+- **Potencial de Combo**: Sequências de alto dano dependem de "Overwhelming Firepower" como iniciador e "Spear Hand" para finalizações no despertar.
+</Callout>
+
+<Section icon={Shield} title="Visão Geral do Personagem e Passiva de Alma">
+
+**Anime Battle Arena Alucard** é um personagem extremamente poderoso inspirado na série Hellsing. Como membro da lista de Variados, ele traz uma presença aterrorizante para a arena, principalmente devido à sua passiva de "Almas" (Souls). Ao contrário da maioria dos personagens que dependem puramente de tempos de recarga (cooldowns), a sobrevivência de Alucard está ligada à sua contagem de eliminações, tornando-o um lutador de efeito bola de neve (snowball) que se torna progressivamente mais difícil de eliminar à medida que a partida avança.
+
+<CardGrid cols={3}>
+  <Card title="Forma Base">
+    - **Foco em Projéteis**: Uso intenso de pistolas duplas.
+    - **Alta Mobilidade**: Bat Swarm oferece excelentes opções de fuga.
+    - **Fogo de Suporte**: Seras Victoria ajuda com tiros de mira automática.
+  </Card>
+  <Card title="Forma de Restrição">
+    - **Dominância Corpo a Corpo**: Muda para golpes físicos e vampíricos.
+    - **Sustentação**: "Feast" permite que Alucard se cure durante o combate.
+    - **Pressão de Guarda**: Vários movimentos ignoram ou quebram guardas.
+  </Card>
+  <Card title="Forma de Conde">
+    - **Poder Supremo**: Libera o Nível Zero para uma enorme área de efeito (AOE).
+    - **Magia de Sangue**: Utiliza "River of Crimson" para negação de área.
+    - **Maestria com Espada**: Cortes de longo alcance e golpes empaladores.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Mecânica Passiva: Almas">
+O contador de almas do Alucard é o seu recurso mais vital. Você pode reter no máximo 3 almas. Cada alma funciona como uma vida extra. Se você sofrer dano fatal enquanto tiver uma alma, ela será consumida e você continuará na luta. Note que você perde essa passiva durante o despertar da **Forma de Conde**, mas ela retorna assim que o modo expira.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análise do Conjunto de Movimentos da Forma Base">
+
+Em seu estado base, **Anime Battle Arena Alucard** funciona como um híbrido de zoneador (zoner) e extensor de combo. Seu kit foi projetado para minar a vida do inimigo enquanto mantém uma distância segura usando suas pistolas. Compreender as propriedades de seus projéteis é fundamental para a transição para seus despertares mais agressivos.
+
+| Nome do Movimento | Dano | Tempo de Recarga | Propriedade | Uso Tático |
+| :--- | :--- | :--- | :--- | :--- |
+| **Overwhelming Firepower** | 25 | 17s / 13s | Bloqueável / Quebra de Guarda | Iniciador ou finalizador de combo principal; a versão de 2 toques quebra guardas. |
+| **Bullet Hell** | 16 | 18s | Bloqueável | Chuva de projéteis em 360 graus; excelente para criar espaço. |
+| **Bat Swarm** | N/A | 35s | I-frames | Movimento de transformação; aumenta a velocidade e permite golpes de cura. |
+| **Police Girl** | 20 | 12s | Quebra de Guarda | Projétil com mira automática; força os oponentes a saírem do bloqueio. |
+
+<Callout type="tip" title="Sinergia de Bat Swarm">
+Enquanto estiver no modo **Bat Swarm**, seus movimentos "Overwhelming Firepower" e "Bullet Hell" causam dano reduzido, mas concedem um efeito de roubo de vida (lifesteal). Use isso defensivamente quando sua vida estiver baixa para reiniciar o jogo neutro.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Forma de Restrição: Guia de Despertar">
+
+Quando Alucard libera seu limitador de Nível Um, ele entra na **Forma de Restrição**. Essa transformação muda seu estilo de jogo de um pistoleiro para um combatente corpo a corpo brutal. Esta forma é particularmente eficaz contra jogadores defensivos que se escondem atrás de bloqueios, já que vários de seus movimentos ignoram ou quebram guardas inteiramente.
+
+<Steps>
+  <Step num="1" title="Força Vampírica">
+    Alucard avança após uma breve preparação. Este movimento é uma Quebra de Guarda confiável, tornando-se uma ferramenta perfeita para iniciar uma luta contra um oponente defensivo.
+  </Step>
+  <Step num="2" title="Investida Furiosa">
+    Um avanço de alta velocidade que teleporta Alucard diretamente para a frente do alvo. Embora normalmente mostre 5 acertos de 5 de dano, pode causar inconsistentemente até 50 de dano total, tornando-o um finalizador de alto risco e alta recompensa.
+  </Step>
+  <Step num="3" title="Banquete (O Agarre)">
+    Esta é a principal ferramenta de sustentação do Alucard. Ignora guardas e drena o sangue do inimigo para curar Alucard. Você pode mudar a direção do avanço durante a preparação para pegar inimigos que tentam esquivar.
+  </Step>
+  <Step num="4" title="Mão de Lança">
+    Um grande golpe que muda de propriedade no ar. A variante aérea permite que Alucard flutue brevemente antes de bater em direção ao cursor. Matar um inimigo com o impacto aéreo reduz significativamente o tempo de recarga do movimento.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Técnica Avançada de Spear Hand">
+A versão aérea de **Spear Hand** é uma das melhores ferramentas de mobilidade do jogo. Use-a para escapar de situações ruins ou para surpreender oponentes de um ângulo que eles não estão defendendo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Forma de Conde: O Despertar Supremo">
+
+A **Forma de Conde** representa Alucard no Nível Zero. Neste estado, ele ganha acesso à sua espada e feitiçaria baseada em sangue. Esta forma oferece o maior potencial de dano de seu kit, mas requer um gerenciamento cuidadoso das cargas de "River of Crimson".
+
+| Nome do Movimento | Dano | Propriedade | Descrição |
+| :--- | :--- | :--- | :--- |
+| **Impaler** | 25 | Ignora Guarda | Avança com uma espada para empalar e nocautear o inimigo no chão. |
+| **Giant's Slash** | 30 | Quebra de Guarda | Um enorme corte horizontal de espada com alcance significativo. |
+| **River of Crimson** | 20 | Ignora Guarda | Cria uma onda de sangue que rouba vida; possui 3 cargas. |
+| **Card Throw** | 18 / 25 | Bloqueável | Invoca Tubalcain/Rip Van Winkle para suporte de projéteis. |
+
+<Callout type="info" title="Gerenciamento de River of Crimson">
+**River of Crimson** cria uma trilha de sangue que pulsa a cada 5 segundos. Como possui 3 cargas e recupera uma a cada 20 segundos, você deve espaçar o uso para manter uma pressão de área e cura constantes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Sequências de Combos Ideais">
+
+Para maximizar sua eficiência com o **Anime Battle Arena Alucard**, você deve dominar as transições de seus M1 (ataques básicos) para seus movimentos especiais. Abaixo estão os combos mais eficazes para cada forma em 2026.
+
+| Forma | Sequência de Combo | Dano Total Estimado |
+| :--- | :--- | :--- |
+| **Base** | 4 M1s + Overwhelming Firepower + 4 M1s + Bullet Hell + 3 M1s + Uptilt + Kickback + Police Girl | 85 - 100 |
+| **Restraint** | 3 M1s + Uptilt + Downslam + Feast + 3 M1s + Uptilt + Downslam + Spear Hand + 5 M1s + Raging Assault | 120 - 150 |
+| **Count** | 4 M1s + Giant's Slash + 3 M1s + Uptilt + Downslam + Impaler + 5 M1s | 110 - 130 |
+| **Count (Alt)** | 3 M1s + Uptilt + Magic Bullet + 4 M1s + Downslam + Giant's Slash + 5 M1s | 115 - 140 |
+
+<Callout type="tip" title="Dica de Combo">
+Na forma Base, certifique-se de usar a versão de 2 toques de **Overwhelming Firepower** se o oponente estiver bloqueando no meio do combo. Isso quebrará a guarda dele e permitirá que você continue a sequência para o **Bullet Hell**.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Dicas, Truques e Interações Únicas">
+
+Dominar o Alucard envolve mais do que apenas conhecer seus movimentos; você deve entender suas interações únicas com outros personagens da lista. Esses "Easter eggs" geralmente vêm com falas de diálogo exclusivas que são ativadas durante o combate.
+
+<Checklist
+  id="alucard-mastery"
+  title="Lista de Verificação para Jogadores Pro:"
+  items={[
+    "Sempre mantenha pelo menos 1 Alma antes de entrar em um 1v1.",
+    "Use Bat Swarm para induzir o oponente a gastar seu movimento supremo.",
+    "Encadeie Police Girl no final dos combos para garantir dano de recuo (knockback).",
+    "Domine a transição de Spear Hand do ar para o chão para uma movimentação imprevisível.",
+    "Monitore as cargas de River of Crimson para garantir 100% de tempo de atividade de cura na Forma de Conde."
+  ]}
+/>
+
+<Callout type="info" title="Curiosidades do Personagem">
+Alucard tem falas de voz únicas ao lutar contra personagens específicos. Por exemplo, ao lutar contra **DIO**, ele faz referência ao famoso confronto deles no Death Battle. Ele também tem interações únicas com **Zoro**, **Shanks**, **Cell** e **Geto**, frequentemente comentando sobre seus estilos de luta ou naturezas sobrenaturais.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como consigo mais almas com o Alucard?",
+    answer: "Você ganha uma alma para cada eliminação que conseguir na arena. Você pode acumular até 3 almas de cada vez, garantindo três vidas extras."
+  },
+  {
+    question: "O Alucard perde suas almas na Forma de Conde?",
+    answer: "Sim, a passiva de Alma é desativada enquanto Alucard está em sua Forma de Conde (Nível Zero). No entanto, a passiva é restaurada assim que o modo de despertar termina."
+  },
+  {
+    question: "O Alucard de Anime Battle Arena é bom para partidas ranqueadas?",
+    answer: "Com certeza. Sua alta sobrevivência devido à mecânica de Almas e suas múltiplas opções de quebra de guarda o tornam uma escolha de alto nível tanto para batalhas 1v1 quanto em equipe."
+  },
+  {
+    question: "Como me curar jogando de Alucard?",
+    answer: "Você pode se curar usando Bat Swarm (enquanto causa dano), Feast na Forma de Restrição ou River of Crimson na Forma de Conde."
+  }
+]} />
+
+</Section>
